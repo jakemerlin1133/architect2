@@ -30,7 +30,7 @@
                 <ul class="flex font-bold" id="pc-header">
 
                     <li>
-                        <a href="index.php">Homes</a>
+                        <a href="index.php">Home</a>
                     </li>
 
 
