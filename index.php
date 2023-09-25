@@ -105,6 +105,7 @@
         </div>
     </div>
 
+    <!-- Services -->
     <div class="px-[2.5vw] text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:pt-[58%] min-[970px]:pt-[83vh] w-full">
         <div class="pr-[2.5vw]">
             <div class="font-bold text-[3.5em] mb-[2%]">
@@ -156,7 +157,8 @@
             </div>
         </div>
     </div>
-
+    
+<!-- Portfolio -->
     <div class="font-bold text-center text-[3.5em] mt-[5rem] mb-[2%]">
         Our Portfolio
     </div>
