@@ -114,45 +114,38 @@
 
             <div class="min-[1024px]:max-h-[100%] overflow-hidden">
                 <div class=" min-[1024px]:max-h-[39rem] text-ellipsis">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit explicabo incidunt. Obcaecati id, facere distinctio tempora perspiciatis tempore autem, dolorem sed aperiam cum neque provident, dolor doloremque officiis eum!
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.1
+                    <div class="text-justify">
+                        We Create award-winning spaces that inspire, motivate and empower the working community. Workspace design and functionally vary according to the people in them, and no projects are identical - something we have learnt over the past 25 years.
+                    </div>
+
+                    <div class="text-justify mt-[5%]">
+                        To deliver a people-centric space, we constantly strive to provide an array of interior design solutions that can be combined in various ways to meet different project needs. We believe that the design and construciton process should be systematic, seamless and integrated, with minimal hassle to our clients.
+                    </div>
                 </div>
+                <h1 class="text-black text-left mb-[5%]"><i class=" fa-solid fa-plus mt-[5%] text-2xl py-[10px] px-[15px] bg-blue-600 rounded-full"></i><a href=""><span class="ml-[15px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
             </div>
             <span>...</span>
         </div>
 
-        <div class="mx-auto bg-black w-full max-[375px]:h-[31rem] .... max-[425px]:h-[35rem] .... min-[426px]:h-[49rem]">
-            <div class="grid gap-2 grid-cols-2 m-[35px]">
+        <div class="mx-auto bg-black w-[80%] max-[375px]:h-[31rem] .... max-[425px]:h-[35rem] .... min-[426px]:h-[29rem]">
+            <div class="grid gap-2 grid-cols-2 m-[25px]">
                 <div class="relative">
-                    <img class="absolute inset-0 .... max-[375px]:h-[13rem] max-[425px]:w-[22rem] .... max-[425px]:h-[17rem] max-[425px]:w-[22rem] .... min-[426px]:h-[25rem] min-[426px]:w-[22rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[26rem] hover:w-[23rem]" src="Architect_files/images/hylands.jpg">
+                    <img class="absolute inset-0 .... max-[375px]:h-[13rem] max-[425px]:w-[22rem] .... max-[425px]:h-[17rem] max-[425px]:w-[22rem] .... min-[426px]:h-[14rem] min-[426px]:w-[13rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[14rem] hover:w-[15rem]" src="Architect_files/images/hylands.jpg">
                 </div>
 
-                <div class="bg-gray-600 flex flex-col justify-center .... max-[375px]:h-[12rem] .... max-[425px]:h-[16rem] .... min-[426px]:h-[24rem]">
+                <div class="bg-gray-600 flex flex-col justify-center .... max-[375px]:h-[12rem] .... max-[425px]:h-[16rem] .... min-[426px]:h-[16rem]">
                     <h1 class="text-white .... max-[1023px]:text-[3.5vw] .... min-[1024px]:text-[1.5vw]">Hello There.</h1>
                     <h1 class="text-black font-bold .... max-[1023px]:text-[5.5vw] .... min-[1024px]:text-[3vw]">Hello There.</h1>
                     <h1 class="text-white .... max-[1023px]:text-[3.5vw] .... min-[1024px]:text-[1.5vw]">Hello There.</h1>
                 </div>
             </div>
 
-            <div class="mx-auto text-center px-[1rem]">
-                <div class="pt-[3vh]">
-                    <img class="inline-block .... max-[425px]:h-[11rem] .... min-[426px]:h-[16rem] min-[426px]:w-[30rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[17rem] hover:w-[31rem]" src="Architect_files/images/best.jpg">
+            <div class="grid gap-2 grid-cols-2 m-[25px]">
+                <div>
+
+                </div>
+                <div class="">
+                    <img class="inline-block .... max-[425px]:h-[11rem] .... min-[426px]:h-[8rem] min-[426px]:w-[15rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[9rem] hover:w-[16rem]" src="Architect_files/images/best.jpg">
                 </div>
             </div>
         </div>
