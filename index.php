@@ -123,13 +123,13 @@
             </div>
         </div>
 
-        <div class="mx-auto mt-[2%] bg-black w-full h-[49rem]">
+        <div class="mx-auto mt-[2%] bg-black w-full max-[375px]:h-[31rem] .... max-[425px]:h-[35rem] .... min-[426px]:h-[48rem]">
             <div class="grid gap-2 grid-cols-2 m-[35px]">
-                <div>
-                    <img class="inset-0 h-[25rem] w-[22rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[26rem] hover:w-[23rem]" src="Architect_files/images/hylands.jpg">
+                <div class="relative">
+                    <img class="absolute inset-0 .... max-[375px]:h-[13rem] max-[425px]:w-[22rem] .... max-[425px]:h-[17rem] max-[425px]:w-[22rem] .... min-[426px]:h-[25rem] min-[426px]:w-[22rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[26rem] hover:w-[23rem]" src="Architect_files/images/hylands.jpg">
                 </div>
 
-                <div class="bg-gray-600 flex flex-col justify-center h-[24rem]">
+                <div class="bg-gray-600 flex flex-col justify-center .... max-[375px]:h-[12rem] .... max-[425px]:h-[16rem] .... min-[426px]:h-[24rem]">
                     <h1 class="text-white .... max-[1023px]:text-[3.5vw] .... min-[1024px]:text-[1.5vw]">Hello There.</h1>
                     <h1 class="text-black font-bold .... max-[1023px]:text-[5.5vw] .... min-[1024px]:text-[3vw]">Hello There.</h1>
                     <h1 class="text-white .... max-[1023px]:text-[3.5vw] .... min-[1024px]:text-[1.5vw]">Hello There.</h1>
@@ -138,7 +138,9 @@
 
 
                 <div class="mx-auto text-center px-[2rem]">
-                    <img class="inline-block h-[16rem] w-[30rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[17rem] hover:w-[31rem]" src="Architect_files/images/best.jpg">
+                    <div class="pt-[3vh]">
+                        <img class="inline-block .... max-[425px]:h-[11rem] .... min-[426px]:h-[16rem] min-[426px]:w-[30rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[17rem] hover:w-[31rem]" src="Architect_files/images/best.jpg">
+                    </div>
                 </div>
         </div>
     </div>
