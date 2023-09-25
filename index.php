@@ -130,7 +130,7 @@
         <div class="mx-auto bg-black w-[80%] max-[375px]:h-[31rem] .... max-[425px]:h-[35rem] .... min-[426px]:h-[29rem]">
             <div class="grid gap-7 grid-cols-2 m-[25px]">
                 <div class="relative">
-                    <img class="absolute inset-0 .... max-[375px]:h-[13rem] max-[425px]:w-[22rem] .... max-[425px]:h-[17rem] max-[425px]:w-[22rem] .... min-[426px]:h-[14rem] min-[426px]:w-[13rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[15rem] hover:w-[14rem]" src="Architect_files/images/hylands.jpg">
+                    <img class="absolute inset-0 .... max-[375px]:h-[13rem] max-[425px]:w-[22rem] .... max-[425px]:h-[17rem] max-[425px]:w-[22rem] .... min-[426px]:h-[14rem] min-[426px]:w-[13rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[14rem] min-[1024px]:hover:w-[14rem]" src="Architect_files/images/hylands.jpg">
                 </div>
 
                 <div class="bg-gray-600 flex flex-col justify-center .... max-[375px]:h-[12rem] .... max-[425px]:h-[16rem] .... min-[426px]:h-[14rem]">
@@ -142,10 +142,10 @@
 
             <div class="grid gap-7 grid-cols-2 m-[25px]">
                 <div class="relative">
-                    <img class="absolute inset-0 .... max-[375px]:h-[13rem] max-[425px]:w-[22rem] .... max-[425px]:h-[17rem] max-[425px]:w-[22rem] .... min-[426px]:h-[10.5rem] min-[426px]:w-[15rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[11.5rem] hover:w-[16rem]" src="Architect_files/images/house.jpg">
+                    <img class="absolute inset-0 .... max-[375px]:h-[13rem] max-[425px]:w-[22rem] .... max-[425px]:h-[17rem] max-[425px]:w-[22rem] .... min-[426px]:h-[10.5rem] min-[426px]:w-[15rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[11.5rem] min-[1024px]:hover:w-[16rem]" src="Architect_files/images/house.jpg">
                 </div>
                 <div class="relative">
-                    <img class="absolute inset-0 .... max-[425px]:h-[11rem] .... min-[426px]:h-[10.5rem] min-[426px]:w-[15rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[11.5rem] hover:w-[16rem]" src="Architect_files/images/best.jpg">
+                    <img class="absolute inset-0 .... max-[425px]:h-[11rem] .... min-[426px]:h-[10.5rem] min-[426px]:w-[15rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[11.5rem] min-[1024px]:hover:w-[16rem]" src="Architect_files/images/best.jpg">
                 </div>
             </div>
         </div>
