@@ -159,7 +159,7 @@
     </div>
 
     <!-- Portfolio -->
-    <div class="font-bold text-center text-[3.5em] mt-[5rem] mb-[2%]">
+    <div class="font-bold text-center text-[3.5em] mt-[5rem] mb-[4%]">
         Our Portfolio
     </div>
 
@@ -206,11 +206,11 @@
                     </span>
                 </button>
             </div>
-
         </div>
 
-
-        <div>2</div>
+        <div class="bg-black h-[80%] w-full my-auto">
+            qweqw
+        </div>
     </div>
 
     <div class="h-[100vh]">
