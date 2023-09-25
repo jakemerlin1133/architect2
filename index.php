@@ -112,29 +112,15 @@
                 Our Services
             </div>
 
-            <div class="min-[1024px]:max-h-[100%] overflow-hidden">
-                <div class=" min-[1024px]:max-h-[39rem] text-ellipsis">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit explicabo incidunt. Obcaecati id, facere distinctio tempora perspiciatis tempore autem, dolorem sed aperiam cum neque provident, dolor doloremque officiis eum!
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.1
+            <div class="text-justify">
+                <div>
+                    We create award-winning spaces that inspire, motivate and empower the working community. Workspace design and functionality vary according to the people in them and no projects are identical - something we have learnt over the past 25 years.
+                </div>
+                <div>
+                    To deliver a people-centric space, we constantly strive to povide an array of interior design solutions that can be combined in various ways to meet different project needs. We believe that the design and contruction prcoess should be sytematic, seamless and integrated, with minimal hassle to our clients.
                 </div>
             </div>
-            <span>...</span>
+
         </div>
 
         <div class="mx-auto bg-black w-full max-[375px]:h-[31rem] .... max-[425px]:h-[35rem] .... min-[426px]:h-[49rem]">
