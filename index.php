@@ -168,7 +168,7 @@
 
             <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                 <!-- Carousel wrapper -->
-                <div class="relative overflow-hidden .... max-[1023px]:h-[29rem] .... min-[1024px]:h-[40rem]">
+                <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[40rem]">
                     <!-- Item 1 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <img src="Architect_files/images/paint.jpg" class="absolute block w-full h-full object-cover">
