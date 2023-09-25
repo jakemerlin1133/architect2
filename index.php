@@ -106,16 +106,20 @@
     </div>
 
     <div class="px-[2.5vw] text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:pt-[58%] min-[970px]:pt-[83vh] w-full">
-        <div class="bg-green-900 pr-[2.5vw] max-[375px]:h-[31rem] .... max-[425px]:h-[35rem] .... min-[426px]:h-[49rem]">
+        <div class="pr-[2.5vw]">
             <div class="font-bold text-[3.5em] mb-[2%]">
                 Our Services
             </div>
 
-            <div class="max-h-[100%] overflow-hidden">
-                <div class="text-ellipsis">
-
+            <div class="min-[1024px]:max-h-[100%] overflow-hidden">
+                <div class=" min-[1024px]:max-h-[39rem] text-ellipsis">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit explicabo incidunt. Obcaecati id, facere distinctio tempora perspiciatis tempore autem, dolorem sed aperiam cum neque provident, dolor doloremque officiis eum!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
@@ -123,15 +127,13 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit explicabo incidunt. Obcaecati id, facere distinctio tempora perspiciatis tempore autem, dolorem sed aperiam cum neque provident, dolor doloremque officiis eum!
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit explicabo incidunt. Obcaecati id, facere distinctio tempora perspiciatis tempore autem, dolorem sed aperiam cum neque provident, dolor doloremque officiis eum!
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.1
                 </div>
             </div>
+            <span>...</span>
         </div>
 
         <div class="mx-auto bg-black w-full max-[375px]:h-[31rem] .... max-[425px]:h-[35rem] .... min-[426px]:h-[49rem]">
