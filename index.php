@@ -57,7 +57,7 @@
         </div>
     </header>
 
-        <!-- sidebar -->
+    <!-- sidebar -->
     <div class="sidebar" id="sidebar">
 
         <div class="flex ml-[65px] mt-[20px]">
@@ -90,7 +90,7 @@
     </div>
     <!-- video header -->
     <div class="" id="contrast"></div>
-    
+
     <div class="video-container">
         <video muted autoplay loop>
             <source src="Architect_files/videos/Homepage.mp4">
@@ -107,25 +107,40 @@
 
 
 
-    <div class="text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:mt-[57%] min-[970px]:mt-[83vh] w-full h-[100vh]">
+    <div class="px-[1.5%] text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:mt-[57%] min-[970px]:mt-[80vh] w-full h-[100vh]">
         <div>
-            <div class="font-bold text-[5em]">
+            <div class="font-bold text-[3.5em] mb-[2%]">
                 Our Services
             </div>
             <div>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit explicabo incidunt. Obcaecati id, facere distinctio tempora perspiciatis tempore autem, dolorem sed aperiam cum neque provident, dolor doloremque officiis eum!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum laborum dignissimos nemo qui, nihil dicta odio quod atque velit deserunt aliquam eveniet earum incidunt autem cumque aut suscipit saepe at.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odit explicabo incidunt. Obcaecati id, facere distinctio tempora perspiciatis tempore autem, dolorem sed aperiam cum neque provident, dolor doloremque officiis eum!
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, sit, quam laboriosam iste fugiat beatae modi placeat sapiente accusantium ad, repellat quos distinctio aut voluptatum porro. Unde ipsam eos aliquid!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis illum omnis, aut veniam error, quisquam iure suscipit reiciendis ea adipisci debitis obcaecati quod nulla molestiae laudantium deleniti corrupti voluptatibus? Numquam.
 
             </div>
         </div>
-        
-        <div>2</div>
-    </div>
+
+        <div class="mx-auto mt-[2%] bg-black w-[70%]">
+            <div class="grid grid-cols-2 relative ml-[30px] mt-[40px]">
+                <img class="inset-0 h-[16rem] w-[16rem] object-cover transform transition-all duration-300 hover:scale-110 hover:h-[17rem] hover:w-[17rem]" src="Architect_files/images/hylands.jpg">
+                <h1 class="text-white bg-gray-600 mx-auto">qweqw</h1>
+            </div>
+            <!-- <div class="relative ml-[170px] mt-[38px]">
+                <img class="absolute h-[195px] w-[295px] object-cover transform transition-all duration-300 hover:scale-110 hover:h-[200px] hover:w-[300px]" src="Architect_files/images/best.jpg">
+            </div> -->
+        </div>
 
 
-    <script src="script.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+        <script src="script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
