@@ -126,9 +126,14 @@
         </div>
 
         <div class="mx-auto mt-[2%] bg-black w-[70%]">
-            <div class="grid grid-cols-2 relative ml-[30px] mt-[40px]">
-                <img class="inset-0 h-[16rem] w-[16rem] object-cover transform transition-all duration-300 hover:scale-110 hover:h-[17rem] hover:w-[17rem]" src="Architect_files/images/hylands.jpg">
-                <h1 class="text-white bg-gray-600 mx-auto">qweqw</h1>
+            <div class="grid grid-cols-2 m-[35px]">
+                <div>
+                    <img class="inset-0 h-[16rem] w-[16rem] object-cover transform transition-all duration-300 hover:scale-110 hover:h-[17rem] hover:w-[17rem]" src="Architect_files/images/hylands.jpg">
+                </div>
+
+                <div>
+                    <h1 class="mx-[3%] text-white bg-gray-600 h-[16em]">qweqw</h1>
+                </div>
             </div>
             <!-- <div class="relative ml-[170px] mt-[38px]">
                 <img class="absolute h-[195px] w-[295px] object-cover transform transition-all duration-300 hover:scale-110 hover:h-[200px] hover:w-[300px]" src="Architect_files/images/best.jpg">
