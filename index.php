@@ -137,7 +137,7 @@
             </div>
 
 
-                <div class="mx-auto text-center pr-[2rem]">
+                <div class="mx-auto text-center px-[1.5rem]">
                     <div class="pt-[3vh]">
                         <img class="inline-block .... max-[425px]:h-[11rem] .... min-[426px]:h-[16rem] min-[426px]:w-[30rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[17rem] hover:w-[31rem]" src="Architect_files/images/best.jpg">
                     </div>
