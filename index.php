@@ -123,31 +123,34 @@
             </div>
         </div>
 
-        <div class="mx-auto mt-[2%] bg-black w-full">
+        <div class="mx-auto mt-[2%] bg-black w-full h-[49rem]">
             <div class="grid gap-2 grid-cols-2 m-[35px]">
                 <div>
-                        <img class="inset-0 h-[22rem] w-[22rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[23rem] hover:w-[23rem]" src="Architect_files/images/hylands.jpg">
+                    <img class="inset-0 h-[25rem] w-[22rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[26rem] hover:w-[23rem]" src="Architect_files/images/hylands.jpg">
                 </div>
 
-                <div class="bg-gray-600 flex flex-col justify-center h-[30rem]">
-                    <h1 class="text-white">Hello There.</h1>
-                    <h1 class="text-black font-bold .... min-[1024px]:text-[2.7em] .... min-[1600px]:text-[3em]">Hello There.</h1>
-                    <h1 class="text-white">Hello There.</h1>
+                <div class="bg-gray-600 flex flex-col justify-center h-[24rem]">
+                    <h1 class="text-white .... max-[1023px]:text-[3.5vw] .... min-[1024px]:text-[1.5vw]">Hello There.</h1>
+                    <h1 class="text-black font-bold .... max-[1023px]:text-[5.5vw] .... min-[1024px]:text-[3vw]">Hello There.</h1>
+                    <h1 class="text-white .... max-[1023px]:text-[3.5vw] .... min-[1024px]:text-[1.5vw]">Hello There.</h1>
                 </div>
             </div>
-            <!-- <div class="relative ml-[170px] mt-[38px]">
-                <img class="absolute h-[195px] w-[295px] object-cover transform transition-all duration-300 hover:scale-110 hover:h-[200px] hover:w-[300px]" src="Architect_files/images/best.jpg">
-            </div> -->
+
+
+                <div class="mx-auto text-center px-[2rem]">
+                    <img class="inline-block h-[16rem] w-[30rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[17rem] hover:w-[31rem]" src="Architect_files/images/best.jpg">
+                </div>
         </div>
+    </div>
 
-        <div class="h-[100vh]"></div>
+    <div class="h-[100vh]"></div>
 
 
-        <script src="script.js"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
