@@ -105,11 +105,9 @@
         </div>
     </div>
 
-
-
-    <div class="px-[1.5%] text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:mt-[57%] min-[970px]:mt-[80vh] w-full h-[100vh]">
-        <div>
-            <div class="font-bold text-[3.5em] mb-[2%]">
+    <div class="px-[2.5vw] text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:pt-[58%] min-[970px]:pt-[83vh] w-full h-[100vh]">
+        <div class="pr-[2.5vw]">
+            <div class="font-bold text-[3.5em] mb-[2%] ">
                 Our Services
             </div>
             <div>
@@ -125,20 +123,24 @@
             </div>
         </div>
 
-        <div class="mx-auto mt-[2%] bg-black w-[70%]">
-            <div class="grid grid-cols-2 m-[35px]">
+        <div class="mx-auto mt-[2%] bg-black w-full">
+            <div class="grid gap-2 grid-cols-2 m-[35px]">
                 <div>
-                    <img class="inset-0 h-[16rem] w-[16rem] object-cover transform transition-all duration-300 hover:scale-110 hover:h-[17rem] hover:w-[17rem]" src="Architect_files/images/hylands.jpg">
+                    <img class="inset-0 h-[22rem] w-[22rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[23rem] hover:w-[23rem]" src="Architect_files/images/hylands.jpg">
                 </div>
 
-                <div>
-                    <h1 class="mx-[3%] text-white bg-gray-600 h-[16em]">qweqw</h1>
+                <div class="bg-gray-600 pt-[6.5em]">
+                    <h1 class="text-white">Hello There.</h1>
+                    <h1 class="text-black font-bold .... min-[1024px]:text-[2.7em] .... min-[1600px]:text-[3em]">Hello There.</h1>
+                    <h1 class="text-white">Hello There.</h1>
                 </div>
             </div>
             <!-- <div class="relative ml-[170px] mt-[38px]">
                 <img class="absolute h-[195px] w-[295px] object-cover transform transition-all duration-300 hover:scale-110 hover:h-[200px] hover:w-[300px]" src="Architect_files/images/best.jpg">
             </div> -->
         </div>
+
+        <div class="h-[100vh]"></div>
 
 
         <script src="script.js"></script>
