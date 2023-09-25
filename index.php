@@ -126,10 +126,10 @@
         <div class="mx-auto mt-[2%] bg-black w-full">
             <div class="grid gap-2 grid-cols-2 m-[35px]">
                 <div>
-                    <img class="inset-0 h-[22rem] w-[22rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[23rem] hover:w-[23rem]" src="Architect_files/images/hylands.jpg">
+                        <img class="inset-0 h-[22rem] w-[22rem] object-cover transform transition-all duration-300 min-[1024px]:hover:scale-110 min-[1024px]:hover:h-[23rem] hover:w-[23rem]" src="Architect_files/images/hylands.jpg">
                 </div>
 
-                <div class="bg-gray-600 pt-[6.5em]">
+                <div class="bg-gray-600 flex flex-col justify-center h-[30rem]">
                     <h1 class="text-white">Hello There.</h1>
                     <h1 class="text-black font-bold .... min-[1024px]:text-[2.7em] .... min-[1600px]:text-[3em]">Hello There.</h1>
                     <h1 class="text-white">Hello There.</h1>
