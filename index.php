@@ -107,8 +107,16 @@
 
 
 
-    <div class="text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:mt-[56.2%] min-[970px]:mt-[75vh] w-full h-[100vh]">
-        <div>1</div>
+    <div class="text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:mt-[57%] min-[970px]:mt-[83vh] w-full h-[100vh]">
+        <div>
+            <div class="font-bold text-[5em]">
+                Our Services
+            </div>
+            <div>
+
+            </div>
+        </div>
+        
         <div>2</div>
     </div>
 
