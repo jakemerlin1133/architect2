@@ -106,13 +106,13 @@
     </div>
 
     <!-- Services -->
-    <div class="px-[2.5vw] text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:pt-[58%] min-[970px]:pt-[83vh] w-full">
-        <div class="pr-[2.5vw]">
-            <div class="font-bold text-[3.5em] mb-[2%]">
+    <div class="px-[5vw] text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:pt-[58%] min-[970px]:pt-[83vh] w-full">
+        <div class="mx-auto w-[80%]">
+            <div class="font-bold text-[4.5em] mb-[2%]">
                 Our Services
             </div>
 
-            <div class="">
+            <div class="text-[1.5rem]">
                 <div class="text-justify">
                     <div>
                         We create award-winning spaces that inspire, motivate and empower the working community. Workspace design and functionality vary according to the people in them, and no projects are identical - something we have learnt over the past 25 years.
@@ -129,8 +129,17 @@
 
         </div>
 
-        <div class="mx-auto bg-black w-[80%] max-[375px]:h-[31rem] .... max-[425px]:h-[35rem] .... min-[426px]:h-[29rem]">
-
+        <div class="mx-auto grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2 bg-black w-[80%] max-[375px]:h-[31rem] .... max-[425px]:h-[35rem] .... min-[426px]:h-[40rem]">
+            <div class="">
+                <img class="w-[22rem] h-[22rem]" src="Architect_files/images/hylands.jpg" alt="">
+            </div>
+            <div class="">2</div>
+            <div class="">
+            <img src="Architect_files/images/house.jpg" alt="">
+            </div>
+            <div class="">
+            <img src="Architect_files/images/best.jpg" alt="">
+            </div>
         </div>
     </div>
 
