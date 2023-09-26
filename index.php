@@ -134,9 +134,9 @@
                 <img class="absolute w-[17rem] h-[17rem] .... object-cover transform transition-all duration-300 hover:scale-110 hover:w-[18rem] hover:h-[18rem]" src="Architect_files/images/hylands.jpg" alt="">
             </div>
             <div class="relative pt-[2vw] pb-[1vw] pl-[1vw] pr-[2vw]">
-                <div class="absolute bg-gray-600 w-[17rem] h-[17rem]">
+                <div class="absolute bg-gray-600 font-bold w-[17rem] h-[17rem] pt-[5rem]">
                         <h1 class="text-white">Hello There.</h1>
-                        <h1 class="text-black">Hello There.</h1>
+                        <h1 class="text-black text-[2.5rem]">Hello There.</h1>
                         <h1 class="text-white">Hello There.</h1>
                 </div>
             </div>
