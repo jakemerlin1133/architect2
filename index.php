@@ -40,7 +40,7 @@
 
 
                     <li>
-                        <a href="portfolio.php">Portfolio</a>
+                        <a href="portfolio.php">Showcase</a>
                     </li>
 
 
@@ -75,7 +75,7 @@
             </li>
 
             <li>
-                <a href="portfolio.php">Portfolio</a>
+                <a href="portfolio.php">Showcase</a>
             </li>
 
             <li>
@@ -131,7 +131,7 @@
         <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-black w-[80%]  .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... max-[425px]:p-[1rem] max-[425px]:gap-4 max-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
             <!-- image 1 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1023px]:hover:scale-110" src="Architect_files/images/hylands.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/hylands.jpg">
             </div>
             <!-- content -->
             <div class="relative">
@@ -143,22 +143,22 @@
             </div>
             <!-- image 2 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1023px]:hover:scale-110" src="Architect_files/images/house.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
             </div>
             <!-- image 3 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1023px]:hover:scale-110" src="Architect_files/images/best.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/best.jpg">
             </div>
         </div>
     </div>
 
     <!-- Portfolio -->
     <div class="font-bold text-center text-[3.5em] mt-[3rem] mb-[1rem]">
-        Our Portfolio
+        Our Showcase
     </div>
 
     <!-- 1st carousel -->
-    <div class="min-[1023px]:p-[2.5vw] grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2" style="grid-template-columns: 2fr 1fr;">
+    <div class="min-[1023px]:p-[2.5vw] grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2" id="first-carousel">
         <div>
             <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                 <!-- Carousel wrapper -->
@@ -206,17 +206,17 @@
             <div class="text-sky-600 font-bold text-[1.5em]">Design Cunsultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
             <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
-            <h1 class="text-white mb-[5%]"><i class=" fa-solid fa-plus mt-[11%] text-2xl py-[10px] px-[15px] bg-blue-600 rounded-full"></i><a href=""><span class="ml-[15px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
+            <h1 class="text-white mb-[5%]"><i class=" fa-solid fa-plus mt-[2%] text-2xl py-[10px] px-[15px] bg-blue-600 rounded-full"></i><a href=""><span class="ml-[15px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
         </div>
     </div>
 
     <!-- 2nd carousel -->
-    <div class="mt-[7%] min-[1023px]:p-[2.5vw] grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2" style="grid-template-columns: 1fr 2fr;">
+    <div class="mt-[7%] min-[1023px]:p-[2.5vw] grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2" id="second-carousel">
         <div class="bg-black w-full pt-[10%] pl-[10%] .... min-[1024px]:my-auto min-[1024px]:h-[90%]">
             <div class="text-sky-600 font-bold text-[1.5em]">Design Cunsultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
             <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
-            <h1 class="text-white mb-[5%]"><i class=" fa-solid fa-plus mt-[11%] text-2xl py-[10px] px-[15px] bg-blue-600 rounded-full"></i><a href=""><span class="ml-[15px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
+            <h1 class="text-white mb-[5%]"><i class=" fa-solid fa-plus mt-[2%] text-2xl py-[10px] px-[15px] bg-blue-600 rounded-full"></i><a href=""><span class="ml-[15px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
         </div>
 
         <div>
@@ -264,7 +264,7 @@
     </div>
 
         <!-- 3rd carousel -->
-        <div class="mt-[7%] min-[1023px]:p-[2.5vw] grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2" style="grid-template-columns: 2fr 1fr;">
+        <div class="mt-[7%] min-[1023px]:p-[2.5vw] grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2" id="third-carousel">
         <div>
             <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                 <!-- Carousel wrapper -->
@@ -312,7 +312,7 @@
             <div class="text-sky-600 font-bold text-[1.5em]">Design Cunsultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
             <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
-            <h1 class="text-white mb-[5%]"><i class=" fa-solid fa-plus mt-[11%] text-2xl py-[10px] px-[15px] bg-blue-600 rounded-full"></i><a href=""><span class="ml-[15px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
+            <h1 class="text-white mb-[5%]"><i class=" fa-solid fa-plus mt-[2%] text-2xl py-[10px] px-[15px] bg-blue-600 rounded-full"></i><a href=""><span class="ml-[15px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
         </div>
     </div>
 

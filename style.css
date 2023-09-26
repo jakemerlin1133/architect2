@@ -214,6 +214,17 @@ position: fixed;
     transition: 0.7s;
  }
 
+ #first-carousel{
+    grid-template-columns: 2fr 1fr;
+ }
+
+ #second-carousel{
+    grid-template-columns: 1fr 2fr;
+ }
+
+ #third-carousel{
+    grid-template-columns: 2fr 1fr;
+ }
 
 
  }
