@@ -130,17 +130,17 @@
         </div>
 
         <div class="mx-auto grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2 bg-black w-[80%] max-[375px]:h-[31rem] .... max-[425px]:h-[35rem] .... min-[426px]:h-[42rem]">
-            <div class="pt-[2vw] pb-[1vw] pl-[2vw] pr-[1vw]">
-                <img class="w-[17rem] h-[17rem]" src="Architect_files/images/hylands.jpg" alt="">
+            <div class="relative pt-[2vw] pb-[1vw] pl-[2vw] pr-[1vw]">
+                <img class="absolute w-[17rem] h-[17rem]" src="Architect_files/images/hylands.jpg" alt="">
             </div>
-            <div class="pt-[2vw] pb-[1vw] pl-[1vw] pr-[2vw]">
-                <img class="w-[17rem] h-[17rem]" src="Architect_files/images/house.jpg" alt="">
+            <div class="relative pt-[2vw] pb-[1vw] pl-[1vw] pr-[2vw]">
+                <img class="absolute w-[17rem] h-[17rem]" src="Architect_files/images/house.jpg" alt="">
             </div>
-            <div class="pt-[1vw] pb-[2vw] pl-[2vw] pr-[1vw]">
-                <img class="w-[17rem] h-[17rem]" src="Architect_files/images/house.jpg" alt="">
+            <div class="relative pt-[1vw] pb-[2vw] pl-[2vw] pr-[1vw]">
+                <img class="absolute w-[17rem] h-[17rem]" src="Architect_files/images/house.jpg" alt="">
             </div>
-            <div class="pt-[1vw] pb-[2vw] pl-[1vw] pr-[2vw]">
-                <img class="w-[17rem] h-[17rem]" src="Architect_files/images/best.jpg" alt="">
+            <div class="relative pt-[1vw] pb-[2vw] pl-[1vw] pr-[2vw]">
+                <img class="absolute w-[17rem] h-[17rem]" src="Architect_files/images/best.jpg" alt="">
             </div>
         </div>
     </div>
