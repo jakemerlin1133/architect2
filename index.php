@@ -122,7 +122,6 @@
                     </div>
                 </div>
                 <div>
-
                     <h1 class="text-white text-left my-[2%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-blue-700 ml-[8px] text-xl font-bold hover:text-blue-400 cursor-pointer">view more </span></a></h1>
                 </div>
             </div>
@@ -206,7 +205,7 @@
             <div class="text-sky-600 font-bold text-[1.5em]">Design Consultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
             <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
-            <h1 class="text-white text-left mb-[5%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-white ml-[8px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
+            <h1 class="text-white text-left mt-[4%] mb-[11%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-white ml-[8px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
         </div>
     </div>
 
@@ -216,7 +215,7 @@
             <div class="text-sky-600 font-bold text-[1.5em]">Design Consultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
             <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
-            <h1 class="text-white text-left mb-[5%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-white ml-[8px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
+            <h1 class="text-white text-left mt-[4%] mb-[11%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-white ml-[8px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
         </div>
 
         <div>
@@ -312,12 +311,12 @@
             <div class="text-sky-600 font-bold text-[1.5em]">Design Consultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
             <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
-            <h1 class="text-white text-left mb-[5%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-white ml-[8px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
+            <h1 class="text-white text-left mt-[4%] mb-[11%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-white ml-[8px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
         </div>
     </div>
 
     <div class="text-center">
-    <h1 class="text-white mb-[5%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-blue-700 ml-[8px] text-3xl font-bold hover:text-blue-400 cursor-pointer">more projects</span></a></h1>
+    <h1 class="text-white max-[1023px]:mt-[3%] mb-[5%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-blue-700 ml-[8px] text-3xl font-bold hover:text-blue-400 cursor-pointer">more projects</span></a></h1>
     </div>
 
 
