@@ -113,7 +113,7 @@
             </div>
 
             <div class="text-[1.3rem]">
-                <div class="text-justify">
+                <div class="text-justify font-semibold text-gray-700">
                     <div>
                         We create award-winning spaces that inspire, motivate and empower the working community. Workspace design and functionality vary according to the people in them, and no projects are identical - something we have learnt over the past 25 years.
                     </div>
@@ -149,6 +149,7 @@
             <div class="relative">
                 <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1023px]:hover:scale-110" src="Architect_files/images/best.jpg">
             </div>
+        </div>
         </div>
 
         <!-- Portfolio -->
