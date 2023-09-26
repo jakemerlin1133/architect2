@@ -271,7 +271,7 @@
                     <!-- Item 1 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <img src="Architect_files/images/hylands.jpg" class="absolute block w-full h-full object-cover">
-                    3</div>
+                    </div>
                     <!-- Item 2 -->
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
