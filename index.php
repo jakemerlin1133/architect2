@@ -135,7 +135,9 @@
             </div>
             <div class="relative pt-[2vw] pb-[1vw] pl-[1vw] pr-[2vw]">
                 <div class="absolute bg-gray-600 w-[17rem] h-[17rem]">
-                        qwe
+                        <h1 class="text-white">Hello There.</h1>
+                        <h1 class="text-black">Hello There.</h1>
+                        <h1 class="text-white">Hello There.</h1>
                 </div>
             </div>
             <div class="relative pt-[1vw] pb-[2vw] pl-[2vw] pr-[1vw]">
