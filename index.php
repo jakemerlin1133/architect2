@@ -108,7 +108,7 @@
     <!-- Services -->
     <div class="text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:pt-[58%] min-[970px]:pt-[83vh] w-full">
         <div class="mx-auto w-[80%]">
-            <div class="text-center font-bold text-[3.5em] mb-[2%]">
+            <div class="text-center font-bold text-[4em] mb-[2%]">
                 Our Services
             </div>
 
@@ -153,12 +153,12 @@
     </div>
 
     <!-- Portfolio -->
-    <div class="font-bold text-center text-[3.5em] mt-[3rem] mb-[1rem]">
+    <div class="font-bold text-center text-[4em] mt-[7rem]">
         Our Showcase
     </div>
 
     <!-- 1st carousel -->
-    <div class="min-[1023px]:p-[2.5vw] grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2" id="first-carousel">
+    <div class="grid .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[5%] .... min-[1024px]:grid-cols-2 min-[1024px]:p-[2.5vw]" id="first-carousel">
         <div>
             <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                 <!-- Carousel wrapper -->
@@ -203,7 +203,7 @@
         </div>
 
         <div class="bg-black w-full pt-[10%] pl-[10%] .... min-[1024px]:my-auto min-[1024px]:h-[90%]">
-            <div class="text-sky-600 font-bold text-[1.5em]">Design Cunsultancy</div>
+            <div class="text-sky-600 font-bold text-[1.5em]">Design Consultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
             <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
             <h1 class="text-white mb-[5%]"><i class=" fa-solid fa-plus mt-[2%] text-2xl py-[10px] px-[15px] bg-blue-600 rounded-full"></i><a href=""><span class="ml-[15px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
@@ -211,9 +211,9 @@
     </div>
 
     <!-- 2nd carousel -->
-    <div class="mt-[7%] min-[1023px]:p-[2.5vw] grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2" id="second-carousel">
+    <div class="grid .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[15%] .... min-[1024px]:grid-cols-2 min-[1024px]:p-[2.5vw]" id="second-carousel">
         <div class="bg-black w-full pt-[10%] pl-[10%] .... min-[1024px]:my-auto min-[1024px]:h-[90%]">
-            <div class="text-sky-600 font-bold text-[1.5em]">Design Cunsultancy</div>
+            <div class="text-sky-600 font-bold text-[1.5em]">Design Consultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
             <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
             <h1 class="text-white mb-[5%]"><i class=" fa-solid fa-plus mt-[2%] text-2xl py-[10px] px-[15px] bg-blue-600 rounded-full"></i><a href=""><span class="ml-[15px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
@@ -264,7 +264,7 @@
     </div>
 
         <!-- 3rd carousel -->
-        <div class="mt-[7%] min-[1023px]:p-[2.5vw] grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2" id="third-carousel">
+        <div class="grid .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[15%] .... min-[1024px]:grid-cols-2 min-[1024px]:p-[2.5vw]" id="third-carousel">
         <div>
             <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                 <!-- Carousel wrapper -->
@@ -309,7 +309,7 @@
         </div>
 
         <div class="bg-black w-full pt-[10%] pl-[10%] .... min-[1024px]:my-auto min-[1024px]:h-[90%]">
-            <div class="text-sky-600 font-bold text-[1.5em]">Design Cunsultancy</div>
+            <div class="text-sky-600 font-bold text-[1.5em]">Design Consultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
             <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
             <h1 class="text-white mb-[5%]"><i class=" fa-solid fa-plus mt-[2%] text-2xl py-[10px] px-[15px] bg-blue-600 rounded-full"></i><a href=""><span class="ml-[15px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
