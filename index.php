@@ -131,7 +131,7 @@
         <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-black w-[80%]  .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... max-[425px]:p-[1rem] max-[425px]:gap-4 max-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
            <!-- image 1 -->
         <div class="relative">
-                <img class="absolute w-full h-full object-cover" src="Architect_files/images/hylands.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all min-[1023px]:hover:scale-110" src="Architect_files/images/hylands.jpg">
             </div>
             <!-- content -->
             <div class="relative">
@@ -143,11 +143,11 @@
             </div>
             <!-- image 2 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover" src="Architect_files/images/house.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all min-[1023px]:hover:scale-110" src="Architect_files/images/house.jpg">
             </div>
             <!-- image 3 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover" src="Architect_files/images/best.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all min-[1023px]:hover:scale-110" src="Architect_files/images/best.jpg">
             </div>
         </div>
 
