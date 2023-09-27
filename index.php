@@ -22,9 +22,7 @@
                 <i class="fa-solid fa-bars text-white ml-[10px]" id="burger"></i>
             </div>
 
-            <div class="text-white">
-                <!-- Menubar for mobile -->
-
+            <div class="text-white .... max-[1023px]:hidden">
 
                 <!-- PC/laptop ul -->
                 <ul class="flex font-bold" id="pc-header">
@@ -59,7 +57,6 @@
 
     <!-- sidebar -->
     <div class="sidebar" id="sidebar">
-
         <div class="flex ml-[65px] mt-[20px]">
             <img class="max-[1023px]:h-[50px] max-[1023px]:w-[50px]" src="Architect_files/images/sample-logo.png">
             <div id="archi-name" class="text-white font-bold my-auto .... max-[1023px]:text-[1.8em] max-[1023px]:ml-[5px]">SZD</div>
@@ -323,7 +320,7 @@
     <div class="h-[100vh]">
 
     </div>
-
+  
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>

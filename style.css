@@ -20,10 +20,6 @@
     margin-right: 8px;
 } 
 
-#pc-header{
-    display: none;
-}
-
 #burger:hover{
     opacity: 50%;
 }
