@@ -109,7 +109,7 @@
                 Our Services
             </div>
 
-            <div class="text-[1.3rem]">
+            <div class=" max-[1023px]:text-[0.7rem] min-[1024px]:text-[1.3rem]">
                 <div class="text-justify font-semibold text-gray-700">
                     <div>
                         We create award-winning spaces that inspire, motivate and empower the working community. Workspace design and functionality vary according to the people in them, and no projects are identical - something we have learnt over the past 25 years.
@@ -124,7 +124,7 @@
             </div>
         </div>
 
-        <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-900 w-[80%]  .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... max-[425px]:p-[1rem] max-[425px]:gap-4 max-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
+        <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-900 w-[80%]  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
             <!-- image 1 -->
             <div class="relative">
                 <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/hylands.jpg">
@@ -149,7 +149,7 @@
     </div>
 
     <!-- Portfolio -->
-    <div class="text-zinc-900 font-bold text-center max-[1023px]:text-[2.7em] min-[1024px]:text-[4em] mt-[7rem]">
+    <div class="text-zinc-900 font-bold text-center max-[1023px]:text-[2.7em] .... min-[1024px]:text-[4em] mt-[7rem]">
         Our Showcase
     </div>
 
@@ -201,7 +201,7 @@
         <div class="bg-black w-full pt-[10%] pl-[10%] .... min-[1024px]:my-auto min-[1024px]:h-[90%]">
             <div class="text-sky-600 font-bold text-[1.5em]">Design Consultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
-            <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
+            <div class="text-white w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
             <h1 class="text-white text-left mt-[4%] mb-[11%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-white ml-[8px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
         </div>
     </div>
@@ -211,7 +211,7 @@
         <div class="bg-black w-full pt-[10%] pl-[10%] .... min-[1024px]:my-auto min-[1024px]:h-[90%]">
             <div class="text-sky-600 font-bold text-[1.5em]">Design Consultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
-            <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
+            <div class="text-white w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
             <h1 class="text-white text-left mt-[4%] mb-[11%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-white ml-[8px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
         </div>
 
@@ -304,10 +304,10 @@
             </div>
         </div>
 
-        <div class="bg-black w-full pt-[10%] pl-[10%] .... min-[1024px]:my-auto min-[1024px]:h-[90%]">
+        <div class="text-left bg-black w-full pt-[10%] pl-[10%] .... min-[1024px]:my-auto min-[1024px]:h-[90%]">
             <div class="text-sky-600 font-bold text-[1.5em]">Design Consultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
-            <div class="text-white font-bold w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
+            <div class="text-white w-[80%] text-[1.2em] mt-[2%]">Tech-giant amazon scales up their presence in Singapore through a new office spanning three floors at Asia Squre. The new space will house up to 700 employees from Amazon's consumer business and corporate functions.</div>
             <h1 class="text-white text-left mt-[4%] mb-[11%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-white ml-[8px] text-xl font-bold hover:text-blue-600 cursor-pointer">View more.</span></a></h1>
         </div>
     </div>
