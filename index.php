@@ -149,12 +149,12 @@
     </div>
 
     <!-- Portfolio -->
-    <div class="text-zinc-900 font-bold text-center max-[1023px]:text-[2.7em] .... min-[1024px]:text-[4em] mt-[7rem]">
+    <div class="text-zinc-900 font-bold text-center .... max-[767px]:text-[2.7rem] max-[767px]:mt-[2.5rem] .... min-[768px]:text-[4.5rem] min-[768px]:mt-[4rem] .... min-[1024px]:text-[5em] min-[1024px]:mt-[7rem]">
         Our Showcase
     </div>
 
     <!-- 1st carousel -->
-    <div class="grid .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[5%] .... min-[1024px]:grid-cols-2 min-[1024px]:p-[2.5vw]" id="first-carousel">
+    <div class="grid .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[5%] .... min-[1024px]:mt-[2%] min-[1024px]:grid-cols-2 min-[1024px]:p-[2.5vw]" id="first-carousel">
         <div>
             <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                 <!-- Carousel wrapper -->
@@ -207,7 +207,7 @@
     </div>
 
     <!-- 2nd carousel -->
-    <div class="grid .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[15%] .... min-[1024px]:grid-cols-2 min-[1024px]:p-[2.5vw]" id="second-carousel">
+    <div class="grid .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[15%] .... min-[1024px]:mt-[7%]  min-[1024px]:grid-cols-2 min-[1024px]:p-[2.5vw]" id="second-carousel">
         <div class="bg-black w-full pt-[10%] pl-[10%] .... min-[1024px]:my-auto min-[1024px]:h-[90%]">
             <div class="text-sky-600 font-bold text-[1.5em]">Design Consultancy</div>
             <div class="text-white font-bold text-[3em] pr-[5%]">Amazon Singapore</div>
@@ -260,7 +260,7 @@
     </div>
 
     <!-- 3rd carousel -->
-    <div class="grid .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[15%] .... min-[1024px]:grid-cols-2 min-[1024px]:p-[2.5vw]" id="third-carousel">
+    <div class="grid .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[15%] .... min-[1024px]:mt-[7%] min-[1024px]:grid-cols-2 min-[1024px]:p-[2.5vw]" id="third-carousel">
         <div>
             <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                 <!-- Carousel wrapper -->
