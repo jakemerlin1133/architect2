@@ -43,7 +43,7 @@
 
 
                     <li>
-                        <a href="team.php">Team</a>
+                        <a href="team.php">Aboust Us</a>
                     </li>
 
 
@@ -76,7 +76,7 @@
             </li>
 
             <li>
-                <a href="team.php">Team</a>
+                <a href="team.php">About Us</a>
             </li>
 
             <li>
@@ -313,14 +313,24 @@
     </div>
 
     <div class="text-center">
-    <h1 class="text-white max-[1023px]:mt-[3%] mb-[5%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-blue-700 ml-[8px] text-3xl font-bold hover:text-blue-400 cursor-pointer">more projects</span></a></h1>
+        <h1 class="text-white max-[1023px]:mt-[3%] mb-[5%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-blue-700 ml-[8px] text-3xl font-bold hover:text-blue-400 cursor-pointer">more projects</span></a></h1>
     </div>
 
+
+
+    <!-- About Us -->
+    <div class="text-zinc-900 font-bold text-center .... max-[767px]:text-[2.7rem] max-[767px]:mb-[0.5rem] .... min-[768px]:text-[4.5rem] min-[768px]:mb-[1.5rem] .... min-[1024px]:text-[5em] min-[1024px]:mt-[7rem]">
+        About Us
+    </div>
+
+    <div id="block-background" class="w-full .... max-[320px]:h-[13rem] .... min-[320px]:h-[13rem] .... min-[1024px]:h-[25rem]">
+asdasdasd
+    </div>
 
     <div class="h-[100vh]">
 
     </div>
-  
+
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>

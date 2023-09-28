@@ -11,6 +11,12 @@
     top: 0;
 }
 
+#block-background {
+   background-image: url('Architect_files/images/blocks.jpg');
+   background-size: cover; 
+   background-position: center; 
+ }
+
 
 
 @media (max-width: 1023px) {
@@ -221,7 +227,6 @@ position: fixed;
  #third-carousel{
     grid-template-columns: 2fr 1fr;
  }
-
 
  }
 
