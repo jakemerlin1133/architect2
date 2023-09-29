@@ -319,13 +319,15 @@
 
 
     <!-- About Us -->
-    <div class="text-zinc-900 font-bold text-center .... max-[767px]:text-[2.7rem] max-[767px]:mb-[0.5rem] .... min-[768px]:text-[4.5rem] min-[768px]:mb-[1.5rem] .... min-[1024px]:text-[5em] min-[1024px]:mt-[7rem]">
-        About Us
-    </div>
 
-    <div id="block-background" class="relative w-full .... max-[320px]:h-[310vh] .... min-[320px]:h-[310vh]">
-        <div id="overlay" class="text-white .... max-[320px]:pt-[8%] .... min-[320px]:text-center min-[320px]:pt-[8%] .... min-[425px]:pt-[9%] .... max-[1023px]:text-center ..... min-[1024px]:text-left min-[1024px]:pl-[3.5%] min-[1024px]:pt-[10%]">
-            <div class="font-bold .... max-[320px]:text-[1.8rem] .... min-[321px]:text-[2.15rem] .... min-[768px]:text-[2.5rem] .... min-[1024px]:text-[3rem]">
+    <div id="block-background" class="relative w-full .... max-[320px]:h-[305vh] max-[320px]:mt-[18%] .... min-[320px]:h-[305vh] min-[320px]:mt-[18%] .... min-[1024px]:mt-[10%]">
+        <div id="overlay" class="text-white .... max-[320px]:pt-[4%] .... min-[320px]:text-center min-[320px]:pt-[4%] .... min-[425px]:pt-[2%] .... max-[1023px]:text-center ..... min-[1024px]:text-left min-[1024px]:pl-[3.5%] min-[1024px]:pt-[2%]">
+
+            <div class="text-white font-bold text-center .... max-[767px]:text-[2.7rem] max-[767px]:mb-[0.5rem] .... min-[768px]:text-[4.5rem] min-[768px]:mb-[1.5rem] .... min-[1024px]:text-[5em]">
+                About us
+            </div>
+
+            <!-- <div class="font-bold .... max-[320px]:text-[1.8rem] .... min-[321px]:text-[2.15rem] .... min-[768px]:text-[2.5rem] .... min-[1024px]:text-[3rem]">
                 Office & Commercial Interior Design
             </div>
 
@@ -345,7 +347,7 @@
                 <div class="max-[320px]:mt-[6%] .... min-[320px]:mt-[6%]">
                     As a leading design interior design firm with a global presence, passion is at the heart of our every project, undertaken hand-in-hand with corporate clients to revolutions the way people work, interact, and do business. Discover how we can aid you in your journey to reimagine your office or commercial space here.
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
