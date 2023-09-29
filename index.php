@@ -348,11 +348,9 @@
 
 
     <!-- Contact us -->
-
-    <!-- Soc Icon -->
     <div class="grid grid-cols-3 relative bg-gray-950 h-[30vh] text-black text-center mt-[9rem]">
 
-        <div class="text-white mt-[5rem]">
+        <div class="text-white .... max-[320px]:text-[2vw] max-[320px]:mt-[1rem] ....min-[320px]:text-[2vw] min-[320px]:mt-[4rem]">
             <h1>Philippines, Pangasinan, Mangaldan,</h1>
             <h1>Brgy. maasin, </h1>
              <h1>Contact: 0969352541</h1>
