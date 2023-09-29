@@ -11,12 +11,6 @@
     top: 0;
 }
 
-#block-background {
-   background-image: url('Architect_files/images/block.jpg');
-   background-size: cover; 
-   background-position: center; 
- }
-
 
 
 @media (max-width: 1023px) {

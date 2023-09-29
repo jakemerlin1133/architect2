@@ -319,10 +319,10 @@
 
 
     <!-- About Us -->
-    <div id="block-background" class="relative w-full .... max-[320px]:h-[106rem] max-[320px]:mt-[18%]  .... min-[320px]:h-[106rem] min-[320px]:mt-[18%] .... min-[331px]:h-[102rem] min-[331px]:mt-[18%] .... min-[340px]:h-[101rem] .... min-[349px]:h-[97rem] .... min-[362px]:h-[94rem] .... min-[375px]:h-[90rem] min-[375px]:mt-[18%] .... min-[420px]:h-[86rem] .... min-[443px]:h-[81rem] .... min-[466px]:h-[78rem] .... min-[491px]:h-[74rem] .... min-[543px]:h-[70rem] .... min-[609px]:h-[66rem] .... min-[680px]:h-[63rem] .... min-[768px]:h-[67rem] .... min-[845px]:h-[63rem] .... min-[1024px]:h-[47rem] min-[1024px]:mt-[10%]">
-        <div id="overlay" class="text-white .... max-[320px]:pt-[4%] .... min-[320px]:text-center min-[320px]:pt-[4%] .... min-[425px]:pt-[2%] .... max-[1023px]:text-center ..... min-[1024px]:text-left min-[1024px]:pl-[3.5%] min-[1024px]:pt-[2%]">
+    <div class="relative w-full text-black bg-white .... max-[320px]:h-[106rem] max-[320px]:mt-[18%]  .... min-[320px]:h-[106rem] min-[320px]:mt-[18%] .... min-[331px]:h-[102rem] min-[331px]:mt-[18%] .... min-[340px]:h-[101rem] .... min-[349px]:h-[97rem] .... min-[362px]:h-[94rem] .... min-[375px]:h-[90rem] min-[375px]:mt-[18%] .... min-[420px]:h-[86rem] .... min-[443px]:h-[81rem] .... min-[466px]:h-[78rem] .... min-[491px]:h-[74rem] .... min-[543px]:h-[70rem] .... min-[609px]:h-[66rem] .... min-[680px]:h-[63rem] .... min-[768px]:h-[67rem] .... min-[845px]:h-[63rem] .... min-[1024px]:h-[47rem] min-[1024px]:mt-[10%]">
+        <div class="text-black .... max-[320px]:pt-[4%] .... min-[320px]:text-center min-[320px]:pt-[4%] .... min-[425px]:pt-[2%] .... max-[1023px]:text-center ..... min-[1024px]:text-left min-[1024px]:pl-[3.5%] min-[1024px]:pt-[2%]">
 
-            <div class="text-white font-bold text-center .... max-[767px]:text-[2.7rem] max-[767px]:mb-[0.5rem] .... min-[768px]:text-[4.5rem] min-[768px]:mb-[1.5rem] .... min-[1024px]:text-[5em]">
+            <div class=" font-bold text-center .... max-[767px]:text-[2.7rem] max-[767px]:mb-[0.5rem] .... min-[768px]:text-[4.5rem] min-[768px]:mb-[1.5rem] .... min-[1024px]:text-[5em]">
                 About us
             </div>
 
@@ -353,17 +353,35 @@
 
     <!-- Contact us -->
 
-    <div class="text-black font-bold text-center mt-[9%] .... max-[767px]:text-[1.7rem] max-[767px]:mb-[0.5rem] .... min-[768px]:text-[2.5rem] min-[768px]:mb-[1.5rem] .... min-[1024px]:text-[3.5em]">
-        Contact us
+    <div class="text-black font-bold text-center my-[9%] .... max-[767px]:text-[1.7rem] max-[767px]:my-[0.5rem] .... min-[768px]:text-[2.5rem] min-[768px]:my-[1.5rem] .... min-[1024px]:text-[2em]">
     </div>
     <!-- Soc Icon -->
-    <div class="bg-zinc-950 h-[30vh] text-black">
-        <div class="flex p-[40px]">
-            <a href="https://www.facebook.com/szdarchitectsph" target="https://www.facebook.com/szdarchitectsph"><i class="fa-brands fa-facebook-f bg-white text-4xl text-black py-2 px-4 mx-2"></i></a>
-            <a href=""><i class="fa-brands fa-instagram bg-white text-4xl text-black py-2 px-4 mx-2"></i></a>
-            <a href=""><i class="fa-brands fa-twitter bg-white text-4xl text-black py-2 px-4 mx-2"></i></a>
+    <div class="grid grid-cols-3 relative bg-gray-950 h-[30vh] text-black text-center">
+
+        <div class="text-white mt-[5rem]">
+            <h1>Philippines, Pangasinan, Mangaldan,</h1>
+            <h1>Brgy. maasin, </h1>
+             <h1>Contact: 0969352541</h1>
+             <h1>Email: Jakemerlin7032@gmail.com</h1>
+             <h1></h1>
         </div>
+
+        <div class="text-white font-bold text-[2rem] mt-[3rem]">
+            Follow us
+            <div class="mt-[2%]">
+                <a href="https://www.facebook.com/szdarchitectsph" target="https://www.facebook.com/szdarchitectsph"><i class="fa-brands fa-facebook-f bg-white text-black px-3 py-2 rounded-lg hover:opacity-50"></i></a>
+                <a href=""><i class="fa-brands fa-instagram bg-white text-black px-3 py-2 rounded-lg hover:opacity-50"></i></a>
+                <a href=""><i class="fa-brands fa-twitter bg-white text-black px-3 py-2 rounded-lg hover:opacity-50"></i></a>
+            </div>
+        </div>
+
+        <div class="text-white font-bold text-[7rem] mt-[2rem]">
+        SZD           
+        </div>
+
+
     </div>
+
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
