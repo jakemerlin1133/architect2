@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body> 
 
     <header class="header" id="header-pc">
         <div class="grid grid-cols-2">
@@ -43,7 +43,7 @@
 
 
                     <li>
-                        <a href="team.php">Aboust Us</a>
+                        <a href="team.php">About Us</a>
                     </li>
 
 
