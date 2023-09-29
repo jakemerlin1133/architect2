@@ -319,15 +319,11 @@
 
 
     <!-- About Us -->
-    <div class="relative w-full text-black bg-white .... max-[320px]:h-[106rem] max-[320px]:mt-[18%]  .... min-[320px]:h-[106rem] min-[320px]:mt-[18%] .... min-[331px]:h-[102rem] min-[331px]:mt-[18%] .... min-[340px]:h-[101rem] .... min-[349px]:h-[97rem] .... min-[362px]:h-[94rem] .... min-[375px]:h-[90rem] min-[375px]:mt-[18%] .... min-[420px]:h-[86rem] .... min-[443px]:h-[81rem] .... min-[466px]:h-[78rem] .... min-[491px]:h-[74rem] .... min-[543px]:h-[70rem] .... min-[609px]:h-[66rem] .... min-[680px]:h-[63rem] .... min-[768px]:h-[67rem] .... min-[845px]:h-[63rem] .... min-[1024px]:h-[47rem] min-[1024px]:mt-[10%]">
+
         <div class="text-black .... max-[320px]:pt-[4%] .... min-[320px]:text-center min-[320px]:pt-[4%] .... min-[425px]:pt-[2%] .... max-[1023px]:text-center ..... min-[1024px]:text-left min-[1024px]:pl-[3.5%] min-[1024px]:pt-[2%]">
 
-            <div class=" font-bold text-center .... max-[767px]:text-[2.7rem] max-[767px]:mb-[0.5rem] .... min-[768px]:text-[4.5rem] min-[768px]:mb-[1.5rem] .... min-[1024px]:text-[5em]">
+            <div class=" font-bold text-center .... max-[767px]:text-[1.5rem] .... min-[768px]:text-[2.1rem] .... min-[1024px]:text-[3em]">
                 About us
-            </div>
-
-            <div class="font-bold .... max-[320px]:text-[0.9rem] max-[320px]:mt-[10%] .... min-[321px]:text-[1rem] min-[321px]:mt-[10%] .... min-[768px]:text-[2rem] min-[768px]:mt-[8%] .... min-[1024px]:text-[2.7rem] min-[1024px]:mt-[4%]">
-                Office & Commercial Interior Design
             </div>
 
             <div class="max-[320px]:px-[10%] .... min-[320px]:px-[10%].... max-[1023px]:px-[10%] max-[1023px]:text-center ..... min-[1024px]:pl-[2%] min-[1024px]:pr-[5%] min-[1024px]:text-left ..... max-[1023px]:justify-center .... min-[1024px]:text-justify">
@@ -348,15 +344,13 @@
                 </div>
             </div>
         </div>
-    </div>
+
 
 
     <!-- Contact us -->
 
-    <div class="text-black font-bold text-center my-[9%] .... max-[767px]:text-[1.7rem] max-[767px]:my-[0.5rem] .... min-[768px]:text-[2.5rem] min-[768px]:my-[1.5rem] .... min-[1024px]:text-[2em]">
-    </div>
     <!-- Soc Icon -->
-    <div class="grid grid-cols-3 relative bg-gray-950 h-[30vh] text-black text-center">
+    <div class="grid grid-cols-3 relative bg-gray-950 h-[30vh] text-black text-center mt-[9rem]">
 
         <div class="text-white mt-[5rem]">
             <h1>Philippines, Pangasinan, Mangaldan,</h1>
