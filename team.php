@@ -325,7 +325,7 @@
 
     <div id="block-background" class="w-full .... max-[320px]:h-[13rem] .... min-[320px]:h-[14rem] .... min-[1024px]:h-[25rem]">
         <div class="font-bold text-white text-center .... max-[320px]:pt-[1.7rem] max-[320px]:text-5xl  .... min-[320px]:pt-[1.7rem] min-[320px]:text-5xl .... min-[1024px]:pt-[1.7rem] min-[1024px]:text-7xl ">
-            TEXT HERE
+            Office & Commercial interior Design
         </div>
         <div class="font-bold text-white pt-[55px] text-lg text-center">
             TEXT HERE
