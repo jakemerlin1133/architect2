@@ -13,7 +13,7 @@
 
 #block-background {
    background-image: url('Architect_files/images/block.jpg');
-   background-size: cover; 
+   background-size:auto cover; 
    background-position: center; 
  }
 
