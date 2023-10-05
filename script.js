@@ -15,6 +15,7 @@ document.onclick = function (e) {
     document.querySelector("#burger").classList.remove("active");
   }
 };
+
 // activate the design of the navigator link
 const activePage = window.location.pathname;
 const navLinks = document.querySelectorAll("header ul#pc-header a").
@@ -48,5 +49,9 @@ forEach(link => {
     console.log(activePageSidebar);
 }
 });
+
+
+
+
 
 
