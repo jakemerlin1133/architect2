@@ -348,25 +348,25 @@
 
 
     <!-- Contact us -->
-    <div class="bg-gray-950 grid .... max-[320px]:grid-cols-1 max-[320px]:h-[70vh] max-[320px]:mt-[10%] px-[9%] py-[2%]">
-        <div class="text-slate-200 font-bold .... max-[320px]:text-[3.5rem]">SZD</div>
+    <div class="bg-gray-950 grid .... max-[320px]:grid-cols-1 max-[320px]:h-[70vh] max-[320px]:mt-[10%] max-[320px]:px-[9%] max-[320px]:py-[2%] .... min-[320px]:grid-cols-1 min-[320px]:h-[70vh] min-[320px]:mt-[10%] min-[320px]:px-[9%] min-[320px]:py-[2%]">
+        <div class="text-white font-bold .... max-[320px]:text-[3.5rem] .... min-[320px]:text-[3.5rem]">SZD</div>
 
-        <div class="text-slate-200">
-            <div class="font-bold .... max-[320px]:text-[1.5rem]">Contact us</div>
-            <div>382R+78P, Arellano St, Dagupan, 2400 Pangasinan</div>
-            <div> +63 928 856 9784</div>
-            <div> +63 937 843 1284</div>
+        <div class="text-white">
+            <div class="font-bold .... max-[320px]:text-[1.5rem] .... min-[320px]:text-[1.5rem]">Contact us</div>
+            <div>Santa Barbara, Philippines</div>
+            <div>Email: szddesignstudio@gmail.com</div>
+            <div>Whatsapp: +63 917 715 4075</div>
         </div>
 
-        <div class="text-slate-200">
-            <div class="font-bold .... max-[320px]:text-[1.4rem]">
+        <div class="text-white">
+            <div class="font-bold .... max-[320px]:text-[1.4rem] max-[320px]:mt-[15%] .... min-[320px]:text-[1.4rem] min-[320px]:mt-[15%]">
                 Follow us
             </div>
 
             <div class="flex text-black">
-                <a href="" class="bg-slate-200 font-bold rounded-md hover:opacity-75 .... max-[320px]:mx-[1.5%] max-[320px]:px-[0.7rem] max-[320px]:py-[0.3rem] max-[320px]:mt-[3%] max-[320px]:text-[1.3rem]"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="" class="bg-slate-200 font-bold rounded-md hover:opacity-75 .... max-[320px]:mx-[1.5%] max-[320px]:px-[0.7rem] max-[320px]:py-[0.3rem] max-[320px]:mt-[3%] max-[320px]:text-[1.3rem]"><i class="fa-brands fa-twitter"></i></a>
-                <a href="" class="bg-slate-200 font-bold rounded-md hover:opacity-75 .... max-[320px]:mx-[1.5%] max-[320px]:px-[0.7rem] max-[320px]:py-[0.3rem] max-[320px]:mt-[3%] max-[320px]:text-[1.3rem]"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/szdarchitectsph" target="https://www.facebook.com/szdarchitectsph" class="bg-slate-200 font-bold rounded-md hover:opacity-75 .... max-[320px]:mx-[1.5%] max-[320px]:px-[0.7rem] max-[320px]:py-[0.3rem] max-[320px]:mt-[3%] max-[320px]:text-[1.3rem] .... min-[320px]:mx-[1.5%] min-[320px]:px-[0.7rem] min-[320px]:py-[0.3rem] min-[320px]:mt-[3%] min-[320px]:text-[1.3rem]"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/szddesignstudioph/" target="https://www.instagram.com/szddesignstudioph/" class="bg-slate-200 font-bold rounded-md hover:opacity-75 .... max-[320px]:mx-[1.5%] max-[320px]:px-[0.7rem] max-[320px]:py-[0.3rem] max-[320px]:mt-[3%] max-[320px]:text-[1.3rem] .... min-[320px]:mx-[1.5%] min-[320px]:px-[0.7rem] min-[320px]:py-[0.3rem] min-[320px]:mt-[3%] min-[320px]:text-[1.3rem]"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" target="" class="bg-slate-200 font-bold rounded-md hover:opacity-75 .... max-[320px]:mx-[1.5%] max-[320px]:px-[0.7rem] max-[320px]:py-[0.3rem] max-[320px]:mt-[3%] max-[320px]:text-[1.3rem] .... min-[320px]:mx-[1.5%] min-[320px]:px-[0.7rem] min-[320px]:py-[0.3rem] min-[320px]:mt-[3%] min-[320px]:text-[1.3rem]"><i class="fa-brands fa-twitter"></i></a>
             </div>
         </div>
 
