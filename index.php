@@ -313,16 +313,16 @@
     </div>
 
     <div class="text-center">
-        <h1 class="text-white max-[1023px]:mt-[3%] mb-[5%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-blue-700 ml-[8px] text-3xl font-bold hover:text-blue-400 cursor-pointer">more projects</span></a></h1>
+        <h1 class="text-white max-[1023px]:mt-[3%] max-[1023px]:mb-[2%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-blue-700 ml-[8px] text-3xl font-bold hover:text-blue-400 cursor-pointer">more projects</span></a></h1>
     </div>
 
 
 
     <!-- About Us -->
 
-    <div class="text-black .... max-[320px]:pt-[4%] .... min-[320px]:text-center min-[320px]:pt-[4%] .... min-[425px]:pt-[2%] .... max-[1023px]:text-center ..... min-[1024px]:text-left min-[1024px]:pl-[3.5%] min-[1024px]:pt-[2%]">
+    <div class="text-black .... max-[320px]:pt-[13%] .... min-[320px]:text-center min-[320px]:pt-[13%] .... min-[425px]:pt-[2%] .... max-[1023px]:text-center ..... min-[1024px]:text-left min-[1024px]:pl-[3.5%] min-[1024px]:pt-[2%]">
 
-        <div class=" font-bold text-center .... max-[767px]:text-[1.5rem] .... min-[768px]:text-[2.1rem] .... min-[1024px]:text-[3em]">
+        <div class=" font-bold text-center .... max-[767px]:text-[3rem] .... min-[768px]:text-[4.3rem] .... min-[1024px]:text-[5em]">
             About us
         </div>
 
