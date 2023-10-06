@@ -18,7 +18,7 @@
         <div class="grid grid-cols-2">
             <div class="flex .... max-[320px]:h-[50px] max-[320px]:w-[50px] .... min-[320px]:h-[50px] min-[320px]:w-[50px]">
                 <img class="max-[320px]:h-[40px] max-[320px]:w-[40px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[40px] min-[320px]:w-[40px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
-                <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
+                <div data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="400" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden" >SZD</div>
                 <i class="fa-solid fa-bars text-white ml-[10px]" id="burger"></i>
             </div>
 
@@ -59,7 +59,7 @@
     <div class="sidebar" id="sidebar">
         <div class="flex ml-[65px] mt-[20px]">
             <img class="max-[1023px]:h-[50px] max-[1023px]:w-[50px]" src="Architect_files/images/sample-logo.png">
-            <div id="archi-name" class="text-white font-bold my-auto .... max-[1023px]:text-[1.8em] max-[1023px]:ml-[5px]">SZD</div>
+            <div id="archi-name" class="text-white font-bold my-auto .... max-[1023px]:text-[1.8em] max-[1023px]:ml-[5px]" data-aos="fade-up" data-aos-duration="3000">SZD</div>
         </div>
 
         <ul>
@@ -375,9 +375,10 @@
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <script src="path-to-aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
