@@ -18,7 +18,7 @@
         <div class="grid grid-cols-2">
             <div class="flex justify-center items-center .... max-[320px]:h-[50px] max-[320px]:w-[50px] .... min-[320px]:h-[50px] min-[320px]:w-[50px] .... min-[1024px]:ml-[1.8rem]">
                 <img class="rounded-lg max-[320px]:h-[30px] max-[320px]:w-[30px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[30px] min-[320px]:w-[30px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
-                <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden" >SZD</div>
+                <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
                 <i class="fa-solid fa-bars text-white ml-[10px]" id="burger"></i>
             </div>
 
@@ -38,7 +38,7 @@
 
 
                     <li>
-                        <a href="portfolio.php">Showcase</a>
+                        <a href="showcase.php">Showcase</a>
                     </li>
 
 
@@ -72,7 +72,7 @@
             </li>
 
             <li>
-                <a href="portfolio.php">Showcase</a>
+                <a href="showcase.php">Showcase</a>
             </li>
 
             <li>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
                 <div>
-                    <h1 class="text-white text-left my-[2%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href=""><span class="text-blue-700 ml-[8px] text-xl font-bold hover:text-blue-400 cursor-pointer">view more </span></a></h1>
+                    <h1 class="text-white text-left my-[2%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href="service.php"><span class="text-blue-700 ml-[8px] text-xl font-bold hover:text-blue-400 cursor-pointer">view more </span></a></h1>
                 </div>
             </div>
         </div>
@@ -127,7 +127,7 @@
         <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-900 w-[80%]  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
             <!-- image 1 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/hylands.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
             </div>
             <!-- content -->
             <div class="relative">
@@ -139,11 +139,11 @@
             </div>
             <!-- image 2 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house2.jpg">
             </div>
             <!-- image 3 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/best.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house4.jpg">
             </div>
         </div>
     </div>
@@ -376,9 +376,9 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
     <script src="path-to-aos.js"></script>
-<script>
-  AOS.init();
-</script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
