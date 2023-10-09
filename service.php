@@ -19,7 +19,7 @@
             <div class="flex justify-center items-center .... max-[320px]:h-[50px] max-[320px]:w-[50px] .... min-[320px]:h-[50px] min-[320px]:w-[50px] .... min-[1024px]:ml-[1.8rem]">
                 <img class="rounded-lg max-[320px]:h-[30px] max-[320px]:w-[30px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[30px] min-[320px]:w-[30px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
                 <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
-                <i class="fa-solid fa-bars text-white ml-[10px]" id="burger"></i>
+                <i class="fa-solid fa-bars text-white ml-[10px] pb-[5px]" id="burger"></i>
             </div>
 
             <div class="text-white .... max-[1023px]:hidden">
@@ -85,13 +85,23 @@
         </ul>
     </div>
 
-
-    <div>
-        <img src="/Architect_files/images/sketch-working.jpg" alt="">
+    <div class="" id="contrast"></div>
+    <div class="aboslute top-0 left-0 w-full .... max-[320px]:h-[40vh] .... min-[320px]:h-[40vh] .... min-[426px]:h-[58vh]">
+        <img class="h-full w-full object-cover overflow-hidden" src="Architect_files/images/sketch-working.jpg">
     </div>
 
 
-    
+
+
+
+
+
+
+
+
+
+
+    <div class="h-[100vh]"></div>
 
 
     <script src="script.js"></script>
