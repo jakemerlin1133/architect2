@@ -86,14 +86,34 @@
     </div>
 
     <div class="" id="contrast"></div>
-    <div class="aboslute top-0 left-0 w-full .... max-[320px]:h-[40vh] .... min-[320px]:h-[40vh] .... min-[426px]:h-[58vh]">
+    <div class="aboslute top-0 left-0 w-full .... max-[320px]:h-[40vh] .... min-[320px]:h-[40vh] .... min-[426px]:h-[54vh]">
         <img class="h-full w-full object-cover overflow-hidden" src="Architect_files/images/sketch-working.jpg">
     </div>
 
 
 
 
+    <div class="grid text-center .... max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:gap-12 min-[1024px]:mt-[2rem] min-[1024px]:mx-[3rem]">
 
+        <div class="bg-red-900">
+            About our service
+        </div>
+
+        <div class="bg-blue-900">
+            <h1>
+                DB&B's diverse clientele, comprising the corporate sector, is testament to our ability to respond to the evolving nature of the architectural landscape. We retain the resounding trademark of precise craftsmanship, without forgetting the need for a distinctive corporate image whilst contributing to overall productivity.
+            </h1>
+
+            <h1>
+                From design conceptualization to space planning, DB&B's, comprehensive project management services encompass even minute details like lightning and customerized system furniture in every aspect.
+            </h1>
+
+            <h1>
+                As clients, you can count on us to deliver a complete design and project management package. Translating your unique needs accurately into a space plan, we will carry through your idea from inception to the eventual use.
+            </h1>
+        </div>
+
+    </div>
 
 
 
