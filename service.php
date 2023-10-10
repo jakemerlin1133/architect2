@@ -85,55 +85,54 @@
         </ul>
     </div>
 
-    <div class="" id="contrast"></div>
     <div class="aboslute top-0 left-0 w-full .... max-[320px]:h-[40vh] .... min-[320px]:h-[40vh] .... min-[426px]:h-[54vh]">
         <img class="h-full w-full object-cover overflow-hidden" src="Architect_files/images/sketch-working.jpg">
     </div>
 
+    <!-- Services -->
+    <div class="w-full text-center grid max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:px-[8rem] min-[1024px]:mt-[8rem]">
 
-
-
-    <div class="grid text-center h-full .... max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:gap-12 min-[1024px]:h-[60vh] min-[1024px]:mt-[5rem] min-[1024px]:mx-[10rem]">
-<!-- About our Service -->
-        <div>
-            <div class="font-bold max-[320px]:text-[2.2rem] max-[320px]:mt-[3rem] .... min-[320px]:text-[2.2rem] min-[320px]:mt-[3rem] .... min-[375px]:text-[2.6rem] .... min-[425px]:text-[3rem] .... min-[768px]:text-[4rem] .... min-[1024px]:text-[4rem]">
-                About our Service
+        <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-900 w-[80%]  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
+            <!-- image 1 -->
+            <div class="relative">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
             </div>
-<!-- images -->
-            <div class="grid grid-cols-2 bg-gray-600 h-full .... max-[320px]:gap-5 max-[320px]:p-[1.2rem] .... min-[320px]:gap-5 min-[320px]:p-[1.2rem] .... min-[426px]:gap-7 min-[426px]:p-[1.8rem]">
-                <div class="">
-                     <img class=" w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house1.jpg">
-                </div>
-
-                <div class="">
-                     <img class=" w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house2.jpg">
-                </div>
-
-                <div class="">
-                     <img class=" w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
-                </div>
-
-                <div class="">
-                     <img class=" w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
-                </div>
+            <!-- content -->
+            <div class="relative">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
+            </div>
+            <!-- image 2 -->
+            <div class="relative">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/socialized housing_3.jpg">
+            </div>
+            <!-- image 3 -->
+            <div class="relative">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house2.jpg">
             </div>
         </div>
-<!-- content -->
-        <div class="bg-red-900 text-left h-full min-[1024px]:text-[1.2rem] min-[1024px]:mt-[6rem]">
 
-            <h1 class="min-[1024px]:mt-[1.7rem]">
-                DB&B's diverse clientele, comprising the corporate sector, is testament to our ability to respond to the evolving nature of the architectural landscape. We retain the resounding trademark of precise craftsmanship, without forgetting the need for a distinctive corporate image whilst contributing to overall productivity.
-            </h1>
+        <div class="mx-auto w-[80%]">
+            <div class="text-zinc-900 text-center font-bold max-[1023px]:text-[2.7em] min-[1024px]:text-[4em] mb-[2%]">
+                Our Services
+            </div>
 
-            <h1 class="min-[1024px]:mt-[1.7rem]">
-                From design conceptualization to space planning, DB&B's, comprehensive project management services encompass even minute details like lightning and customerized system furniture in every aspect.
-            </h1>
-
-            <h1 class="min-[1024px]:mt-[1.7rem]">
-                As clients, you can count on us to deliver a complete design and project management package. Translating your unique needs accurately into a space plan, we will carry through your idea from inception to the eventual use.
-            </h1>
+            <div class=" max-[1023px]:text-[0.7rem] min-[1024px]:text-[1.3rem]">
+                <div class="text-justify font-semibold text-gray-700">
+                    <div>
+                        We create award-winning spaces that inspire, motivate and empower the working community. Workspace design and functionality vary according to the people in them, and no projects are identical - something we have learnt over the past 25 years.
+                    </div>
+                    <div class="text-justify mt-[4%]">
+                        To deliver a people-centric, we constantly strive to provide an array of interior design solutions that can be combined in various ways to meet different project needs. We believe that the design and construction process should be systematic, seamless nad integrated, with minimal hassle to our clients.
+                    </div>
+                </div>
+                <div>
+                    <h1 class="text-white text-left my-[2%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href="service.php"><span class="text-blue-700 ml-[8px] text-xl font-bold hover:text-blue-400 cursor-pointer">view more </span></a></h1>
+                </div>
+            </div>
         </div>
     </div>
+
+
 
 
 
