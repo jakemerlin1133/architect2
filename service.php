@@ -94,32 +94,32 @@
 
 
     <div class="grid text-center h-full .... max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:gap-12 min-[1024px]:h-[60vh] min-[1024px]:mt-[5rem] min-[1024px]:mx-[10rem]">
-
+<!-- About our Service -->
         <div>
-            <div class="font-bold max-[320px]:text-[2.2rem] max-[320px]:mt-[3rem] .... min-[320px]:text-[2.2rem] min-[320px]:mt-[3rem] .... min-[1024px]:text-[4rem]">
+            <div class="font-bold max-[320px]:text-[2.2rem] max-[320px]:mt-[3rem] .... min-[320px]:text-[2.2rem] min-[320px]:mt-[3rem] .... min-[375px]:text-[2.6rem] .... min-[425px]:text-[3rem] .... min-[768px]:text-[4rem] .... min-[1024px]:text-[4rem]">
                 About our Service
             </div>
-
-            <div class="grid grid-cols-2 gap-7 p-[1.7rem] bg-gray-600 h-full ....">
-                <div class="relative">
-                     <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
+<!-- images -->
+            <div class="grid grid-cols-2 bg-gray-600 h-full .... max-[320px]:gap-5 max-[320px]:p-[1.2rem] .... min-[320px]:gap-5 min-[320px]:p-[1.2rem] .... min-[426px]:gap-7 min-[426px]:p-[1.8rem]">
+                <div class="">
+                     <img class=" w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house1.jpg">
                 </div>
 
                 <div class="">
-                     <img class="w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
+                     <img class=" w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house2.jpg">
                 </div>
 
                 <div class="">
-                     <img class="w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
+                     <img class=" w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
                 </div>
 
                 <div class="">
-                     <img class="w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
+                     <img class=" w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
                 </div>
             </div>
         </div>
-
-        <!-- <div class="bg-red-900 text-left h-full min-[1024px]:text-[1.2rem] min-[1024px]:mt-[6rem]">
+<!-- content -->
+        <div class="bg-red-900 text-left h-full min-[1024px]:text-[1.2rem] min-[1024px]:mt-[6rem]">
 
             <h1 class="min-[1024px]:mt-[1.7rem]">
                 DB&B's diverse clientele, comprising the corporate sector, is testament to our ability to respond to the evolving nature of the architectural landscape. We retain the resounding trademark of precise craftsmanship, without forgetting the need for a distinctive corporate image whilst contributing to overall productivity.
@@ -132,7 +132,7 @@
             <h1 class="min-[1024px]:mt-[1.7rem]">
                 As clients, you can count on us to deliver a complete design and project management package. Translating your unique needs accurately into a space plan, we will carry through your idea from inception to the eventual use.
             </h1>
-        </div> -->
+        </div>
     </div>
 
 
