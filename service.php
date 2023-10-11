@@ -90,37 +90,39 @@
     </div>
 
     <!-- Services -->
-    <div class="w-full text-center grid max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:px-[8rem] min-[1024px]:mt-[8rem]">
+    <div class="w-full text-center grid .... min-[320px]:mt-[2rem] .... min-[425px]:mt-[4rem] .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[4rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[6rem] min-[1024px]:mt-[6rem] .... min-[1700px]:mt-[8rem]">
 
-        <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-900 w-[80%]  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
-            
-            <!-- image 1 -->
-            <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
-            </div>
-
-            <!-- image 2 --> 
-            <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
-            </div>
-
-            <!-- image 3 -->
-            <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/socialized housing_3.jpg">
-            </div>
-
-            <!-- image 4 -->
-            <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house2.jpg">
-            </div>
-        </div>
-
-        <div class="mx-auto w-[80%]">
-            <div class="text-zinc-900 text-center font-bold max-[1023px]:text-[2.7em] min-[1024px]:text-[4em] mb-[2%]">
+        <div >
+            <div class="text-zinc-900 text-center font-bold .... max-[1023px]:text-[2.7em] .... min-[1024px]:text-[4em] mb-[2%]">
                 About our Service
             </div>
 
-            <div class=" max-[1023px]:text-[0.7rem] min-[1024px]:text-[1.3rem]">
+            <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-900 w-full  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
+
+                <!-- image 1 -->
+                <div class="relative">
+                    <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
+                </div>
+
+                <!-- image 2 -->
+                <div class="relative">
+                    <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
+                </div>
+
+                <!-- image 3 -->
+                <div class="relative">
+                    <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/socialized housing_3.jpg">
+                </div>
+
+                <!-- image 4 -->
+                <div class="relative">
+                    <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house2.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto w-[80%]">
+
+            <div class="max-[1023px]:text-[0.7rem] .... min-[1024px]:text-[1.02rem] min-[1024px]:pt-[11rem] .... min-[1300px]:text-[1.15rem] .... min-[1549px]:text-[1.4rem]">
                 <div class="text-justify font-semibold text-gray-700">
                     <div>
                         DB&B's divese clientle, comprising the corporate sector, is testament to our ability to respond to the evolving nature of the architectural landscape. We retain the resounding trademark of precise craftsmanship, without forgetting the need for a distinctive corporate image whilst contributing to overall productivity.
@@ -137,8 +139,13 @@
         </div>
     </div>
 
-    <div class="bg-red-900 text-red-900">
-        qwewe
+    <div class=" grid grid-cols-2">
+        <div>
+            1
+        </div>
+        <div>
+            2
+        </div>
     </div>
 
 
@@ -149,8 +156,8 @@
 
 
 
-       <!-- Contact us -->
-       <div class="bg-gray-950 grid h-full .... max-[320px]:grid-cols-1 max-[320px]:mt-[3rem] max-[320px]:px-[9%] max-[320px]:py-[1rem] .... min-[320px]:grid-cols-1 min-[320px]:mt-[3rem] min-[320px]:px-[9%] min-[320px]:py-[1rem] .... min-[1024px]:grid-cols-3 min-[1024px]:text-center min-[1024px]:py-[2.5rem] min-[1024px]:mt-[9rem]">
+    <!-- Contact us -->
+    <div class="bg-gray-950 grid h-full .... max-[320px]:grid-cols-1 max-[320px]:mt-[3rem] max-[320px]:px-[9%] max-[320px]:py-[1rem] .... min-[320px]:grid-cols-1 min-[320px]:mt-[3rem] min-[320px]:px-[9%] min-[320px]:py-[1rem] .... min-[1024px]:grid-cols-3 min-[1024px]:text-center min-[1024px]:py-[2.5rem] min-[1024px]:mt-[9rem]">
         <div class="text-white font-bold .... max-[320px]:text-[3.5rem] .... min-[320px]:text-[3.5rem]">SZD</div>
 
         <div class="text-white">
