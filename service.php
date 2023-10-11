@@ -93,19 +93,23 @@
     <div class="w-full text-center grid max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:px-[8rem] min-[1024px]:mt-[8rem]">
 
         <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-900 w-[80%]  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
+            
             <!-- image 1 -->
             <div class="relative">
                 <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
             </div>
-            <!-- content -->
+
+            <!-- image 2 --> 
             <div class="relative">
                 <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
             </div>
-            <!-- image 2 -->
+
+            <!-- image 3 -->
             <div class="relative">
                 <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/socialized housing_3.jpg">
             </div>
-            <!-- image 3 -->
+
+            <!-- image 4 -->
             <div class="relative">
                 <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house2.jpg">
             </div>
@@ -113,23 +117,28 @@
 
         <div class="mx-auto w-[80%]">
             <div class="text-zinc-900 text-center font-bold max-[1023px]:text-[2.7em] min-[1024px]:text-[4em] mb-[2%]">
-                Our Services
+                About our Service
             </div>
 
             <div class=" max-[1023px]:text-[0.7rem] min-[1024px]:text-[1.3rem]">
                 <div class="text-justify font-semibold text-gray-700">
                     <div>
-                        We create award-winning spaces that inspire, motivate and empower the working community. Workspace design and functionality vary according to the people in them, and no projects are identical - something we have learnt over the past 25 years.
+                        DB&B's divese clientle, comprising the corporate sector, is testament to our ability to respond to the evolving nature of the architectural landscape. We retain the resounding trademark of precise craftsmanship, without forgetting the need for a distinctive corporate image whilst contributing to overall productivity.
                     </div>
                     <div class="text-justify mt-[4%]">
-                        To deliver a people-centric, we constantly strive to provide an array of interior design solutions that can be combined in various ways to meet different project needs. We believe that the design and construction process should be systematic, seamless nad integrated, with minimal hassle to our clients.
+                        From design conceptualization to space planning, DB&B's comprehensive project management services encompass even minute details like lightning and customized system furniture in every aspect.
+                    </div>
+                    <div class="text-justify mt-[4%]">
+                        As clients, you can count on us to deliver a complete design and project management package. Translating your unique needs accurately into a space plan, we will carry through your idea from inception to the eventual use.
                     </div>
                 </div>
-                <div>
-                    <h1 class="text-white text-left my-[2%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href="service.php"><span class="text-blue-700 ml-[8px] text-xl font-bold hover:text-blue-400 cursor-pointer">view more </span></a></h1>
-                </div>
+
             </div>
         </div>
+    </div>
+
+    <div class="bg-red-900 text-red-900">
+        qwewe
     </div>
 
 
