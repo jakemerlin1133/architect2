@@ -85,6 +85,7 @@
         </ul>
     </div>
 
+    <div class="" id="contrast"></div>
     <div class="aboslute top-0 left-0 w-full .... max-[320px]:h-[40vh] .... min-[320px]:h-[40vh] .... min-[426px]:h-[54vh]">
         <img class="h-full w-full object-cover overflow-hidden" src="Architect_files/images/sketch-working.jpg">
     </div>
@@ -122,7 +123,7 @@
         </div>
         <div class="mx-auto w-[80%]">
 
-            <div class="max-[1023px]:text-[0.7rem] .... min-[1024px]:text-[1.02rem] min-[1024px]:pt-[11rem] .... min-[1300px]:text-[1.15rem] .... min-[1549px]:text-[1.4rem]">
+            <div class="max-[1023px]:text-[0.7rem] max-[1023px]:pt-[2rem] .... min-[1024px]:text-[1.2rem] min-[1024px]:pt-[15rem] .... min-[1300px]:text-[1.3rem] min-[1300px]:pt-[11rem] .... min-[1549px]:text-[1.4rem]">
                 <div class="text-justify font-semibold text-gray-700">
                     <div>
                         DB&B's divese clientle, comprising the corporate sector, is testament to our ability to respond to the evolving nature of the architectural landscape. We retain the resounding trademark of precise craftsmanship, without forgetting the need for a distinctive corporate image whilst contributing to overall productivity.
@@ -134,8 +135,8 @@
                         As clients, you can count on us to deliver a complete design and project management package. Translating your unique needs accurately into a space plan, we will carry through your idea from inception to the eventual use.
                     </div>
                 </div>
-
             </div>
+
         </div>
     </div>
 
