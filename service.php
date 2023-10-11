@@ -140,7 +140,7 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-2 mt-[4rem]">
+    <div class="grid grid-cols-2 mt-[8rem] px-[4rem]">
 
         <div>
             <div class="font-bold">
@@ -152,7 +152,7 @@
         </div>
 
         <div>
-            2
+            <img src="Architect_files/images/house.jpg" alt="">
         </div>
     </div>
 
