@@ -123,9 +123,9 @@
         </div>
         <div class="mx-auto w-[80%]">
 
-            <div class="max-[1023px]:text-[0.7rem] max-[1023px]:pt-[2rem] .... min-[1024px]:text-[1.2rem] min-[1024px]:pt-[15rem] .... min-[1300px]:text-[1.3rem] min-[1300px]:pt-[11rem] .... min-[1549px]:text-[1.4rem]">
-                <div class="text-justify font-semibold text-gray-700">
-                    <div>
+            <div class="min-[320px]:text-[0.8rem] min-[320px]:pt-[2rem] .... min-[320px]:text-[0.8rem] min-[320px]:pt-[2rem] .... min-[1024px]:text-[1.2rem] min-[1024px]:pt-[15rem] .... min-[1300px]:text-[1.3rem] min-[1300px]:pt-[11rem] .... min-[1549px]:text-[1.4rem]">
+                <div class="font-semibold text-gray-700">
+                    <div class="text-justify mt-[4%]">
                         DB&B's divese clientle, comprising the corporate sector, is testament to our ability to respond to the evolving nature of the architectural landscape. We retain the resounding trademark of precise craftsmanship, without forgetting the need for a distinctive corporate image whilst contributing to overall productivity.
                     </div>
                     <div class="text-justify mt-[4%]">
@@ -140,10 +140,17 @@
         </div>
     </div>
 
-    <div class=" grid grid-cols-2">
+    <div class="grid grid-cols-2 mt-[4rem]">
+
         <div>
-            1
+            <div class="font-bold">
+                pre-leasing services.
+            </div>
+            <div>
+                Searching for an ideal and conductive office space can prove quite a complex and tedious task. At DB&B, we provide comprehensive pre-lease services to aid in your consideration and decision-making, DB&B offers valuable tools such as establishing actual space requirements and building analysis to aid in your selection. With our suite of tools and sevices, you can select the ideal workspace that meets your business objectives in the long run.
+            </div>
         </div>
+
         <div>
             2
         </div>
