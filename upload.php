@@ -15,7 +15,7 @@
 <body>
 
 <label for="files">Select multiple files</label>
-    <input type="file" id="files" multiple="multiple" accept="image/jpeg, image/png, image/png,">
+    <input type="file" id="files" multiple="multiple" accept="image/jpeg, image/png, image/png, image/webp">
     <output id="result"></output>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
