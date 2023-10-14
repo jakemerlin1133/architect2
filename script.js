@@ -52,6 +52,19 @@ forEach(link => {
 
 
 
+document.querySelector("#files").addEventListener("change", (e) =>{
+  if(window.File && window.FileReader && window.FileList && window.Blob){
+
+    const files = e.target.files;
+    console.log(files);
+
+  }else{
+    alert("Your browser does not support the File API")
+  }
+
+})
+
+
 
 
 
