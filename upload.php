@@ -30,7 +30,7 @@
 
             <div class="mt-[2rem]">
                 <h1 class="font-bold">Desciption of the Design</h1>
-                <textarea class="w-full h-[50vh] focus:outline-none p-[10px]" placeholder="Description"></textarea>
+                <textarea class="w-full h-[50vh] focus:outline-none p-[10px]" name="description" id="" placeholder="Description"></textarea>
             </div>
 
             <div class="header">
