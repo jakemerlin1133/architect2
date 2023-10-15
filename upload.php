@@ -1,5 +1,5 @@
 <?php
-    include('function.php');
+include('function.php');
 ?>
 
 <!DOCTYPE html>
@@ -27,11 +27,11 @@
         <form method="POST" id="queued-form" enctype="multipart/form-data">
 
             <div>
-            <h1 class="font-bold">Choose category of the Design</h1>
+                <h1 class="font-bold">Choose category of the Design</h1>
                 <select name="category" id="category" class="w-[50%] pl-[5px]">
-                    <?php foreach($category as $categories){ ?>
-                    <option value="<?php echo $categories['Category'];?>"><?php echo $categories['Category'];?></option>
-                    <?php }?>
+                    <?php foreach ($category as $categories) { ?>
+                        <option value="<?php echo $categories['Category']; ?>"><?php echo $categories['Category']; ?></option>
+                    <?php } ?>
 
                 </select>
             </div>
@@ -53,26 +53,19 @@
                 <div class="server-message"></div>
             </div>
 
-            <!-- <div class="input-div">
+            <div class="input-div">
                 <p>Drag & Drop images here <span class="browse">Browser</span></p>
-            </div> -->
-            <input type="file" name="image[]" multiple="multiple" accept="image/png, image/jpeg, image/jpg, image/webp">
-            
-            
+            </div> 
+                <input type="file" name="image[]" multiple="multiple" accept="image/png, image/jpeg, image/jpg, image/webp">
+
+
+
             <div class="queued-div"></div>
             <div class="text-center mt-[1rem]">
                 <button class="mx-auto" type="submit" name="upload" id="upload">Upload</button>
             </div>
         </form>
     </main>
-
-
-
-
-
-
-
-
 
 
 
