@@ -29,9 +29,9 @@
 
             <div>
             <h1 class="font-bold">Choose category of the Design</h1>
-                <select name="category" id="category" class="w-[50%]">
+                <select name="category" id="category" class="w-[50%] pl-[5px]">
                     <?php foreach($category as $categories){ ?>
-                    <option><?php echo $categories['Category'];?></option>
+                    <option value="<?php echo $categories['Category'];?>"><?php echo $categories['Category'];?></option>
                     <?php }?>
 
                 </select>
