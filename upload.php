@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="bg-slate-200">
 
     <div class="text-center">
         <img class="max-[320px]:ml-[80px] min-[320px]:mx-auto mt-[2rem] rounded-lg" height="150" width="150" src="Architect_files/images/sample-logo.png">
@@ -20,21 +20,21 @@
     </div>
 
     <main class="app">
-        <form id="queued-form">
 
+        <form id="queued-form">
             <div>
-                <h1>Title of the Design</h1>
-                <input class="w-full focus:outline-none" type="text" placeholder="Title">
+                <h1 class="font-bold">Title of the Design</h1>
+                <input class="w-full focus:outline-none" name="title" id="title" type="text" placeholder="Title">
             </div>
 
 
             <div class="mt-[2rem]">
-                <h1>Desciption of the Design</h1>
+                <h1 class="font-bold">Desciption of the Design</h1>
                 <textarea class="w-full h-[50vh] focus:outline-none p-[10px]" placeholder="Description"></textarea>
             </div>
 
             <div class="header">
-                <h2>Upload Image </h2>
+                <h2 class="font-bold">Upload Image </h2>
                 <div class="server-message"></div>
             </div>
             <div class="input-div">
