@@ -24,7 +24,6 @@
     </div>
 
     <main class="app">
-
         <form method="POST" id="queued-form" enctype="multipart/form-data">
 
             <div>
@@ -57,15 +56,14 @@
             <!-- <div class="input-div">
                 <p>Drag & Drop images here <span class="browse">Browser</span></p>
             </div> -->
-            
             <input type="file" name="image[]" multiple="multiple" accept="image/png, image/jpeg, image/jpg, image/webp">
+            
             
             <div class="queued-div"></div>
             <div class="text-center mt-[1rem]">
                 <button class="mx-auto" type="submit" name="upload" id="upload">Upload</button>
             </div>
         </form>
-
     </main>
 
 

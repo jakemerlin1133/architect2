@@ -12,7 +12,6 @@ $category_sql = "SELECT * FROM `category`";
 $category_query = mysqli_query($con, $category_sql);
 $category = mysqli_fetch_all($category_query, MYSQLI_ASSOC);
 
-
 // upload new project
 if (isset($_POST['upload'])) {
 
