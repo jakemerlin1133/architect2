@@ -1,3 +1,7 @@
+<?php
+    include('function.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +25,19 @@
 
     <main class="app">
 
-        <form id="queued-form">
+        <form method="POST" id="queued-form" enctype="multipart/form-data">
+
+            <div>
+            <h1 class="font-bold">Choose category of the Design</h1>
+                <select name="category" id="category" class="w-[50%]">
+                    <?php foreach($category as $categories){ ?>
+                    <option><?php echo $categories['Category'];?></option>
+                    <?php }?>
+
+                </select>
+            </div>
+
+
             <div>
                 <h1 class="font-bold">Title of the Design</h1>
                 <input class="w-full focus:outline-none" name="title" id="title" type="text" placeholder="Title">
@@ -29,24 +45,27 @@
 
 
             <div class="mt-[2rem]">
-                <h1 class="font-bold">Desciption of the Design</h1>
-                <textarea class="w-full h-[50vh] focus:outline-none p-[10px]" name="description" id="" placeholder="Description"></textarea>
+                <h1 class="font-bold">Description of the Design</h1>
+                <textarea class="w-full h-[50vh] focus:outline-none p-[10px]" name="description" id="description" placeholder="Description"></textarea>
             </div>
 
             <div class="header">
                 <h2 class="font-bold">Upload Image </h2>
                 <div class="server-message"></div>
             </div>
-            <div class="input-div">
-                <p>Drag & Drop images here <span class="browse">Browser</span></p>
-                <input type="file" class="file" multiple="multiple" accept="image/png, image/jpeg, image/jpg, image/webp">
-            </div>
 
+            <!-- <div class="input-div">
+                <p>Drag & Drop images here <span class="browse">Browser</span></p>
+            </div> -->
+            
+            <input type="file" name="image[]" multiple="multiple" accept="image/png, image/jpeg, image/jpg, image/webp">
+            
             <div class="queued-div"></div>
             <div class="text-center mt-[1rem]">
-                <button class="mx-auto" type="submit">Upload</button>
+                <button class="mx-auto" type="submit" name="upload" id="upload">Upload</button>
             </div>
         </form>
+
     </main>
 
 

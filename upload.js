@@ -47,15 +47,32 @@ function deleteQueuedImage(index){
 }
 
 queuedForm.addEventListener("submit", (e) => {
-    e.preventDefault()
-    sendQueuedImagesToServer()
-})
+    e.preventDefault();
+    sendQueuedImagesToServer();
+});
 
-function sendQueuedImagesToServer(){
-  const formData = new FormData(queuedForm)
+function sendQueuedImagesToServer() {
+    const formData = new FormData(queuedForm);
 
-  queuedImagesArray.forEach((image, index) => {
-      formData.append(`file[${index}]`, image)
-  })
+    queuedImagesArray.forEach((image, index) => {
+        formData.append(`file[${index}]`, image);
+    });
 
+    fetch('your_server_endpoint.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+        serverMessage.innerHTML = data;
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        serverMessage.innerHTML = 'An error occurred while uploading images.';
+    });
 }
+
+const uploadButton = document.getElementById("upload");
+uploadButton.addEventListener("click", () => {
+    queuedForm.submit();
+});
