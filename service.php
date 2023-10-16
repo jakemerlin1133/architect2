@@ -140,13 +140,14 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-2 mt-[8rem] px-[4rem]">
+    <div class="grid gap-20 .... max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] mt-[8rem] ">
 
         <div>
-            <div class="font-bold text-[4rem]">
+            <div class="font-bold text-[4rem] text-left">
                  pre-leasing services.
             </div>
-            <div>
+
+            <div class="text-justify">
                 Searching for an ideal and conductive office space can prove quite a complex and tedious task. At DB&B, we provide comprehensive pre-lease services to aid in your consideration and decision-making, DB&B offers valuable tools such as establishing actual space requirements and building analysis to aid in your selection. With our suite of tools and sevices, you can select the ideal workspace that meets your business objectives in the long run.
             </div>
         </div>
