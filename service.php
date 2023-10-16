@@ -139,11 +139,11 @@
 
         </div>
     </div>
-
-    <div class="grid gap-12 px-[2rem] mt-[8rem] bg-stone-200 .... max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+<!-- first grid -->
+    <div class="grid gap-12 px-[2rem] mt-[8rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
             <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
-                pre-leasing services.
+                Pre-leasing services
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
@@ -153,6 +153,89 @@
 
         <div>
             <img class=" w-full h-full object-cover" src="Architect_files/images/house.jpg">
+        </div>
+    </div>
+
+<!-- second grid -->
+    <div class="grid gap-12 px-[2rem] bg-stone-300 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+        <div>
+            <img class=" w-full h-full object-cover" src="Architect_files/images/house1.jpg">
+        </div>
+
+        <div class="my-auto">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+                Interior design and planning
+            </div>
+
+            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
+            At DB&B, we arm ourselves with a good understanding of all the factors imperative for a suceessful business environment. We make sure that our design concepts articulate your business objectives, process, culture, brand positioning and future business plans. It is our goal to help all our clients develop a highly innovative, ergonomic environment that optimizes work performance and meets every functional and budgetary concern.        
+        </div>
+        </div>
+    </div>
+
+    <!-- third grid -->
+    <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+        <div class="my-auto">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+                Engineering services on buildings
+            </div>
+
+            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
+              <div>
+                  Among our wide range of services. DB&B also design mechanical and electrical systems that are compatible with base building provisions to meet Client's operatng requirements and safety standards for the workplace environment.         
+                </div>
+                <div class="mt-[1.5rem]">
+                    With a thorough understanding of your needs for lightning, power, air-conditioning and fire services, we ensure optimal distribution and performance throughout you office.
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img class=" w-full h-full object-cover" src="Architect_files/images/house3.jpg">
+        </div>
+    </div>
+
+
+    <!-- fourth grid -->
+    <div class="grid gap-12 px-[2rem] bg-stone-300 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+        <div>
+            <img class=" w-full h-full object-cover" src="Architect_files/images/house2.jpg">
+        </div>
+
+        <div class="my-auto">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+                Procurement and construction
+            </div>
+
+            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
+               <div>
+                    Sourcing for quality materials for construction and choosing conducive furniture is an essential part of your space transformation journey. Alongside our partners, our procurement team and designers work together to curate a collection that fits your projects budget while meeting your transformation goals.
+               </div>
+
+               <div class="mt-[2rem]">
+                    Our onsite team take care of the entire construction process. This includes behinde-the-scenes paperwork submission to relevant authorities, testing and commisioning after the fit-out period. defects checking during and after handover, and support in any certifications your new office can be accredited for.
+               </div>
+        </div>
+        </div>
+    </div>
+
+
+        <!-- fifth grid -->
+        <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+        <div class="my-auto">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+                Project management
+            </div>
+
+            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
+              <div>
+                 As clients, you can count on your thorough and competent project management team to oversee the entire setup- from pre-construction to the final handover. The project managers will keep you informed of the progress, saving you the hassle of inspecting the site daily.        
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img class=" w-full h-full object-cover" src="Architect_files/images/house3.jpg">
         </div>
     </div>
 
