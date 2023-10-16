@@ -140,8 +140,8 @@
         </div>
     </div>
 
-    <div class="grid gap-12 px-[2rem] .... max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] mt-[8rem]">
-        <div>
+    <div class="grid gap-12 px-[2rem] mt-[8rem] bg-stone-200 .... max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+        <div class="my-auto">
             <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
                 pre-leasing services.
             </div>
