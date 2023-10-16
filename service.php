@@ -139,7 +139,7 @@
 
         </div>
     </div>
-<!-- first grid -->
+    <!-- first grid -->
     <div class="grid gap-12 px-[2rem] mt-[8rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
             <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
@@ -156,7 +156,7 @@
         </div>
     </div>
 
-<!-- second grid -->
+    <!-- second grid -->
     <div class="grid gap-12 px-[2rem] bg-stone-300 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div>
             <img class=" w-full h-full object-cover" src="Architect_files/images/house1.jpg">
@@ -168,8 +168,8 @@
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
-            At DB&B, we arm ourselves with a good understanding of all the factors imperative for a suceessful business environment. We make sure that our design concepts articulate your business objectives, process, culture, brand positioning and future business plans. It is our goal to help all our clients develop a highly innovative, ergonomic environment that optimizes work performance and meets every functional and budgetary concern.        
-        </div>
+                At DB&B, we arm ourselves with a good understanding of all the factors imperative for a suceessful business environment. We make sure that our design concepts articulate your business objectives, process, culture, brand positioning and future business plans. It is our goal to help all our clients develop a highly innovative, ergonomic environment that optimizes work performance and meets every functional and budgetary concern.
+            </div>
         </div>
     </div>
 
@@ -181,8 +181,8 @@
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
-              <div>
-                  Among our wide range of services. DB&B also design mechanical and electrical systems that are compatible with base building provisions to meet Client's operatng requirements and safety standards for the workplace environment.         
+                <div>
+                    Among our wide range of services. DB&B also design mechanical and electrical systems that are compatible with base building provisions to meet Client's operatng requirements and safety standards for the workplace environment.
                 </div>
                 <div class="mt-[1.5rem]">
                     With a thorough understanding of your needs for lightning, power, air-conditioning and fire services, we ensure optimal distribution and performance throughout you office.
@@ -208,56 +208,112 @@
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
-               <div>
+                <div>
                     Sourcing for quality materials for construction and choosing conducive furniture is an essential part of your space transformation journey. Alongside our partners, our procurement team and designers work together to curate a collection that fits your projects budget while meeting your transformation goals.
-               </div>
+                </div>
 
-               <div class="mt-[2rem]">
+                <div class="mt-[2rem]">
                     Our onsite team take care of the entire construction process. This includes behinde-the-scenes paperwork submission to relevant authorities, testing and commisioning after the fit-out period. defects checking during and after handover, and support in any certifications your new office can be accredited for.
-               </div>
-        </div>
+                </div>
+            </div>
         </div>
     </div>
 
-
-        <!-- fifth grid -->
-        <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+    <!-- fifth grid -->
+    <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
             <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
                 Project management
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
-              <div>
-                 As clients, you can count on your thorough and competent project management team to oversee the entire setup- from pre-construction to the final handover. The project managers will keep you informed of the progress, saving you the hassle of inspecting the site daily.        
+                <div>
+                    As clients, you can count on your thorough and competent project management team to oversee the entire setup- from pre-construction to the final handover. The project managers will keep you informed of the progress, saving you the hassle of inspecting the site daily.
                 </div>
             </div>
         </div>
 
         <div>
-            <img class=" w-full h-full object-cover" src="Architect_files/images/house3.jpg">
+            <img class=" w-full h-full object-cover" src="Architect_files/images/house4.jpg">
+        </div>
+    </div>
+
+    <!-- sixth grid -->
+    <div class="grid gap-12 px-[2rem] bg-stone-300 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+        <div>
+            <img class=" w-full h-full object-cover" src="Architect_files/images/house2.jpg">
+        </div>
+
+        <div class="my-auto">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+                Migration and management
+            </div>
+
+            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
+                <div>
+                    Our services to clients do not cease upon completion of construction. As part of our end-to-end services, we assist in overseeing the migration of your office equipment to ensure a smooth and flawless transition to your new workspace. Our team will expedite effective migration management to avoid long periods of down-time which may incur adverse results on your business operations.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- seventh grid -->
+    <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+        <div class="my-auto">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+                In-house production
+            </div>
+
+            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
+                <div>
+                    Our production facility spans across 26,000 square feet, furnished with a full office set-up, meeting facilities, storage and training spaces. This well-equipped space is part of a 60,000 square feet production network we have in Asia and is designed to ensure we uphold our Environmental, Health & Safety commitments. Over the years, our capabilities have grown from simple carpentry to sophisticated designs to support our creative team's directions. Our aim, is to continually provide solutions and bring value to our clients through quality workmanship.
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img class=" w-full h-full object-cover" src="Architect_files/images/house4.jpg">
+        </div>
+    </div>
+
+    <!-- eigth grid -->
+    <div class="grid gap-12 px-[2rem] bg-stone-300 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+        <div>
+            <img class=" w-full h-full object-cover" src="Architect_files/images/house2.jpg">
+        </div>
+
+        <div class="my-auto">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+                Workplace safety & health.
+            </div>
+
+            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
+                <div>
+                    At DB&B we adopt stringent occupational health and safety practices to ensure work is carried out in an injury and illness free environment. We operate an in-house drawn occupational health and safety management system that includes providing accurate information about the health and safety aspects of our operations and maintain the practice of continual improvement. We also inform our panel of suppliers on the expectations and require them to adopt sound occupational health and safety management practices in line with ours.
+                </div>
+            </div>
         </div>
     </div>
 
 
+                <!-- seventh grid -->
+                <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+        <div class="my-auto">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+                Green design and sustainability 
+            </div>
 
+            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
+              <div>
+                 In 2008, the DB&B Group established a Green Policy containing medium to long-term environment and sustainability strategies. The objective was to attain a high level of "sustainable quality" in our services and corporate activities throughout the Group. Our delivery is a holistic, well balanced approach to space planning, design development and construction with all levels of staff committed to the practice of this green policy. We have successfully helped key clients achieve their desired sustainability certifications and continue to do so. DB&B also possesses knowledge in sustainable design that is in line with LEED and the BCA Green Mark requirements.
+                </div>
+            </div>
+        </div>
 
-
-    <div class="h-[100vh]"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div>
+            <img class=" w-full h-full object-cover" src="Architect_files/images/house4.jpg">
+        </div>
+    </div>
 
 
 
