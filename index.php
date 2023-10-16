@@ -105,7 +105,7 @@
     <!-- Services -->
     <div class=" text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:pt-[58%] min-[970px]:pt-[83vh] w-full">
         <div class="mx-auto w-[80%]">
-            <div class="text-zinc-900 text-center font-bold max-[1023px]:text-[2.7em] min-[1024px]:text-[4em] mb-[2%]">
+            <div class="text-zinc-900 text-center font-extrabold max-[1023px]:text-[2.6em] min-[1024px]:text-[4em] mb-[2%]">
                 Our Services
             </div>
 
@@ -149,7 +149,7 @@
     </div>
 
     <!-- Portfolio -->
-    <div class="text-zinc-900 font-bold text-center .... max-[767px]:text-[2.7rem] max-[767px]:mt-[2.5rem] .... min-[768px]:text-[4.5rem] min-[768px]:mt-[4rem] .... min-[1024px]:text-[5em] min-[1024px]:mt-[7rem]">
+    <div class="text-zinc-900 font-extrabold text-center .... max-[767px]:text-[2.7rem] max-[767px]:mt-[2.5rem] .... min-[768px]:text-[4.5rem] min-[768px]:mt-[4rem] .... min-[1024px]:text-[5em] min-[1024px]:mt-[7rem]">
         Our Showcase
     </div>
 
@@ -322,7 +322,7 @@
 
     <div class="text-black .... max-[320px]:pt-[13%] .... min-[320px]:text-center min-[320px]:pt-[13%] .... min-[425px]:pt-[2%] .... max-[1023px]:text-center ..... min-[1024px]:text-left min-[1024px]:pl-[3.5%] min-[1024px]:pt-[2%]">
 
-        <div class=" font-bold text-center .... max-[767px]:text-[3rem] .... min-[768px]:text-[4.3rem] .... min-[1024px]:text-[5em]">
+        <div class="font-extrabold text-center .... max-[767px]:text-[3rem] .... min-[768px]:text-[4.3rem] .... min-[1024px]:text-[5em]">
             About us
         </div>
 

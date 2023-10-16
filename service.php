@@ -93,8 +93,8 @@
     <!-- Services -->
     <div class="w-full text-center grid .... min-[320px]:mt-[3rem] .... min-[425px]:mt-[4rem] .... max-[1023px]:grid-cols-1 max-[1023px]:mt-[4rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[6rem] min-[1024px]:mt-[6rem] .... min-[1700px]:mt-[8rem]">
 
-        <div >
-            <div class="text-zinc-900 text-center font-bold mb-[2%] .... max-[320px]:text-[2.1em] .... min-[320px]:text-[2.1em] .... min-[375px]:text-[2.5em] .... min-[425px]:text-[2.8em] .... min-[768px]:text-[4.2em] .... min-[1024px]:text-[3em] .... min-[1440px]:text-[4.2em] .... min-[1631px]:text-[5.1em]">
+        <div>
+            <div class="text-zinc-900 text-center font-extrabold mb-[2%] .... max-[320px]:text-[2.1em] .... min-[320px]:text-[2.1em] .... min-[375px]:text-[2.5em] .... min-[425px]:text-[2.8em] .... min-[768px]:text-[4.2em] .... min-[1024px]:text-[3em] .... min-[1440px]:text-[4.2em] .... min-[1631px]:text-[5.1em]">
                 About our Service
             </div>
 
@@ -140,20 +140,19 @@
         </div>
     </div>
 
-    <div class="grid gap-20 .... max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] mt-[8rem] ">
-
+    <div class="grid gap-12 px-[2rem] .... max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] mt-[8rem]">
         <div>
-            <div class="font-bold text-[4rem] text-left">
-                 pre-leasing services.
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+                pre-leasing services.
             </div>
 
-            <div class="text-justify">
+            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
                 Searching for an ideal and conductive office space can prove quite a complex and tedious task. At DB&B, we provide comprehensive pre-lease services to aid in your consideration and decision-making, DB&B offers valuable tools such as establishing actual space requirements and building analysis to aid in your selection. With our suite of tools and sevices, you can select the ideal workspace that meets your business objectives in the long run.
             </div>
         </div>
 
         <div>
-            <img src="Architect_files/images/house.jpg" alt="">
+            <img class=" w-full h-full object-cover" src="Architect_files/images/house.jpg">
         </div>
     </div>
 
