@@ -142,7 +142,7 @@
     <!-- first grid -->
     <div class="grid gap-12 px-[2rem] mt-[8rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
-            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
                 Pre-leasing services
             </div>
 
@@ -163,7 +163,7 @@
         </div>
 
         <div class="my-auto">
-            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
                 Interior design and planning
             </div>
 
@@ -176,7 +176,7 @@
     <!-- third grid -->
     <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
-            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
                 Engineering services on buildings
             </div>
 
@@ -203,7 +203,7 @@
         </div>
 
         <div class="my-auto">
-            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
                 Procurement and construction
             </div>
 
@@ -222,7 +222,7 @@
     <!-- fifth grid -->
     <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
-            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
                 Project management
             </div>
 
@@ -245,7 +245,7 @@
         </div>
 
         <div class="my-auto">
-            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
                 Migration and management
             </div>
 
@@ -260,7 +260,7 @@
     <!-- seventh grid -->
     <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
-            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
                 In-house production
             </div>
 
@@ -283,8 +283,8 @@
         </div>
 
         <div class="my-auto">
-            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
-                Workplace safety & health.
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
+                Workplace safety & health
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
@@ -299,7 +299,7 @@
                 <!-- seventh grid -->
                 <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
-            <div class="font-extrabold text-left .... max-[320px]:text-[2.8rem] .... min-[320px]:text-[2.8rem] .... min-[425px]:text-[3.7rem] .... min-[1024px]:text-[4.1rem]">
+            <div class="font-extrabold text-left .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
                 Green design and sustainability 
             </div>
 
