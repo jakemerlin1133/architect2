@@ -97,7 +97,7 @@
             <div class="absolute bottom-[9%] left-[4%]">
                 <div class="max-[1023px]:text-[7vw] .... min-[1024px]:text-[4.5vw] font-bold" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="200">Design</div>
                 <div class="pl-[6vw] max-[1023px]:text-[7vw] .... min-[1024px]:text-[4.5vw] font-bold" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300">& Build.</div>
-                <div class="pl-[6vw] max-[1023px]:text-[2.5vw] .... min-[1024px]:text-[1.5vw]" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">We design and build award-winning commercial interiors.</div>
+                <div class="pl-[6vw] max-[1023px]:text-[3.2vw] .... min-[1024px]:text-[1.5vw]" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="400">We design and build award-winning commercial interiors.</div>
             </div>
         </div>
     </div>
@@ -109,7 +109,7 @@
                 Our Services
             </div>
 
-            <div class=" max-[1023px]:text-[0.7rem] min-[1024px]:text-[1.3rem]">
+            <div class=" max-[1023px]:text-[1rem] min-[1024px]:text-[1.4rem]">
                 <div class="text-justify font-semibold text-gray-700">
                     <div>
                         We create award-winning spaces that inspire, motivate and empower the working community. Workspace design and functionality vary according to the people in them, and no projects are identical - something we have learnt over the past 25 years.
@@ -326,9 +326,9 @@
             About us
         </div>
 
-        <div class="max-[320px]:px-[10%] .... min-[320px]:px-[10%].... max-[1023px]:px-[10%] max-[1023px]:text-center ..... min-[1024px]:pl-[2%] min-[1024px]:pr-[5%] min-[1024px]:text-left ..... max-[1023px]:justify-center .... min-[1024px]:text-justify">
+        <div class="font-semibold text-gray-700 max-[320px]:px-[10%] .... min-[320px]:px-[10%].... max-[1023px]:px-[10%] max-[1023px]:text-center ..... min-[1024px]:pl-[2%] min-[1024px]:pr-[5%] min-[1024px]:text-left ..... max-[1023px]:justify-center max-[1023px]:text-justify .... min-[1024px]:text-justify">
             <div class="max-[320px]:mt-[4%] .... min-[320px]:mt-[4%] .... min-[1024px]:mt-[1%]">
-                We disign and build-winning commercial interiors. With five offices across Singapore and Asia, DB&B supports business in renovating, expanding, and relocating work spaces seamlessly. Since 1996, DB&B has offered tailored, sophisticated and well-executed -interior design solutions to corporate clients in Singapore and across the world. With our client's satisfaction as the ultimate goal, we are constantly paving new roads to achieve higher standards in the industry.
+                We design and build-winning commercial interiors. With five offices across Singapore and Asia, DB&B supports business in renovating, expanding, and relocating work spaces seamlessly. Since 1996, DB&B has offered tailored, sophisticated and well-executed -interior design solutions to corporate clients in Singapore and across the world. With our client's satisfaction as the ultimate goal, we are constantly paving new roads to achieve higher standards in the industry.
             </div>
             <div class="max-[320px]:mt-[6%] .... min-[320px]:mt-[6%] .... min-[1024px]:mt-[1%]">
                 Supported by diverse experiences and backgrounds, our firm's Singapore team comprises of subject matter experts from key departments, including Client Services, Project Management, Creatives, and construction, forming a unique structure to facilitate seamless delivery of our interior design services.
