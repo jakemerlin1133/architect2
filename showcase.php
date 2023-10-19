@@ -87,7 +87,19 @@
     </div>
 
 
-    <div class="h-[300vh]">
+    <div class="" id="contrast"></div>
+    <div class="aboslute top-0 left-0 w-full .... max-[320px]:h-[40vh] .... min-[320px]:h-[40vh] .... min-[426px]:h-[53vh]">
+        <img class="h-full w-full object-cover overflow-hidden" src="Architect_files/images/dine-in.jpg">
+    </div>
+
+    <div class="text-zinc-800 text-left font-bold mb-[2%] mt-[5rem] ml-[3rem] .... max-[320px]:text-[1.8em] .... min-[320px]:text-[1.8em] .... min-[375px]:text-[2.5em] .... min-[425px]:text-[2.8em] .... min-[768px]:text-[4.2em] .... min-[1024px]:text-[3em] .... min-[1440px]:text-[4.2em] .... min-[1631px]:text-[4.9em]">
+    Our Showcase
+</div>
+
+
+
+
+    <div class="h-[500vh]">
         qwejhqkje
     </div>
 
