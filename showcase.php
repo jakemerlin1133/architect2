@@ -92,15 +92,28 @@
         <img class="h-full w-full object-cover overflow-hidden" src="Architect_files/images/dine-in.jpg">
     </div>
 
-    <div class="text-zinc-800 text-left font-bold mb-[2%] mt-[5rem] ml-[3rem] .... max-[320px]:text-[1.8em] .... min-[320px]:text-[1.8em] .... min-[375px]:text-[2.5em] .... min-[425px]:text-[2.8em] .... min-[768px]:text-[4.2em] .... min-[1024px]:text-[3em] .... min-[1440px]:text-[4.2em] .... min-[1631px]:text-[4.9em]">
-    Our Showcase
-</div>
+    <div class="text-zinc-800 text-left font-bold mb-[2%] .... max-[320px]:text-[2.5rem] max-[320px]:mt-[2rem] max-[320px]:ml-[1rem] .... min-[320px]:text-[2.5rem] min-[320px]:mt-[2rem] min-[320px]:ml-[1rem] .... min-[375px]:text-[3rem] min-[375px]:mt-[2rem] min-[375px]:ml-[1rem] .... min-[768px]:text-[3.5rem] min-[768px]:mt-[2rem] min-[768px]:ml-[1rem] .... min-[1024px]:text-[4.5rem] min-[1024px]:mt-[4rem] min-[1024px]:ml-[2rem]">
+        Our Showcase
+    </div>
+
+
+    <!-- <div class="mx-[4rem]">
+
+
+        <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[15rem] p-2.5">
+            <option value="2 storey">2 storey</option>
+            <option value="3 storey">3 storey </option>
+            <option value="Mansion">Mansion</option>
+            <option value="School">School</option>
+            <option value="Bungalow">Bungalow</option>
+        </select>
+
+    </div> -->
 
 
 
 
     <div class="h-[500vh]">
-        qwejhqkje
     </div>
 
 
