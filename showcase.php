@@ -97,18 +97,15 @@
     </div>
 
 
-    <!-- <div class="mx-[4rem]">
-
-
-        <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[15rem] p-2.5">
-            <option value="2 storey">2 storey</option>
-            <option value="3 storey">3 storey </option>
-            <option value="Mansion">Mansion</option>
-            <option value="School">School</option>
-            <option value="Bungalow">Bungalow</option>
-        </select>
-
-    </div> -->
+    <div class=" max-[320px]:text-center .... min-[320px]:text-center .... min-[425px]:text-left min-[425px]:ml-[3rem]">
+    <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
+        <option value="2 storey">2 storey</option>
+        <option value="3 storey">3 storey</option>
+        <option value="Mansion">Mansion</option>
+        <option value="School">School</option>
+        <option value="Bungalow">Bungalow</option>
+    </select>
+</div>
 
 
 
