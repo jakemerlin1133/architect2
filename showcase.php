@@ -92,18 +92,18 @@
         <img class="h-full w-full object-cover overflow-hidden" src="Architect_files/images/dine-in.jpg">
     </div>
 
-    <div class="text-zinc-800 text-left font-bold mb-[2%] .... max-[320px]:text-[2.5rem] max-[320px]:mt-[2rem] max-[320px]:ml-[1rem] .... min-[320px]:text-[2.5rem] min-[320px]:mt-[2rem] min-[320px]:ml-[1rem] .... min-[375px]:text-[3rem] min-[375px]:mt-[2rem] min-[375px]:ml-[1rem] .... min-[768px]:text-[3.5rem] min-[768px]:mt-[2rem] min-[768px]:ml-[1rem] .... min-[1024px]:text-[4.5rem] min-[1024px]:mt-[4rem] min-[1024px]:ml-[2rem]">
+    <div class="text-zinc-800 text-center font-bold mb-[2%] .... max-[320px]:text-[2.5rem] max-[320px]:mt-[2rem] .... min-[320px]:text-[2.5rem] min-[320px]:mt-[2rem] .... min-[375px]:text-[3rem] min-[375px]:mt-[2rem] .... min-[768px]:text-[3.5rem] min-[768px]:mt-[2rem] .... min-[1024px]:text-[4.5rem] min-[1024px]:mt-[4rem]">
         Our Showcase
     </div>
 
 
-    <div class=" max-[320px]:text-center .... min-[320px]:text-center .... min-[425px]:text-left min-[425px]:ml-[3rem]">
-        <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
-            <option value="2 storey">2 storey</option>
-            <option value="3 storey">3 storey</option>
-            <option value="Mansion">Mansion</option>
-            <option value="School">School</option>
-            <option value="Bungalow">Bungalow</option>
+    <div class="font-semibold text-gray-600 max-[320px]:text-center .... min-[320px]:text-center .... min-[425px]:text-left min-[425px]:ml-[3rem]">
+        <select id="countries" class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
+            <option class="text-gray-600 font-semibold" value="2 storey">2 storey</option>
+            <option class="text-gray-600 font-semibold" value="3 storey">3 storey</option>
+            <option class="text-gray-600 font-semibold" value="Mansion">Mansion</option>
+            <option class="text-gray-600 font-semibold" value="School">School</option>
+            <option class="text-gray-600 font-semibold" value="Bungalow">Bungalow</option>
         </select>
     </div>
 
@@ -383,6 +383,30 @@
             </div>
         </a>
 
+        <a href="#">
+            <div class="relative h-[400px]">
+                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 pl-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
+                    </div>
+                </div>
+            </div>
+        </a>
 
 
     </div>
