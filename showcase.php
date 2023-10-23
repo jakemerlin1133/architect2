@@ -98,14 +98,23 @@
 
 
     <div class=" max-[320px]:text-center .... min-[320px]:text-center .... min-[425px]:text-left min-[425px]:ml-[3rem]">
-    <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
-        <option value="2 storey">2 storey</option>
-        <option value="3 storey">3 storey</option>
-        <option value="Mansion">Mansion</option>
-        <option value="School">School</option>
-        <option value="Bungalow">Bungalow</option>
-    </select>
-</div>
+        <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
+            <option value="2 storey">2 storey</option>
+            <option value="3 storey">3 storey</option>
+            <option value="Mansion">Mansion</option>
+            <option value="School">School</option>
+            <option value="Bungalow">Bungalow</option>
+        </select>
+    </div>
+
+    <div class="grid gap-8 m-[2rem] ....max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-3">
+        <div class="relative bg-red-900 h-[400px]">
+            <img class="absolute w-full h-full object-cover" src="Architect_files/images/house3.jpg">
+            <div class="absolute bg-black/25 text-white w-full h-full">
+                testestestestest
+            </div>
+        </div>
+    </div>
 
 
 

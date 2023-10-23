@@ -12,7 +12,7 @@
     <?php
     $con = mysqli_connect("localhost", "root", "1234", "szd");
     $page = 1;
-    $limit = 1;
+    $limit = 3;
 
 
     if (isset($_POST["page"])) {
