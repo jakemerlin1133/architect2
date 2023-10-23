@@ -76,3 +76,5 @@ const uploadButton = document.getElementById("upload");
 uploadButton.addEventListener("click", () => {
     queuedForm.submit();
 });
+
+
