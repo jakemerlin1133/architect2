@@ -349,10 +349,6 @@
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
-    <script src="path-to-aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 </body>
 
 </html>
