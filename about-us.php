@@ -91,51 +91,49 @@
                 About us
             </div>
 
-            <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-800 w-full  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
-
-                <!-- image 1 -->
-                <div class="relative">
-                    <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
-                </div>
-
-                <!-- image 2 -->
-                <div class="relative">
-                    <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
-                </div>
-
-                <!-- image 3 -->
-                <div class="relative">
-                    <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/socialized housing_3.jpg">
-                </div>
-
-                <!-- image 4 -->
-                <div class="relative">
-                    <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house2.jpg">
+            <div class="mx-auto w-[80%]">
+                <div class="max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[0.75rem] .... min-[1300px]:text-[0.83rem] .... min-[1425px]:text-[0.87rem] .... min-[1440px]:text-[0.89rem] .... min-[1549px]:text-[0.92rem] .... min-[1631px]:text-[0.95rem] .... min-[1800px]:text-[0.97rem] .... min-[2000px]:text-[1.045rem]">
+                    <div class="font-semibold text-gray-700">
+                        <div class="text-justify mt-[4%]">
+                            We design and build-winning commercial interiors. With five offices across Singapore and Asia, DB&B supports business in renovating, expanding, and relocating work spaces seamlessly. Since 1996, DB&B has offered tailored, sophisticated and well-executed -interior design solutions to corporate clients in Singapore and across the world. With our client's satisfaction as the ultimate goal, we are constantly paving new roads to achieve higher standards in the industry.
+                        </div>
+                        <div class="text-justify mt-[4%]">
+                            Supported by diverse experiences and backgrounds, our firm's Singapore team comprises of subject matter experts from key departments, including Client Services, Project Management, Creatives, and construction, forming a unique structure to facilitate seamless delivery of our interior design services.
+                        </div>
+                        <div class="text-justify mt-[4%]">
+                            We offer flexibly-packaged and delivered services via different approaches to cater to our client companies' varied needs, including design Consultancy, design & build, or build services. All performed while retaining our hallmark of precision and quality craftmanship, we also honour the need for delivering functionality and brand distinctiveness.
+                        </div>
+                        <div class="text-justify mt-[4%]">
+                            Celebrated and highly valued by client companies, our DB&B design-build model has produced resounding results time and again. Amongst them are countless fast-tracked commercial projects with multiple cost-effeciencies, minimising th need for change orders and significantly reducing multi-party inefficiencies. With holistic design and project management packages, we are committed to ensuring project requirements are met on time and on target.
+                        </div>
+                        <div class="text-justify mt-[4%]">
+                            As a leading design interior design firm with a global presence, passion is at the heart of our every project, undertaken hand-in-hand with corporate clients to revolutions the way people work, interact, and do business. Discover how we can aid you in your journey to reimagine your office or commercial space here.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="mx-auto w-[80%]">
 
-            <div class="max-[320px]:text-[1rem] max-[320px]:pt-[2rem] .... min-[320px]:text-[1rem] min-[320px]:pt-[2rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[0.75rem] min-[1024px]:pt-[5rem] .... min-[1300px]:text-[0.83rem] min-[1300px]:pt-[5rem] .... min-[1425px]:text-[0.87rem] min-[1425px]:pt-[5.5rem] .... min-[1440px]:text-[0.89rem] min-[1440px]:pt-[7rem] .... min-[1549px]:text-[0.92rem] min-[1549px]:pt-[7rem] .... min-[1631px]:text-[0.95rem] min-[1631px]:pt-[8rem] .... min-[1800px]:text-[0.97rem] min-[1800px]:pt-[8rem] .... min-[2000px]:text-[1.045rem] min-[2000px]:pt-[8rem]">
-                <div class="font-semibold text-gray-700">
-                    <div class="text-justify mt-[4%]">
-                    We design and build-winning commercial interiors. With five offices across Singapore and Asia, DB&B supports business in renovating, expanding, and relocating work spaces seamlessly. Since 1996, DB&B has offered tailored, sophisticated and well-executed -interior design solutions to corporate clients in Singapore and across the world. With our client's satisfaction as the ultimate goal, we are constantly paving new roads to achieve higher standards in the industry.
-                    </div>
-                    <div class="text-justify mt-[4%]">
-                    Supported by diverse experiences and backgrounds, our firm's Singapore team comprises of subject matter experts from key departments, including Client Services, Project Management, Creatives, and construction, forming a unique structure to facilitate seamless delivery of our interior design services.
-                    </div>
-                    <div class="text-justify mt-[4%]">
-                    We offer flexibly-packaged and delivered services via different approaches to cater to our client companies' varied needs, including design Consultancy, design & build, or build services. All performed while retaining our hallmark of precision and quality craftmanship, we also honour the need for delivering functionality and brand distinctiveness.
-                    </div>
-                    <div class="text-justify mt-[4%]">
-                    Celebrated and highly valued by client companies, our DB&B design-build model has produced resounding results time and again. Amongst them are countless fast-tracked commercial projects with multiple cost-effeciencies, minimising th need for change orders and significantly reducing multi-party inefficiencies. With holistic design and project management packages, we are committed to ensuring project requirements are met on time and on target.
-                    </div>
-                    <div class="text-justify mt-[4%]">
-                    As a leading design interior design firm with a global presence, passion is at the heart of our every project, undertaken hand-in-hand with corporate clients to revolutions the way people work, interact, and do business. Discover how we can aid you in your journey to reimagine your office or commercial space here.
-                    </div>
-                </div>
+        <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-800 w-full .... max-[320px]:mt-[2rem] .... min-[320px]:mt-[2rem]  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] min-[425px]:mt-[3.5rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem] .... min-[1024px]:mt-[6rem]">
+            <!-- image 1 -->
+            <div class="relative">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
             </div>
 
+            <!-- image 2 -->
+            <div class="relative">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
+            </div>
+
+            <!-- image 3 -->
+            <div class="relative">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/socialized housing_3.jpg">
+            </div>
+
+            <!-- image 4 -->
+            <div class="relative">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house2.jpg">
+            </div>
         </div>
     </div>
 
