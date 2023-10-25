@@ -80,7 +80,7 @@
 
     <div class="" id="contrast"></div>
     <div class="aboslute top-0 left-0 w-full .... max-[320px]:h-[40vh] .... min-[320px]:h-[40vh] .... min-[426px]:h-[54vh]">
-        <img class="h-full w-full object-cover overflow-hidden" src="Architect_files/images/sketch-working.jpg">
+        <img class="h-full w-full object-cover overflow-hidden" src="Architect_files/images/working.webp">
     </div>
 
     <!-- Services -->
@@ -117,22 +117,22 @@
         <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-800 w-full .... max-[320px]:mt-[2rem] .... min-[320px]:mt-[2rem]  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] min-[425px]:mt-[3.5rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem] .... min-[1024px]:mt-[6rem]">
             <!-- image 1 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house3.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/work1.webp">
             </div>
 
             <!-- image 2 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/work2.jpeg">
             </div>
 
             <!-- image 3 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/socialized housing_3.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/work3.jpeg">
             </div>
 
             <!-- image 4 -->
             <div class="relative">
-                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/house2.jpg">
+                <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/work4.webp">
             </div>
         </div>
     </div>
@@ -150,14 +150,14 @@
         </div>
 
         <div>
-            <img class=" w-full h-full object-cover" src="Architect_files/images/house.jpg">
+            <img class=" w-full h-full object-cover" src="Architect_files/images/work.webp">
         </div>
     </div>
 
     <!-- second grid -->
     <div class="grid gap-12 px-[2rem] bg-stone-300 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div>
-            <img class=" w-full h-full object-cover" src="Architect_files/images/house1.jpg">
+            <img class=" w-full h-full object-cover" src="Architect_files/images/work1.webp">
         </div>
 
         <div class="my-auto">
@@ -189,7 +189,7 @@
         </div>
 
         <div>
-            <img class=" w-full h-full object-cover" src="Architect_files/images/house3.jpg">
+            <img class=" w-full h-full object-cover" src="Architect_files/images/work2.jpeg">
         </div>
     </div>
 
@@ -197,7 +197,7 @@
     <!-- fourth grid -->
     <div class="grid gap-12 px-[2rem] bg-stone-300 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div>
-            <img class=" w-full h-full object-cover" src="Architect_files/images/house2.jpg">
+            <img class=" w-full h-full object-cover" src="Architect_files/images/work3.jpeg">
         </div>
 
         <div class="my-auto">
@@ -232,7 +232,7 @@
         </div>
 
         <div>
-            <img class=" w-full h-full object-cover" src="Architect_files/images/house4.jpg">
+            <img class=" w-full h-full object-cover" src="Architect_files/images/work4.webp">
         </div>
     </div>
 
