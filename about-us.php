@@ -88,7 +88,7 @@
 
         <div>
             <div class="text-zinc-900 text-center font-extrabold mb-[2%] .... max-[320px]:text-[2.1em] .... min-[320px]:text-[2.1em] .... min-[375px]:text-[2.5em] .... min-[425px]:text-[2.8em] .... min-[768px]:text-[4.2em] .... min-[1024px]:text-[3em] .... min-[1440px]:text-[4.2em] .... min-[1631px]:text-[5.1em]">
-                About our Service
+                About us
             </div>
 
             <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-800 w-full  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
@@ -116,16 +116,22 @@
         </div>
         <div class="mx-auto w-[80%]">
 
-            <div class="max-[320px]:text-[1rem] max-[320px]:pt-[2rem] .... min-[320px]:text-[1rem] min-[320px]:pt-[2rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] min-[1024px]:pt-[5rem] .... min-[1300px]:text-[1.3rem] min-[1300px]:pt-[11rem] .... min-[1549px]:text-[1.4rem]">
+            <div class="max-[320px]:text-[1rem] max-[320px]:pt-[2rem] .... min-[320px]:text-[1rem] min-[320px]:pt-[2rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[0.75rem] min-[1024px]:pt-[5rem] .... min-[1300px]:text-[0.83rem] min-[1300px]:pt-[5rem] .... min-[1425px]:text-[0.87rem] min-[1425px]:pt-[5.5rem] .... min-[1440px]:text-[0.89rem] min-[1440px]:pt-[7rem] .... min-[1549px]:text-[0.92rem] min-[1549px]:pt-[7rem] .... min-[1631px]:text-[0.95rem] min-[1631px]:pt-[8rem] .... min-[1800px]:text-[0.97rem] min-[1800px]:pt-[8rem] .... min-[2000px]:text-[1.045rem] min-[2000px]:pt-[8rem]">
                 <div class="font-semibold text-gray-700">
                     <div class="text-justify mt-[4%]">
-                        DB&B's divese clientle, comprising the corporate sector, is testament to our ability to respond to the evolving nature of the architectural landscape. We retain the resounding trademark of precise craftsmanship, without forgetting the need for a distinctive corporate image whilst contributing to overall productivity.
+                    We design and build-winning commercial interiors. With five offices across Singapore and Asia, DB&B supports business in renovating, expanding, and relocating work spaces seamlessly. Since 1996, DB&B has offered tailored, sophisticated and well-executed -interior design solutions to corporate clients in Singapore and across the world. With our client's satisfaction as the ultimate goal, we are constantly paving new roads to achieve higher standards in the industry.
                     </div>
                     <div class="text-justify mt-[4%]">
-                        From design conceptualization to space planning, DB&B's comprehensive project management services encompass even minute details like lightning and customized system furniture in every aspect.
+                    Supported by diverse experiences and backgrounds, our firm's Singapore team comprises of subject matter experts from key departments, including Client Services, Project Management, Creatives, and construction, forming a unique structure to facilitate seamless delivery of our interior design services.
                     </div>
                     <div class="text-justify mt-[4%]">
-                        As clients, you can count on us to deliver a complete design and project management package. Translating your unique needs accurately into a space plan, we will carry through your idea from inception to the eventual use.
+                    We offer flexibly-packaged and delivered services via different approaches to cater to our client companies' varied needs, including design Consultancy, design & build, or build services. All performed while retaining our hallmark of precision and quality craftmanship, we also honour the need for delivering functionality and brand distinctiveness.
+                    </div>
+                    <div class="text-justify mt-[4%]">
+                    Celebrated and highly valued by client companies, our DB&B design-build model has produced resounding results time and again. Amongst them are countless fast-tracked commercial projects with multiple cost-effeciencies, minimising th need for change orders and significantly reducing multi-party inefficiencies. With holistic design and project management packages, we are committed to ensuring project requirements are met on time and on target.
+                    </div>
+                    <div class="text-justify mt-[4%]">
+                    As a leading design interior design firm with a global presence, passion is at the heart of our every project, undertaken hand-in-hand with corporate clients to revolutions the way people work, interact, and do business. Discover how we can aid you in your journey to reimagine your office or commercial space here.
                     </div>
                 </div>
             </div>
@@ -137,7 +143,7 @@
     <div class="grid gap-12 px-[2rem] mt-[8rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
             <div class="font-extrabold text-left text-neutral-800 .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
-                Pre-leasing services
+                Who we are
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
@@ -158,7 +164,7 @@
 
         <div class="my-auto">
             <div class="font-extrabold text-left text-neutral-800 .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
-                Interior design and planning
+                What we do
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
@@ -171,7 +177,7 @@
     <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
             <div class="font-extrabold text-left text-neutral-800 .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
-                Engineering services on buildings
+                Why choose us
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
@@ -198,7 +204,7 @@
 
         <div class="my-auto">
             <div class="font-extrabold text-left text-neutral-800 .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
-                Procurement and construction
+                Our milestones
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
@@ -217,7 +223,7 @@
     <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
             <div class="font-extrabold text-left text-neutral-800 .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
-                Project management
+                Where we are
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
@@ -231,87 +237,6 @@
             <img class=" w-full h-full object-cover" src="Architect_files/images/house4.jpg">
         </div>
     </div>
-
-    <!-- sixth grid -->
-    <div class="grid gap-12 px-[2rem] bg-stone-300 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
-        <div>
-            <img class=" w-full h-full object-cover" src="Architect_files/images/house2.jpg">
-        </div>
-
-        <div class="my-auto">
-            <div class="font-extrabold text-left text-neutral-800 .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
-                Migration and management
-            </div>
-
-            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
-                <div>
-                    Our services to clients do not cease upon completion of construction. As part of our end-to-end services, we assist in overseeing the migration of your office equipment to ensure a smooth and flawless transition to your new workspace. Our team will expedite effective migration management to avoid long periods of down-time which may incur adverse results on your business operations.
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- seventh grid -->
-    <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
-        <div class="my-auto">
-            <div class="font-extrabold text-left text-neutral-800 .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
-                In-house production
-            </div>
-
-            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
-                <div>
-                    Our production facility spans across 26,000 square feet, furnished with a full office set-up, meeting facilities, storage and training spaces. This well-equipped space is part of a 60,000 square feet production network we have in Asia and is designed to ensure we uphold our Environmental, Health & Safety commitments. Over the years, our capabilities have grown from simple carpentry to sophisticated designs to support our creative team's directions. Our aim, is to continually provide solutions and bring value to our clients through quality workmanship.
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <img class=" w-full h-full object-cover" src="Architect_files/images/house4.jpg">
-        </div>
-    </div>
-
-    <!-- eigth grid -->
-    <div class="grid gap-12 px-[2rem] bg-stone-300 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
-        <div>
-            <img class=" w-full h-full object-cover" src="Architect_files/images/house2.jpg">
-        </div>
-
-        <div class="my-auto">
-            <div class="font-extrabold text-left text-neutral-800 .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
-                Workplace safety & health
-            </div>
-
-            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
-                <div>
-                    At DB&B we adopt stringent occupational health and safety practices to ensure work is carried out in an injury and illness free environment. We operate an in-house drawn occupational health and safety management system that includes providing accurate information about the health and safety aspects of our operations and maintain the practice of continual improvement. We also inform our panel of suppliers on the expectations and require them to adopt sound occupational health and safety management practices in line with ours.
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-                <!-- ninth grid -->
-                <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
-        <div class="my-auto">
-            <div class="font-extrabold text-left text-neutral-800 .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
-                Green design and sustainability 
-            </div>
-
-            <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
-              <div>
-                 In 2008, the DB&B Group established a Green Policy containing medium to long-term environment and sustainability strategies. The objective was to attain a high level of "sustainable quality" in our services and corporate activities throughout the Group. Our delivery is a holistic, well balanced approach to space planning, design development and construction with all levels of staff committed to the practice of this green policy. We have successfully helped key clients achieve their desired sustainability certifications and continue to do so. DB&B also possesses knowledge in sustainable design that is in line with LEED and the BCA Green Mark requirements.
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <img class=" w-full h-full object-cover" src="Architect_files/images/house4.jpg">
-        </div>
-    </div>
-
-
-
-
 
 
 

@@ -43,13 +43,10 @@
 
 
                     <li>
-                        <a href="team.php">About Us</a>
+                        <a href="about-us.php">About Us</a>
                     </li>
 
 
-                    <li>
-                        <a href="contact-us.php">Contact Us</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -58,8 +55,8 @@
     <!-- sidebar -->
     <div class="sidebar" id="sidebar">
         <div class="flex ml-[65px] mt-[20px]">
-            <img class="max-[1023px]:h-[50px] max-[1023px]:w-[50px]" src="Architect_files/images/sample-logo.png">
-            <div id="archi-name" class="text-white font-bold my-auto .... max-[1023px]:text-[1.8em] max-[1023px]:ml-[5px]" data-aos="fade-up" data-aos-duration="3000">SZD</div>
+            <img class="max-[1023px]:rounded-lg max-[1023px]:h-[50px] max-[1023px]:w-[50px]" src="Architect_files/images/sample-logo.png">
+            <div id="archi-name" class="text-white font-bold my-auto .... max-[1023px]:text-[1.8em] max-[1023px]:ml-[5px]">SZD</div>
         </div>
 
         <ul>
@@ -76,11 +73,7 @@
             </li>
 
             <li>
-                <a href="team.php">About Us</a>
-            </li>
-
-            <li>
-                <a href="contact-us.php">Contact Us</a>
+                <a href="about-us.php">About Us</a>
             </li>
 
         </ul>
