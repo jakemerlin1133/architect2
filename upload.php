@@ -55,8 +55,8 @@ include('function.php');
 
             <div class="input-div">
                 <p>Drag & Drop images here <span class="browse">Browser</span></p>
+                <input type="file" name="image[]" class="file" multiple="multiple" accept="image/png, image/jpeg, image/jpg, image/webp">
             </div> 
-            <input type="file" name="image[]" multiple="multiple" accept="image/png, image/jpeg, image/jpg, image/webp">
 
 
 

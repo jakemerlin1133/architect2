@@ -12,7 +12,7 @@ let queuedImagesArray = [],
 input.addEventListener("change", () => {
   const files = input.files;
   for (let i = 0; i < files.length; i++) {
-    queuedImagesArray.push(files[i]);
+    queuedImagesArray.push(files[i]); 
   }
   queuedForm.reset();
   displayQueuedImages();
@@ -38,7 +38,8 @@ function displayQueuedImages() {
                    <span onclick="deleteQueuedImage(${index})">&times;</span>
               </div>`;
   })
-  queuedDiv.innerHTML = images;
+  console.log(queuedDiv.innerHTML = images);
+
 }
 
 function deleteQueuedImage(index){

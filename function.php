@@ -5,7 +5,7 @@ $username = "root";
 $password = "1234";
 $database = "szd";
 
-$con = mysqli_connect($localhost, $username, $password, $database);
+$con = new mysqli($localhost, $username, $password, $database);
 
 // Select Category
 $category_sql = "SELECT * FROM `category`";
