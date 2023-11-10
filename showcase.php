@@ -90,327 +90,253 @@
 
 
     <div class="font-semibold text-gray-600 max-[320px]:text-center .... min-[320px]:text-center .... min-[425px]:text-left min-[425px]:ml-[3rem]">
-       <form action="" method="POST">
-           <select name="category" id="category" class="bg-gray-50 border border-gray-300 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
-               <option class="text-gray-600 font-semibold" value="2 storey">2 storey</option>
+           <select name="categories" id="categories" class="bg-gray-50 border border-gray-300 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
+           <option class="text-gray-600 font-semibold" value="All">All</option>
+           <option class="text-gray-600 font-semibold" value="2 storey">2 storey</option>
                <option class="text-gray-600 font-semibold" value="3 storey">3 storey</option>
                <option class="text-gray-600 font-semibold" value="Mansion">Mansion</option>
                <option class="text-gray-600 font-semibold" value="School">School</option>
                <option class="text-gray-600 font-semibold" value="Bungalow">Bungalow</option>
             </select>
-            <button type="submit" name="category" class="bg-gray-950 py-[8px] px-[12px] text-white rounded-r-lg"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-    </div>
-
-    <div class="grid gap-8 m-[2rem] ....max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 .... min-[1500px]:grid-cols-3">
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
-        <a href="#">
-            <div class="relative h-[400px]">
-                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
-                        </div>
-                    </div>
-                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
-                    </div>
-                </div>
-            </div>
-        </a>
-
 
     </div>
+
+    <div class="grid gap-8 m-[2rem] ....max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 .... min-[1500px]:grid-cols-3" id="container">
+        <a href="#" id="showcase">
+            <div class="relative h-[400px]">
+                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">2 Storey Design</h1>
+                    </div>
+                    <h2 class="hidden" id="category-value">2 storey</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" id="showcase">
+            <div class="relative h-[400px]">
+                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Mansion</h1>
+                    </div>
+                    <h2 class="hidden" id="category-value">Mansion</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" id="showcase">
+            <div class="relative h-[400px]">
+                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Villa</h1>
+                    </div>
+                    <h2 class="hidden" id="category-value">Mansion</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" id="showcase">
+            <div class="relative h-[400px]">
+                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
+                    </div>
+                    
+                    <h2 class="hidden" id="category-value">3 storey</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" id="showcase">
+            <div class="relative h-[400px]">
+                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Sta. Maria</h1>
+                    </div>
+                    <h2 class="hidden" id="category-value">3 storey</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" id="showcase">
+            <div class="relative h-[400px]">
+                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">San Fernando House</h1>
+                    </div>
+                    <h2 class="hidden" id="category-value">3 storey</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" id="showcase">
+            <div class="relative h-[400px]">
+                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
+                    </div>
+                    <h2 class="hidden" id="category-value">School</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" id="showcase">
+            <div class="relative h-[400px]">
+                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">IsUDD</h1>
+                    </div>
+                    <h2 class="hidden" id="category-value">School</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" id="showcase">
+            <div class="relative h-[400px]">
+                <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative overflow-hidden .... max-[1023px]:h-[23rem] .... min-[1024px]:h-[25rem]">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house1.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="Architect_files/images/house2.jpg" class="absolute block w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Bungalow</h1>
+                    </div>
+                    <h2 class="hidden" id="category-value">Bungalow</h2>
+                </div>
+            </div>
+        </a>
     </div>
-
-
-
-
-
 
     <!-- Contact us -->
     <div class="bg-gray-950 grid h-full .... max-[320px]:grid-cols-1 max-[320px]:mt-[3rem] max-[320px]:px-[9%] max-[320px]:py-[1rem] .... min-[320px]:grid-cols-1 min-[320px]:mt-[3rem] min-[320px]:px-[9%] min-[320px]:py-[1rem] .... min-[1024px]:grid-cols-3 min-[1024px]:text-center min-[1024px]:py-[2.5rem] min-[1024px]:mt-[9rem]">
@@ -436,8 +362,8 @@
         </div>
     </div>
 
-
     <script src="script.js"></script>
+    <script src="category.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 </body>
