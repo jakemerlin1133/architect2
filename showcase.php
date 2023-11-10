@@ -90,15 +90,14 @@
 
 
     <div class="font-semibold text-gray-600 max-[320px]:text-center .... min-[320px]:text-center .... min-[425px]:text-left min-[425px]:ml-[3rem]">
-           <select name="categories" id="categories" class="bg-gray-50 border border-gray-300 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
-           <option class="text-gray-600 font-semibold" value="All">All</option>
-           <option class="text-gray-600 font-semibold" value="2 storey">2 storey</option>
-               <option class="text-gray-600 font-semibold" value="3 storey">3 storey</option>
-               <option class="text-gray-600 font-semibold" value="Mansion">Mansion</option>
-               <option class="text-gray-600 font-semibold" value="School">School</option>
-               <option class="text-gray-600 font-semibold" value="Bungalow">Bungalow</option>
-            </select>
-
+        <select name="categories" id="categories" class="bg-gray-50 border border-gray-300 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
+            <option class="text-gray-600 font-semibold" value="All">All</option>
+            <option class="text-gray-600 font-semibold" value="2 storey">2 storey</option>
+            <option class="text-gray-600 font-semibold" value="3 storey">3 storey</option>
+            <option class="text-gray-600 font-semibold" value="Mansion">Mansion</option>
+            <option class="text-gray-600 font-semibold" value="School">School</option>
+            <option class="text-gray-600 font-semibold" value="Bungalow">Bungalow</option>
+        </select>
     </div>
 
     <div class="grid gap-8 m-[2rem] ....max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 .... min-[1500px]:grid-cols-3" id="container">
@@ -201,7 +200,7 @@
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
                         <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
                     </div>
-                    
+
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
             </div>
