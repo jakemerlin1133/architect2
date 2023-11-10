@@ -320,22 +320,18 @@
         </div>
 
         <div class="font-semibold text-gray-700 max-[320px]:px-[10%] .... min-[320px]:px-[10%].... max-[1023px]:px-[10%] max-[1023px]:text-center ..... min-[1024px]:pl-[2%] min-[1024px]:pr-[5%] min-[1024px]:text-left ..... max-[1023px]:justify-center max-[1023px]:text-justify .... min-[1024px]:text-justify">
-            <div class="max-[320px]:mt-[4%] .... min-[320px]:mt-[4%] .... min-[1024px]:mt-[1%]">
+            <div class="max-[320px]:mt-[4%] .... min-[320px]:mt-[4%] .... min-[1024px]:mt-[0%] min-[1024px]:text-[1.2rem]">
                 We design and build-winning commercial interiors. With five offices across Singapore and Asia, DB&B supports business in renovating, expanding, and relocating work spaces seamlessly. Since 1996, DB&B has offered tailored, sophisticated and well-executed -interior design solutions to corporate clients in Singapore and across the world. With our client's satisfaction as the ultimate goal, we are constantly paving new roads to achieve higher standards in the industry.
-            </div>
-            <div class="max-[320px]:mt-[6%] .... min-[320px]:mt-[6%] .... min-[1024px]:mt-[1%]">
                 Supported by diverse experiences and backgrounds, our firm's Singapore team comprises of subject matter experts from key departments, including Client Services, Project Management, Creatives, and construction, forming a unique structure to facilitate seamless delivery of our interior design services.
-            </div>
-            <div class="max-[320px]:mt-[6%] .... min-[320px]:mt-[6%] .... min-[1024px]:mt-[1%]">
                 We offer flexibly-packaged and delivered services via different approaches to cater to our client companies' varied needs, including design Consultancy, design & build, or build services. All performed while retaining our hallmark of precision and quality craftmanship, we also honour the need for delivering functionality and brand distinctiveness.
-            </div>
-            <div class="max-[320px]:mt-[6%] .... min-[320px]:mt-[6%] .... min-[1024px]:mt-[1%]">
                 Celebrated and highly valued by client companies, our DB&B design-build model has produced resounding results time and again. Amongst them are countless fast-tracked commercial projects with multiple cost-effeciencies, minimising th need for change orders and significantly reducing multi-party inefficiencies. With holistic design and project management packages, we are committed to ensuring project requirements are met on time and on target.
-            </div>
-            <div class="max-[320px]:mt-[6%] .... min-[320px]:mt-[6%] .... min-[1024px]:mt-[1%]">
                 As a leading design interior design firm with a global presence, passion is at the heart of our every project, undertaken hand-in-hand with corporate clients to revolutions the way people work, interact, and do business. Discover how we can aid you in your journey to reimagine your office or commercial space here.
             </div>
         </div>
+    </div>
+
+    <div class="text-center max-[768px]:mt-4 .... min-[1024px]:mt-12">
+        <h1 class="text-white max-[1023px]:mt-[3%] max-[1023px]:mb-[2%]"><i class=" fa-solid fa-plus bg-blue-600 rounded-full .... max-[1023px]:text-sm max-[1023px]:py-[4px] max-[1023px]:px-[8px] .... min-[1024px]:text-2xl min-[1024px]:py-[10px] min-[1024px]:px-[15px]"></i><a href="about-us.php"><span class="text-blue-700 ml-[8px] text-3xl font-bold hover:text-blue-400 cursor-pointer">View more.</span></a></h1>
     </div>
 
 
