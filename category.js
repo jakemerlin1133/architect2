@@ -10,11 +10,11 @@ categories.addEventListener("change", () => {
     if (categoriesValue === "ALL") {
       showcaseItems[i].style.display = "block";
     } else {
-      if (categoryValue.innerHTML.toUpperCase().indexOf(categoriesValue) > -1) {
+      if (categoryValue.innerHTML.toUpperCase().indexOf(categoriesValue) > - 1) {
         showcaseItems[i].style.display = "block";
       } else {
         showcaseItems[i].style.display = "none";
       }
     }
-  }
+  } 
 });

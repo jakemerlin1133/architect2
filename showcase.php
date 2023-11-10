@@ -90,7 +90,7 @@
 
 
     <div class="font-semibold text-gray-600 max-[320px]:text-center .... min-[320px]:text-center .... min-[425px]:text-left min-[425px]:ml-[3rem]">
-        <select name="categories" id="categories" class="bg-gray-50 border border-gray-300 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
+        <select name="categories" id="categories" class="bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-[15rem] p-2.5">
             <option class="text-gray-600 font-semibold" value="All">All</option>
             <option class="text-gray-600 font-semibold" value="2 storey">2 storey</option>
             <option class="text-gray-600 font-semibold" value="3 storey">3 storey</option>
