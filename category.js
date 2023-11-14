@@ -6,7 +6,6 @@ categories.addEventListener("change", () => {
   let totalShowcaseForCategory = 0;
   const categoriesValue = categories.value.toUpperCase();
 
-
   for (let i = 0; i < showcaseItems.length; i++) {
     const categoryValue = showcaseItems[i].querySelector("h2");
     if (categoriesValue === "ALL") {
@@ -21,15 +20,17 @@ categories.addEventListener("change", () => {
       }
     }
   }
+  
   let limit = totalShowcaseForCategory;
   loadShowcase(limit)
 });
 
 // pagination of showcase
-let page = 1;
+
 // let limit = 3;
 
 function loadShowcase(limit){
+  let page = 1;
 console.log(limit);
 }
 //   let begin = limit * (page - 1);
