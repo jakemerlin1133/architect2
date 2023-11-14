@@ -337,6 +337,22 @@
         </a>
     </div>
 
+    <!-- pagination -->
+    <div class="flex justify-center">
+    <ul class="flex" id="pagination">
+        <!-- <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800"><<</li>
+        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800"><</li>
+        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">1</li>
+        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">2</li>
+        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">3</li>
+        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">4</li>
+        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">5</li>
+        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">></li>
+        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">>></li> -->
+    </ul>
+</div>
+
+
     <!-- Contact us -->
     <div class="bg-gray-950 grid h-full .... max-[320px]:grid-cols-1 max-[320px]:mt-[3rem] max-[320px]:px-[9%] max-[320px]:py-[1rem] .... min-[320px]:grid-cols-1 min-[320px]:mt-[3rem] min-[320px]:px-[9%] min-[320px]:py-[1rem] .... min-[1024px]:grid-cols-3 min-[1024px]:text-center min-[1024px]:py-[2.5rem] min-[1024px]:mt-[9rem]">
         <div class="text-white font-bold .... max-[320px]:text-[3.5rem] .... min-[320px]:text-[3.5rem]">SZD</div>
@@ -360,6 +376,8 @@
             </div>
         </div>
     </div>
+
+    
 
     <script src="script.js"></script>
     <script src="category.js"></script>
