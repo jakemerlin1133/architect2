@@ -120,7 +120,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">2 Storey Design</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">2 Storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">2 storey</h2>
                 </div>
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Villa</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Mansion</h1>
                     </div>
                     <h2 class="hidden" id="category-value">Mansion</h2>
                 </div>
@@ -225,7 +225,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Sta. Maria</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
@@ -251,7 +251,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">San Fernando House</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
@@ -277,7 +277,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">Universidad de Dagupan</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">School</h1>
                     </div>
                     <h2 class="hidden" id="category-value">School</h2>
                 </div>
@@ -303,7 +303,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">IsUDD</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">School</h1>
                     </div>
                     <h2 class="hidden" id="category-value">School</h2>
                 </div>
@@ -340,15 +340,6 @@
     <!-- pagination -->
     <div class="flex justify-center">
     <ul class="flex" id="pagination">
-        <!-- <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800"><<</li>
-        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800"><</li>
-        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">1</li>
-        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">2</li>
-        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">3</li>
-        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">4</li>
-        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">5</li>
-        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">></li>
-        <li class="font-normal text-gray-400 border-[2px] border-gray-300 px-6 py-4 mx-1 shadow-md hover:text-white hover:bg-slate-800">>></li> -->
     </ul>
 </div>
 

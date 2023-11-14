@@ -2,8 +2,8 @@ const categories = document.querySelector("#categories");
 const container = document.querySelector("#container");
 const showcaseItems = container.querySelectorAll("#showcase");
 
-let totalShowcaseForCategory = 0;
 categories.addEventListener("change", () => {
+  let totalShowcaseForCategory = 0;
   const categoriesValue = categories.value.toUpperCase();
 
 
@@ -25,7 +25,7 @@ categories.addEventListener("change", () => {
 
 // pagination of showcase
 let page = 1;
-let limit = 6;
+let limit = 3;
 
 function loadShowcase(){
   let begin = limit * (page - 1);
@@ -44,14 +44,48 @@ loadShowcase();
 function listPage(){
   let count = Math.ceil(showcaseItems.length / limit);
   document.querySelector("#pagination").innerHTML = "";
+  let pagination = document.querySelector("#pagination");
 
 
   let GotoStart = document.createElement("li");
   GotoStart.innerText = "<<";
   GotoStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
-  // GotoStart.setAttribute("onclick", "changePage(1)");
+  GotoStart.setAttribute("onclick", "changePage(1)");
   pagination.appendChild(GotoStart);
 
+  let prev = document.createElement("li");
+  prev.innerText = "<";
+  prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
+  if(page > 1){
+    prev.setAttribute("onclick", "changePage(" + (page - 1 ) + ")");
+  }  
+  pagination.appendChild(prev);
+
+  for(let i = 1; i <= count; i++){
+    let newPage = document.createElement("li");
+    newPage.innerText = i;
+    newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
+    if(i === page){
+      newPage.classList.add("active");
+    }
+    newPage.setAttribute("onclick", "changePage(" + i + ")");
+    pagination.appendChild(newPage);
+  }
+
+  let next = document.createElement("li");
+  next.innerText = ">";
+  next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
+  if(page < count){
+    next.setAttribute("onclick", "changePage(" + (page + 1 ) + ")");
+  }
+
+  pagination.appendChild(next);
+
+  let goToEnd = document.createElement("li");
+  goToEnd.innerText = ">>";
+  goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
+  goToEnd.setAttribute("onclick", "changePage(" + count + ")");
+  pagination.appendChild(goToEnd);
 }
 
 
