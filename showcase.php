@@ -1046,10 +1046,13 @@
 
     <!-- pagination -->
     <div class="flex justify-center">
-    <ul class="flex" id="pagination">
-    </ul>
-</div>
 
+        <ul class="flex" id="pagination">
+            <li class="prev"><a href="#" id="prev">&#139;</a></li>
+            <!-- page number here -->
+            <li class="next"><a href="#" id="next">&#155;</a></li>
+        </ul>
+    </div>
 
     <!-- Contact us -->
     <div class="bg-gray-950 grid h-full .... max-[320px]:grid-cols-1 max-[320px]:mt-[3rem] max-[320px]:px-[9%] max-[320px]:py-[1rem] .... min-[320px]:grid-cols-1 min-[320px]:mt-[3rem] min-[320px]:px-[9%] min-[320px]:py-[1rem] .... min-[1024px]:grid-cols-3 min-[1024px]:text-center min-[1024px]:py-[2.5rem] min-[1024px]:mt-[9rem]">
@@ -1074,8 +1077,6 @@
             </div>
         </div>
     </div>
-
-    
 
     <script src="script.js"></script>
     <script src="category.js"></script>
