@@ -3,9 +3,17 @@ const pageUI = document.querySelector("#pagination");
 const categories = document.querySelector("#categories");
 const showcase = container.querySelectorAll("#showcase");
 
-const emptybox = [];
-let index = 1;
-let showcasePerPage = 6;
+function loadShowcase(){
+  let begin = limit * (page - 1);
+  let end = limit * page - 1;
+  showcase.forEach((showcase, index) => {
+    if(index >= begin && index <= end){
+      showcase.style.display = "block";
+    }else{
+      showcase.style.display = "none";
+    }
+  });
+}
 
 categories.addEventListener("change", () => {
   const categoriesValue = categories.value.toUpperCase();
@@ -13,7 +21,6 @@ categories.addEventListener("change", () => {
 
   for (let i = 0; i < showcase.length; i++) {
     const categoryValue = showcase[i].querySelector("h2");
-
     if (categoriesValue === "ALL") {
       showcase[i].style.display = "block";
       totalShowcase ++;
@@ -21,6 +28,7 @@ categories.addEventListener("change", () => {
       if (categoryValue.innerHTML.toLocaleUpperCase().indexOf(categoriesValue) >- 1) {
         showcase[i].style.display = "block";
         totalShowcase ++;
+        
       } else {
         showcase[i].style.display = "none";
       }
@@ -29,56 +37,26 @@ categories.addEventListener("change", () => {
   loadCount(totalShowcase);
 });
 
+
+
+// loadCount(totalShowcase);
+
 function loadCount(totalcount){
   showcasePerPage = Number(totalcount);
-  console.log(showcasePerPage);
+  listPage(showcasePerPage)
+
+}
+// // pagination of showcase
+function listPage(totalItem){
+  let limit = 3;
+  let count = Math.ceil( totalItem / limit);
+
+  for(let i = 1; i < count; i++){
+    console.log("Hello");
+  }
 }
 
 
-
-// const categories = document.querySelector("#categories");
-// const container = document.querySelector("#container");
-// const showcaseItems = container.querySelectorAll("#showcase");
-
-// categories.addEventListener("change", () => {
-//   let totalShowcaseForCategory = 0;
-//   const categoriesValue = categories.value.toUpperCase();
-
-//   for (let i = 0; i < showcaseItems.length; i++) {
-//     const categoryValue = showcaseItems[i].querySelector("h2");
-//     if (categoriesValue === "ALL") {
-//       showcaseItems[i].style.display = "block";
-//       totalShowcaseForCategory++;
-//     } else {
-//       if (categoryValue.innerHTML.toUpperCase().indexOf(categoriesValue) > -1) {
-//         showcaseItems[i].style.display = "block";
-//         totalShowcaseForCategory++;
-//       } else {
-//         showcaseItems[i].style.display = "none";
-//       }
-//     }
-//   }
-//   loadShowcase();
-//   console.log(totalShowcaseForCategory);
-// });
-
-// // pagination of showcase
-
-// let page = 1;
-// let limit = 3;
-
-// function loadShowcase(){
-//   let begin = limit * (page - 1);
-//   let end = limit * page - 1;
-//   showcaseItems.forEach((showcase, index) => {
-//     if(index >= begin && index <= end){
-//       showcase.style.display = "block";
-//     }else{
-//       showcase.style.display = "none";
-//     }
-//   });
-//   listPage();
-// }
 
 // loadShowcase();
 
