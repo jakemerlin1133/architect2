@@ -50,9 +50,9 @@ function loadCount(totalcount){
 function listPage(totalItem){
   let limit = 3;
   let count = Math.ceil( totalItem / limit);
-
-  for(let i = 1; i < count; i++){
-    console.log("Hello");
+  console.log(count);
+  for(let i = 1; i <= count; i++){
+    
   }
 }
 
