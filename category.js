@@ -52,7 +52,7 @@ function listPage(totalItem){
   let count = Math.ceil( totalItem / limit);
   console.log(count);
   for(let i = 1; i <= count; i++){
-    
+    console.log("hello");
   }
 }
 
