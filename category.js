@@ -3,60 +3,79 @@ const pageUI = document.querySelector("#pagination");
 const categories = document.querySelector("#categories");
 const showcase = container.querySelectorAll("#showcase");
 
-function loadShowcase(){
-  let begin = limit * (page - 1);
-  let end = limit * page - 1;
-  showcase.forEach((showcase, index) => {
-    if(index >= begin && index <= end){
-      showcase.style.display = "block";
-    }else{
-      showcase.style.display = "none";
-    }
-  });
-}
+showcase.forEach((item, index) => {
+  if (index >= 0 && index <= 11) {
+    item.style.display = "block";
+  } else {
+    item.style.display = "none";
+  }
+});
 
 categories.addEventListener("change", () => {
   const categoriesValue = categories.value.toUpperCase();
-  let totalShowcase = 0;
+  let limit = 12;
+  let page = 1;
+  let begin = limit * (page - 1);
+  let end = limit * page - 1;
+  let totalPerpage = 0;
 
-  for (let i = 0; i < showcase.length; i++) {
-    const categoryValue = showcase[i].querySelector("h2");
-    if (categoriesValue === "ALL") {
-      showcase[i].style.display = "block";
-      totalShowcase ++;
-    } else {
-      if (categoryValue.innerHTML.toLocaleUpperCase().indexOf(categoriesValue) >- 1) {
-        showcase[i].style.display = "block";
-        totalShowcase ++;
-        
+  showcase.forEach((showcase) => {
+    const h2 = showcase.querySelector("h2").innerText.toUpperCase();
+
+    if (categoriesValue === h2 || categoriesValue === "ALL") {
+      if (totalPerpage >= begin && totalPerpage <= end) {
+        totalPerpage++;
+        showcase.style.display = "block";
       } else {
-        showcase[i].style.display = "none";
+        showcase.style.display = "none";
       }
+    } else {
+      showcase.style.display = "none";
     }
-  }
-  loadCount(totalShowcase);
+  });
 });
-
-
 
 // loadCount(totalShowcase);
 
-function loadCount(totalcount){
-  showcasePerPage = Number(totalcount);
-  listPage(showcasePerPage)
+// function loadCount(totalcount){
+//   showcasePerPage = Number(totalcount);
+//   listPage(showcasePerPage)
 
-}
-// // pagination of showcase
-function listPage(totalItem){
-  let limit = 3;
-  let count = Math.ceil( totalItem / limit);
-  console.log(count);
-  for(let i = 1; i <= count; i++){
-    console.log("hello");
-  }
-}
+// }
+// // // pagination of showcase
+// function listPage(totalItem){
+//   document.querySelector("#pagination").innerHTML = "";
+//   let pagination = document.querySelector("#pagination");
+//   let limit = 2;
+//   let count = Math.ceil( totalItem / limit);
 
+//   let BacktoStart = document.createElement('li');
+//   BacktoStart.innerText = "<<";
+//   BacktoStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
+//   pagination.appendChild(BacktoStart);
 
+//   let prev = document.createElement('li');
+//   prev.innerText = "<";
+//   prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
+//   pagination.appendChild(prev);
+
+//   for(let i = 1; i <= count; i++){
+//       let newPage = document.createElement('li');
+//       newPage.innerText = i;
+//       newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
+//       pagination.appendChild(newPage);
+//   }
+
+//   let next = document.createElement('li');
+//   next.innerText = ">";
+//   next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
+//   pagination.appendChild(next);
+
+//   let GotoEnd = document.createElement('li');
+//   GotoEnd.innerText = ">>";
+//   GotoEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
+//   pagination.appendChild(GotoEnd);
+// }
 
 // loadShowcase();
 
