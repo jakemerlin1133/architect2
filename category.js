@@ -4,7 +4,6 @@ const categories = document.querySelector("#categories");
 const showcase = container.querySelectorAll("#showcase");
 let page = 1;
 
-
 showcase.forEach((item, index) => {
   if (index >= 0 && index <= 5) {
     item.style.display = "block";
@@ -13,6 +12,7 @@ showcase.forEach((item, index) => {
   }
 });
 
+function pages(){
 categories.addEventListener("change", () => {
   const categoriesValue = categories.value.toUpperCase();
   let limit = 6;
@@ -38,6 +38,8 @@ categories.addEventListener("change", () => {
   
   loadCount(totalItem, limit);
 });
+}
+
 
 function loadCount(totalcount, limit){
   showcasePerPage = Number(totalcount);
@@ -63,9 +65,8 @@ function pageCount (totalPage){
 }
 }
 
-function changePage(Number){
-  page = Number;
-}
+pages();
+
 
 
 
