@@ -4,7 +4,7 @@ const categories = document.querySelector("#categories");
 const showcase = container.querySelectorAll("#showcase");
 
 showcase.forEach((item, index) => {
-  if (index >= 0 && index <= 11) {
+  if (index >= 0 && index <= 5) {
     item.style.display = "block";
   } else {
     item.style.display = "none";
@@ -13,7 +13,7 @@ showcase.forEach((item, index) => {
 
 categories.addEventListener("change", () => {
   const categoriesValue = categories.value.toUpperCase();
-  let limit = 12;
+  let limit = 9;
   let page = 1;
   let begin = limit * (page - 1);
   let end = limit * page - 1;
@@ -21,10 +21,9 @@ categories.addEventListener("change", () => {
 
   showcase.forEach((showcase) => {
     const h2 = showcase.querySelector("h2").innerText.toUpperCase();
-
     if (categoriesValue === h2 || categoriesValue === "ALL") {
-      if (totalPerpage >= begin && totalPerpage <= end) {
-        totalPerpage++;
+      totalPerpage++;
+      if ((totalPerpage -1) >= begin && (totalPerpage -1) <= end) {
         showcase.style.display = "block";
       } else {
         showcase.style.display = "none";
@@ -33,22 +32,23 @@ categories.addEventListener("change", () => {
       showcase.style.display = "none";
     }
   });
+  // loadCount(totalPerpage);
+  console.log(totalPerpage);
 });
-
-// loadCount(totalShowcase);
 
 // function loadCount(totalcount){
 //   showcasePerPage = Number(totalcount);
-//   listPage(showcasePerPage)
+//   console.log(showcasePerPage);
+//   // listPage(showcasePerPage);
 
 // }
 // // // pagination of showcase
 // function listPage(totalItem){
 //   document.querySelector("#pagination").innerHTML = "";
 //   let pagination = document.querySelector("#pagination");
-//   let limit = 2;
 //   let count = Math.ceil( totalItem / limit);
-
+//   console.log(count);
+// }
 //   let BacktoStart = document.createElement('li');
 //   BacktoStart.innerText = "<<";
 //   BacktoStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
