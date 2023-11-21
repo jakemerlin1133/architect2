@@ -12,7 +12,7 @@ showcase.forEach((item, index) => {
   }
 });
 
-function pages(){
+
 categories.addEventListener("change", () => {
   const categoriesValue = categories.value.toUpperCase();
   let limit = 6;
@@ -38,7 +38,7 @@ categories.addEventListener("change", () => {
   
   loadCount(totalItem, limit);
 });
-}
+
 
 
 function loadCount(totalcount, limit){
@@ -65,7 +65,6 @@ function pageCount (totalPage){
 }
 }
 
-pages();
 
 
 
