@@ -2,6 +2,8 @@ const container = document.querySelector("#container");
 const pageUI = document.querySelector("#pagination");
 const categories = document.querySelector("#categories");
 const showcase = container.querySelectorAll("#showcase");
+let page = 1;
+
 
 showcase.forEach((item, index) => {
   if (index >= 0 && index <= 5) {
@@ -13,17 +15,17 @@ showcase.forEach((item, index) => {
 
 categories.addEventListener("change", () => {
   const categoriesValue = categories.value.toUpperCase();
-  let limit = 9;
-  let page = 1;
+  let limit = 6;
+
   let begin = limit * (page - 1);
   let end = limit * page - 1;
-  let totalPerpage = 0;
+  let totalItem = 0;
 
   showcase.forEach((showcase) => {
     const h2 = showcase.querySelector("h2").innerText.toUpperCase();
     if (categoriesValue === h2 || categoriesValue === "ALL") {
-      totalPerpage++;
-      if ((totalPerpage -1) >= begin && (totalPerpage -1) <= end) {
+      totalItem++;
+      if ((totalItem -1) >= begin && (totalItem -1) <= end) {
         showcase.style.display = "block";
       } else {
         showcase.style.display = "none";
@@ -32,23 +34,41 @@ categories.addEventListener("change", () => {
       showcase.style.display = "none";
     }
   });
-  // loadCount(totalPerpage);
-  console.log(totalPerpage);
+
+  
+  loadCount(totalItem, limit);
 });
 
-// function loadCount(totalcount){
-//   showcasePerPage = Number(totalcount);
-//   console.log(showcasePerPage);
-//   // listPage(showcasePerPage);
+function loadCount(totalcount, limit){
+  showcasePerPage = Number(totalcount);
+  listPage(showcasePerPage, limit);
 
-// }
+}
 // // // pagination of showcase
-// function listPage(totalItem){
-//   document.querySelector("#pagination").innerHTML = "";
-//   let pagination = document.querySelector("#pagination");
-//   let count = Math.ceil( totalItem / limit);
-//   console.log(count);
-// }
+function listPage(totalItem, limit){
+  document.querySelector("#pagination").innerHTML = "";
+  let pagination = document.querySelector("#pagination");
+  let count = Math.ceil( totalItem / limit);
+  pageCount(count);
+}
+
+function pageCount (totalPage){
+
+  for(let i = 1; i <= totalPage; i++){
+    let newPage = document.createElement('li');
+    newPage.innerText = i;
+    newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
+    newPage.setAttribute("onclick","changePage(" + i +")");
+    pagination.appendChild(newPage);
+}
+}
+
+function changePage(Number){
+  page = Number;
+}
+
+
+
 //   let BacktoStart = document.createElement('li');
 //   BacktoStart.innerText = "<<";
 //   BacktoStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
@@ -59,12 +79,7 @@ categories.addEventListener("change", () => {
 //   prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
 //   pagination.appendChild(prev);
 
-//   for(let i = 1; i <= count; i++){
-//       let newPage = document.createElement('li');
-//       newPage.innerText = i;
-//       newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800");
-//       pagination.appendChild(newPage);
-//   }
+
 
 //   let next = document.createElement('li');
 //   next.innerText = ">";
@@ -125,7 +140,3 @@ categories.addEventListener("change", () => {
 //   pagination.appendChild(goToEnd);
 // }
 
-// function changePage(i){
-//   page = i;
-//   loadShowcase();
-// }
