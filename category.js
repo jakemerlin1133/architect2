@@ -2,7 +2,7 @@ const container = document.querySelector("#container");
 const pageUI = document.querySelector("#pagination");
 const categories = document.querySelector("#categories");
 const showcase = container.querySelectorAll("#showcase");
-var page = 2;
+let page = 1;
 
 showcase.forEach((item, index) => {
   if (index >= 0 && index <= 5) {
@@ -21,22 +21,26 @@ categories.addEventListener("change", () => {
   let end = limit * page - 1;
   let totalItem = 0;
 
-  showcase.forEach((showcase, index) => {
+  showcase.forEach((showcase) => {
     const h2 = showcase.querySelector("h2").innerText.toUpperCase();
     if (categoriesValue === h2 || categoriesValue === "ALL") {
-      if (totalItem >= begin && totalItem <= end) {
+      totalItem++;
+      if ((totalItem -1) >= begin && (totalItem -1) <= end) {
         showcase.style.display = "block";
       } else {
         showcase.style.display = "none";
       }
-      totalItem++;
     } else {
       showcase.style.display = "none";
     }
   });
+
+  
   loadCount(totalItem, limit);
 });
 }
+
+
 function loadCount(totalcount, limit){
   showcasePerPage = Number(totalcount);
   listPage(showcasePerPage, limit);
@@ -51,6 +55,7 @@ function listPage(totalItem, limit){
 }
 
 function pageCount (totalPage){
+
   for(let i = 1; i <= totalPage; i++){
     let newPage = document.createElement('li');
     newPage.innerText = i;
@@ -61,13 +66,9 @@ function pageCount (totalPage){
 }
 
 function changePage(i){
-  page = i;
+  console.log(i);
   pages();
-  console.log(page);
 }
 
 pages();
-
-
-
 
