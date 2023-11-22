@@ -65,10 +65,10 @@ function pageCount (totalPage){
 }
 }
 
-function changePage(i){
-  console.log(i);
+function changePage(newPage){
+page = newPage;
   pages();
+  console.log(page);
 }
-
 pages();
 
