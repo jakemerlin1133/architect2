@@ -3,7 +3,7 @@ const pageUI = document.querySelector("#pagination");
 const categories = document.querySelector("#categories");
 const showcase = container.querySelectorAll("#showcase");
 let page = 1;
-let limit = 5;
+let limit = 3;
 
 changePage(page);
 function loadCount(){
@@ -69,24 +69,30 @@ function changePage(pageNumber){
   loadCount();
 }
 
-function selectCategory(){ 
+function selectCategory() {
   categories.addEventListener("change", () => {
+    const categoriesValue = categories.value.toUpperCase();
+    let PageperCategory = 1;
     pageUI.innerHTML = "";
+    let start = limit * (PageperCategory - 1);
+    let end = limit * PageperCategory - 1;
     let totalItem = 0;
-    const categoriesValue = categories.value.toLocaleUpperCase();
 
-    showcase.forEach((showcase) =>{
-      const h2 = showcase.querySelector("h2").innerText.toLocaleUpperCase();
+    showcase.forEach((showcase) => {
+      const h2 = showcase.querySelector("h2").innerText.toUpperCase();
 
-      if(categoriesValue === h2 || categoriesValue === "ALL"){
+       if (categoriesValue === h2 && categoriesValue != "ALL"){
+        if (totalItem >= start && totalItem <= end) {
+          showcase.style.display = "block";
+        }
         totalItem++;
-        showcase.style.display = "block";
-      }else{
+        console.log(totalItem);
+      } else {
         showcase.style.display = "none";
       }
-    });
 
-    // changePage(1);
+
+    });
   });
 }
 selectCategory();

@@ -198,7 +198,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3.1 storey</h1>
                     </div>
 
                     <h2 class="hidden" id="category-value">3 storey</h2>
@@ -225,7 +225,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3.2 storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
@@ -251,7 +251,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3.3 storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
@@ -277,7 +277,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3.4 storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
@@ -303,7 +303,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3.5 storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
@@ -329,7 +329,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3.6 storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
@@ -355,7 +355,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3.7 storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
@@ -381,7 +381,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3.8 storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
@@ -407,7 +407,7 @@
                         </div>
                     </div>
                     <div class="absolute z-[20] bg-black/25 h-full w-full top-0 hover:bg-black/75 hover:opacity-75">
-                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3 storey</h1>
+                        <h1 class="absolute w-full text-gray-50 drop-shadow-md bottom-4 px-[0.7rem] font-bold text-left.... max-[320px]:text-[1.8rem] .... min-[320px]:text-[1.8rem] .... min-[768px]:text-[2.5rem]">3.9 storey</h1>
                     </div>
                     <h2 class="hidden" id="category-value">3 storey</h2>
                 </div>
