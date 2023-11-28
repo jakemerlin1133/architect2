@@ -91,7 +91,7 @@
                 About us
             </div>
 
-            <div class="mx-auto w-[80%]">
+            <div class="w-[90%]">
                 <div class="max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[0.75rem] .... min-[1300px]:text-[0.83rem] .... min-[1425px]:text-[0.87rem] .... min-[1440px]:text-[0.89rem] .... min-[1549px]:text-[0.92rem] .... min-[1631px]:text-[0.95rem] .... min-[1800px]:text-[0.97rem] .... min-[2000px]:text-[1.045rem]">
                     <div class="font-semibold text-gray-700">
                         <div class="text-justify mt-[4%]">
@@ -114,7 +114,7 @@
             </div>
         </div>
 
-        <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-800 w-full .... max-[320px]:mt-[2rem] .... min-[320px]:mt-[2rem]  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] min-[425px]:mt-[3.5rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem] .... min-[1024px]:mt-[6rem]">
+        <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-800 w-full .... min-[375px]:p-[1.2rem] min-[375px]:gap-5 min-[375px]:h-[20rem] .... max-[375px]:p-[1.2rem] max-[375px]:gap-5 max-[375px]:h-[20rem] .... min-[425px]:p-[1.4rem] min-[425px]:gap-5 min-[425px]:h-[28rem] .... min-[426px]:p-[1.3rem] min-[426px]:gap-5 min-[426px]:h-[30rem] .... min-[660px]:p-[1.6rem] min-[660px]:gap-6 min-[660px]:h-[40rem] .... min-[1024px]:p-[1.4rem] min-[1024px]:gap-6 min-[1024px]:h-[30rem] min-[1024px]:mt-[9rem] .... min-[1500px]:p-[1.8rem] min-[1500px]:gap-7 min-[1500px]:h-[40rem] min-[1500px]:mt-[8rem]">
             <!-- image 1 -->
             <div class="relative">
                 <img class="absolute w-full h-full object-cover transform transition-all duration-700 min-[1024px]:hover:scale-110" src="Architect_files/images/work1.webp">

@@ -98,7 +98,7 @@
     <!-- Services -->
     <div class=" text-center grid max-[1023px]:grid-cols-1 min-[1024px]:grid-cols-2  .... max-[969px]:pt-[58%] min-[970px]:pt-[92vh] w-full">
         <div class="mx-auto w-[80%]">
-            <div class="text-zinc-900 text-center font-extrabold max-[1023px]:text-[2.6em] min-[1024px]:text-[4em] mb-[2%]">
+            <div class="text-zinc-900 text-center font-extrabold mb-[2%] .... min-[320px]:text-[2.6rem] .... min-[425px]:text-[3.2rem] .... min-[768px]:text-[4rem] .... min-[1600px]:text-[5em]">
                 Our Services
             </div>
 
