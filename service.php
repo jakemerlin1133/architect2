@@ -91,7 +91,7 @@
                 About our Service
             </div>
 
-            <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-800 w-full  .... min-[375px]:p-[1rem] min-[375px]:gap-4 min-[375px]:h-[20rem] .... max-[375px]:p-[1rem] max-[375px]:gap-4 max-[375px]:h-[20rem] .... min-[425px]:p-[1rem] min-[425px]:gap-4 min-[425px]:h-[28rem] .... min-[426px]:p-[2rem] min-[426px]:gap-8 min-[426px]:h-[44rem]">
+            <div class="max-[1023px]:mx-auto grid grid-cols-2 bg-zinc-800 w-full  .... min-[375px]:p-[1.2rem] min-[375px]:gap-5 min-[375px]:h-[20rem] .... max-[375px]:p-[1.2rem] max-[375px]:gap-5 max-[375px]:h-[20rem] .... min-[425px]:p-[1.4rem] min-[425px]:gap-5 min-[425px]:h-[28rem] .... min-[426px]:p-[1.3rem] min-[426px]:gap-5 min-[426px]:h-[30rem] .... min-[660px]:p-[1.6rem] min-[660px]:gap-6 min-[660px]:h-[40rem] .... min-[1024px]:p-[1.4rem] min-[1024px]:gap-6 min-[1024px]:h-[30rem] .... min-[1500px]:p-[1.8rem] min-[1500px]:gap-7 min-[1500px]:h-[40rem]">
 
                 <!-- image 1 -->
                 <div class="relative">
@@ -115,8 +115,7 @@
             </div>
         </div>
         <div class="mx-auto w-[80%]">
-
-            <div class="max-[320px]:text-[1rem] max-[320px]:pt-[2rem] .... min-[320px]:text-[1rem] min-[320px]:pt-[2rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] min-[1024px]:pt-[5rem] .... min-[1300px]:text-[1.3rem] min-[1300px]:pt-[11rem] .... min-[1549px]:text-[1.4rem]">
+            <div class="max-[320px]:text-[1rem] max-[320px]:pt-[2rem] .... min-[320px]:text-[1rem] min-[320px]:pt-[2rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[0.94rem] min-[1024px]:pt-[10rem] .... min-[1041px]:pt-[5.5rem] .... min-[1100px]:text-[0.98rem] min-[1100px]:pt-[5.5rem] .... min-[1300px]:text-[1.1rem] min-[1300px]:pt-[5.5rem] .... min-[1440px]:text-[1.2rem] min-[1440px]:pt-[6rem] .... min-[1500px]:text-[1.4rem] min-[1500px]:pt-[6.2rem] .... min-[1700px]:text-[1.45rem] min-[1700px]:pt-[9rem]">
                 <div class="font-semibold text-gray-700">
                     <div class="text-justify mt-[4%]">
                         DB&B's divese clientle, comprising the corporate sector, is testament to our ability to respond to the evolving nature of the architectural landscape. We retain the resounding trademark of precise craftsmanship, without forgetting the need for a distinctive corporate image whilst contributing to overall productivity.
@@ -129,7 +128,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
