@@ -3,7 +3,7 @@ const pageUI = document.querySelector("#pagination");
 const categories = document.querySelector("#categories");
 const showcase = container.querySelectorAll("#showcase");
 let page = 1;
-let limit = 3;
+let limit = 1;
 
 changePage(page);
 function loadCount(){
@@ -22,7 +22,7 @@ loadCount();
 
 function listPage(listofShowCase){
   pageUI.innerHTML = "";
-  let count = document = Math.ceil(listofShowCase.length / limit);
+  let count = Math.ceil(listofShowCase.length / limit);
 
   let goToStart = document.createElement('li');
   goToStart.innerHTML = "<<";
@@ -71,29 +71,64 @@ function changePage(pageNumber){
 
 function selectCategory() {
   categories.addEventListener("change", () => {
-    const categoriesValue = categories.value.toUpperCase();
     let PageperCategory = 1;
+    const categoriesValue = categories.value.toUpperCase();
     pageUI.innerHTML = "";
     let start = limit * (PageperCategory - 1);
     let end = limit * PageperCategory - 1;
     let totalItem = 0;
 
-    showcase.forEach((showcase) => {
+    showcase.forEach((showcase, index) => {
       const h2 = showcase.querySelector("h2").innerText.toUpperCase();
 
-       if (categoriesValue === h2 && categoriesValue != "ALL"){
+       if (categoriesValue === h2 || categoriesValue === "ALL"){
         if (totalItem >= start && totalItem <= end) {
           showcase.style.display = "block";
         }
         totalItem++;
-        console.log(totalItem);
       } else {
         showcase.style.display = "none";
       }
-
-
     });
+
+    let totalpage = Math.ceil(totalItem / limit);
+    
+    for(let i =1; i <= totalpage; i++){
+      let newPage = document.createElement('li');
+      newPage.innerHTML = i;
+      if(i === page){
+        newPage.classList.add("active");
+      }
+      newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+      newPage.setAttribute("onclick","ChangepagePerCategory(" + i +")");
+      pageUI.appendChild(newPage);
+    }
+  });
+}
+
+function ChangepagePerCategory(pageNumber){
+  PageperCategory = pageNumber;
+  loadItemsForCategory();
+}
+
+function loadItemsForCategory() {
+  const categoriesValue = categories.value.toUpperCase();
+  let start = limit * (PageperCategory - 1);
+  let end = limit * PageperCategory - 1;
+
+
+  showcase.forEach((showcase, index) => {
+    const h2 = showcase.querySelector("h2").innerText.toUpperCase();
+
+    if (categoriesValue === h2 || categoriesValue === "ALL") {
+      if (index >= start && index <= end) {
+        showcase.style.display = "block";
+      } else {
+        showcase.style.display = "none";
+      }
+    }
   });
 }
 selectCategory();
 
+loadItemsForCategory();
