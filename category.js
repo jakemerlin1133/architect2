@@ -74,10 +74,17 @@ function selectCategory() {
   categories.addEventListener("change", () => {
     const categoriesValue = categories.value.toUpperCase();
     pageUI.innerHTML = "";
-
-    let start = limit * (PageperCategory - 1);
-    let end = limit * PageperCategory - 1;
+    let start = 0;
+    let end = showcase.length - 1;
     let totalItem = 0;
+
+    if (categoriesValue === "ALL") {
+      start = 0;
+      end = showcase.length - 1;
+    } else {
+      start = limit * (PageperCategory - 1);
+      end = limit * PageperCategory - 1;
+    }
 
     showcase.forEach((showcase, index) => {
       const h2 = showcase.querySelector("h2").innerText.toUpperCase();
@@ -94,20 +101,25 @@ function selectCategory() {
 
     let totalpage = Math.ceil(totalItem / limit);
     
-    for(let i =1; i <= totalpage; i++){
-      let newPage = document.createElement('li');
+    for (let i = 1; i <= totalpage; i++) {
+      let newPage = document.createElement("li");
       newPage.innerHTML = i;
-      if(i === page){
+
+      if (i === page) {
         newPage.classList.add("active");
       }
+
       newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-      newPage.setAttribute("onclick","ChangepagePerCategory(" + i +")");
+      newPage.setAttribute("onclick", "ChangepagePerCategory(" + i + ")");
       pageUI.appendChild(newPage);
     }
+ 
   });
 }
+
 function ChangepagePerCategory(pageNumber){
   PageperCategory = pageNumber;
   selectCategory();
 }
+
 selectCategory();
