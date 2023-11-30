@@ -106,11 +106,8 @@ function selectCategory() {
     }
   });
 }
-
 function ChangepagePerCategory(pageNumber){
   PageperCategory = pageNumber;
   selectCategory();
 }
-
 selectCategory();
-
