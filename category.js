@@ -3,7 +3,8 @@ const pageUI = document.querySelector("#pagination");
 const categories = document.querySelector("#categories");
 const showcase = container.querySelectorAll("#showcase");
 let page = 1;
-let limit = 1;
+let limit = 3;
+let PageperCategory = 1;
 
 changePage(page);
 function loadCount(){
@@ -71,9 +72,9 @@ function changePage(pageNumber){
 
 function selectCategory() {
   categories.addEventListener("change", () => {
-    let PageperCategory = 1;
     const categoriesValue = categories.value.toUpperCase();
     pageUI.innerHTML = "";
+
     let start = limit * (PageperCategory - 1);
     let end = limit * PageperCategory - 1;
     let totalItem = 0;
@@ -108,27 +109,8 @@ function selectCategory() {
 
 function ChangepagePerCategory(pageNumber){
   PageperCategory = pageNumber;
-  loadItemsForCategory();
+  selectCategory();
 }
 
-function loadItemsForCategory() {
-  const categoriesValue = categories.value.toUpperCase();
-  let start = limit * (PageperCategory - 1);
-  let end = limit * PageperCategory - 1;
-
-
-  showcase.forEach((showcase, index) => {
-    const h2 = showcase.querySelector("h2").innerText.toUpperCase();
-
-    if (categoriesValue === h2 || categoriesValue === "ALL") {
-      if (index >= start && index <= end) {
-        showcase.style.display = "block";
-      } else {
-        showcase.style.display = "none";
-      }
-    }
-  });
-}
 selectCategory();
 
-loadItemsForCategory();
