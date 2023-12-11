@@ -3,25 +3,31 @@ const pageUI = document.querySelector("#pagination");
 const categories = document.querySelector("#categories");
 const showcase = container.querySelectorAll("#showcase");
 let page = 1;
-let limit = 6;
+let limit = 3;
 
 categories.addEventListener("change", () => {
+
+  let start = limit * (page - 1);
+  let end = limit * page - 1;
+  let totalItem = 0;
+
   const categoryValue = categories.value.toUpperCase();
-  showcase.forEach((item, index) =>{
+
+  showcase.forEach((item, index) => {
     const h2 = item.querySelector("h2").innerText.toUpperCase();
-    if(categoryValue === h2 || categoryValue === "ALL"){
-      item.style.display = "block";
-    }else{
+
+    if (categoryValue === h2 || categoryValue === "ALL") {
+      if (totalItem >= start && totalItem <= end) {
+        item.style.display = "block";
+      }else{
+        item.style.display = "none";
+      }
+      totalItem++;
+    } else {
       item.style.display = "none";
     }
   });
-  // if(){
-
-  // }
 });
-
-
-
 
 // changePage(page);
 // function loadCount(){
