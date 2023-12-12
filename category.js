@@ -10,6 +10,7 @@ let limit = 3;
 let start = limit * (page - 1);
 let end = limit * page - 1;
 let count = Math.ceil(showcase.length / limit);
+const pageCount = 5; 
 
 showcase.forEach((item, index) =>{
   if(index >= start && index <=end){
@@ -34,7 +35,6 @@ if(page > 1){
 pageUI.appendChild(prev);  
 
 for(let i =1; i <= count; i++){
-
 let newPage = document.createElement('li');
 newPage.innerHTML = i;
 if(i === page){
@@ -58,8 +58,6 @@ goToEnd.innerHTML = ">>";
 goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 goToEnd.setAttribute("onclick", "changePage(" + count +")");
 pageUI.appendChild(goToEnd);
-
-
 
 
 // Eventlistener of categories
@@ -139,7 +137,7 @@ categories.addEventListener("change", () => {
 
 function changePage(i){
   page = i
-  let start = limit * (page - 1);
+  let start = (limit * (page - 1));
   let end = limit * page - 1;
   let totalItem = 0;
 
