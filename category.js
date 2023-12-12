@@ -167,9 +167,8 @@ function changePage(i){
   }
 
   // loop and print the different pages
-
-    let goToStart = document.createElement('li');
-    goToStart.innerHTML = "<<";
+  let goToStart = document.createElement('li');
+  goToStart.innerHTML = "<<";
   goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
   goToStart.setAttribute("onclick","changePage(1)");
   pageUI.appendChild(goToStart);
