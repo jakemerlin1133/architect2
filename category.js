@@ -6,15 +6,14 @@ const showcase = container.querySelectorAll("#showcase");
 
 // variables for page, limit and count
 let page = 1;
-let limit = 3;
+let limit = 2;
 let start = limit * (page - 1);
 let end = limit * page - 1;
 let count = Math.ceil(showcase.length / limit);
 
-let visiblePages = 5;
+let visiblePages = 4;
 let startPage = Math.max(1, page - Math.floor(visiblePages / 2));
 let endPage = Math.min(startPage + visiblePages - 1, count);
-console.log(endPage)
 
 showcase.forEach((item, index) =>{
   if(index >= start && index <=end){
@@ -215,10 +214,6 @@ function changePage(i){
 
 
 
-
-
-
-
 function changePagePerCat(i){
   page = i
   let start = (limit * (page - 1));
@@ -227,7 +222,6 @@ function changePagePerCat(i){
   let visiblePagesperCat = 4;
   let startPageperCat = Math.max(1, page - Math.floor(visiblePagesperCat / 2));
   let endPageperCat = Math.min(startPageperCat + visiblePagesperCat - 1, count);
-
   const categoryValue = categories.value.toUpperCase();
 
   showcase.forEach((item, index) => {
@@ -240,6 +234,7 @@ function changePagePerCat(i){
         item.style.display = "none";
       }
       totalItem++;
+
     } else {
       item.style.display = "none";
     }
@@ -290,7 +285,6 @@ function changePagePerCat(i){
     goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     goToEnd.setAttribute("onclick", "changePagePerCat(" + count +")");
     pageUI.appendChild(goToEnd);
-
   });
 }
 
