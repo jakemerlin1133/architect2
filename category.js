@@ -235,14 +235,15 @@ function changePagePerCat(i){
       item.style.display = "none";
     }
 
-    let countPerCategory = Math.ceil(totalItem / limit);
-    let startPagePerCat2 = Math.max(1, pageInCat - Math.floor(visiblePages / 2));
-    let endPageInCat2 = Math.min(startPagePerCat2 + visiblePages - 1, countPerCategory);
-
   // remove the existing page
   while (pageUI.firstChild) {
     pageUI.removeChild(pageUI.firstChild);
   }
+
+  let countPerCategory = Math.ceil(totalItem / limit);
+  let startPagePerCat2 = Math.max(1, pageInCat - Math.floor(visiblePages / 2));
+  let endPageInCat2 = Math.min(startPagePerCat2 + visiblePages - 1, countPerCategory);
+  console.log(countPerCategory);
 
   // loop and print the different pages
   let goToStart = document.createElement('li');
@@ -273,7 +274,7 @@ function changePagePerCat(i){
   let next = document.createElement('li');
     next.innerHTML = ">";
     next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    if(pageInCat < countPerCategory){
+    if(pageInCat < endPageInCat2){
       next.setAttribute("onclick","changePagePerCat(" + (pageInCat + 1) +")");
     }
     pageUI.appendChild(next);
@@ -281,7 +282,7 @@ function changePagePerCat(i){
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
     goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    goToEnd.setAttribute("onclick", "changePagePerCat(" + countPerCategory +")");
+    goToEnd.setAttribute("onclick", "changePagePerCat(" + endPageInCat2 +")");
     pageUI.appendChild(goToEnd);
   });
 }
