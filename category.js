@@ -6,7 +6,7 @@ const showcase = container.querySelectorAll("#showcase");
 
 // variables for page, limit and count
 let page = 1;
-let limit = 2;
+let limit = 4;
 let start = limit * (page - 1);
 let end = limit * page - 1;
 let count = Math.ceil(showcase.length / limit);
@@ -88,7 +88,7 @@ categories.addEventListener("change", () => {
     }
   });
 
-  let count = Math.ceil(totalItem / limit);
+  let countPerCat = Math.ceil(totalItem / limit);
 
   // remove the existing page
   while (pageUI.firstChild) {
@@ -110,7 +110,7 @@ categories.addEventListener("change", () => {
     }
     pageUI.appendChild(prev);  
 
-  for(let i = 1; i <= count; i++){
+  for(let i = 1; i <= countPerCat; i++){
     let newPage = document.createElement('li');
     newPage.innerHTML = i;
     if(i === page){
@@ -124,7 +124,7 @@ categories.addEventListener("change", () => {
   let next = document.createElement('li');
     next.innerHTML = ">";
     next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    if(page < count){
+    if(page < countPerCat){
       next.setAttribute("onclick","changePagePerCat(" + (page + 1) +")");
     }
     pageUI.appendChild(next);
@@ -132,7 +132,7 @@ categories.addEventListener("change", () => {
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
     goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    goToEnd.setAttribute("onclick", "changePagePerCat(" + count +")");
+    goToEnd.setAttribute("onclick", "changePagePerCat(" + countPerCat +")");
     pageUI.appendChild(goToEnd);
 });
 
@@ -205,13 +205,10 @@ function changePage(i){
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
     goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    goToEnd.setAttribute("onclick", "changePage(" + count +")");
+    goToEnd.setAttribute("onclick", "changePage(" + endPage +")");
     pageUI.appendChild(goToEnd);
-
   });
 }
-
-
 
 
 function changePagePerCat(i){
