@@ -134,7 +134,7 @@ categories.addEventListener("change", () => {
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
     goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    goToEnd.setAttribute("onclick", "changePagePerCat(" + endPageInCat +")");
+    goToEnd.setAttribute("onclick", "changePagePerCat(" + countPerCat +")");
     pageUI.appendChild(goToEnd);
 });
 
@@ -207,7 +207,7 @@ function changePage(i){
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
     goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    goToEnd.setAttribute("onclick", "changePage(" + endPage +")");
+    goToEnd.setAttribute("onclick", "changePage(" + count +")");
     pageUI.appendChild(goToEnd);
   });
 }
@@ -282,7 +282,7 @@ function changePagePerCat(i){
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
     goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    goToEnd.setAttribute("onclick", "changePagePerCat(" + endPageInCat2 +")");
+    goToEnd.setAttribute("onclick", "changePagePerCat(" + countPerCategory +")");
     pageUI.appendChild(goToEnd);
   });
 }
