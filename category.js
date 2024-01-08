@@ -6,12 +6,21 @@ const showcase = container.querySelectorAll("#showcase");
 
 // variables for page, limit and count
 let page = 1;
-let limit = 6;
+let limit = 1;
 let count = Math.ceil(showcase.length / limit);
 let start = limit * (page - 1);
 let end = limit * page - 1;
 
-let visiblePages = 5;
+let viewportWidth = window.innerWidth;
+let visiblePages;
+if(viewportWidth == 0 && viewportWidth <= 320){
+  visiblePages = 3;
+}else if (viewportWidth > 320 && viewportWidth <= 475){
+  visiblePages = 4;
+}else{
+  visiblePages = 5;
+}
+
 let startPage = Math.max(1, page - Math.floor(visiblePages / 2));
 let endPage = Math.min(startPage + visiblePages - 1, count);
 
@@ -25,7 +34,7 @@ showcase.forEach((item, index) =>{
 
 let goToStart = document.createElement('li');
 goToStart.innerHTML = "<<";
-goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-2.5", "max-[320px]:py-0.5", "min-[320px]:px-2.5", "min-[320px]:py-0.5", "min-[425px]:px-3", "min-[425px]:py-1", "min-[550px]:px-4", "min-[550px]:py-1.5", "min-[600px]:px-5", "min-[600px]:py-2.5", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 // Add a click event listener to the li element
 goToStart.addEventListener("click", function() {
 if(page != 1){
