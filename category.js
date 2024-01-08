@@ -27,35 +27,37 @@ let goToStart = document.createElement('li');
 goToStart.innerHTML = "<<";
 goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 // Add a click event listener to the li element
-if(page != 1){
 goToStart.addEventListener("click", function() {
-  // Call the changePage function with page number 1
-  changePage(1);
+if(page != 1){
 
   // Scroll to the top of the page
     window.scrollTo({
       top: 0,
       behavior: "smooth" // Optional: Add smooth scrolling effect
     });
+
+    // Call the changePage function with page number 1
+    changePage(1);
+  }
 });
-}
 pageUI.appendChild(goToStart);
 
 let prev = document.createElement('li');
 prev.innerHTML = "<";
 prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+prev.addEventListener("click", function() {
 if(page > 1){
-  prev.addEventListener("click", function() {
-    // Call the changePage function with page number 1
-    changePage(page - 1);
-  
+
     // Scroll to the top of the page
     window.scrollTo({
         top: 0,
         behavior: "smooth" // Optional: Add smooth scrolling effect
     });
-  });
-}
+
+        // Call the changePage function with page number 1
+        changePage(page - 1);
+  }
+});
 pageUI.appendChild(prev);  
 
 for(let i = startPage; i <= endPage; i++){
@@ -67,13 +69,16 @@ if(i === page){
 newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 newPage.addEventListener("click", function() {
   // Call the changePage function with page number 1
-  changePage(i);
+  if (!this.classList.contains('active')) {
 
   // Scroll to the top of the page
   window.scrollTo({
       top: 0,
       behavior: "smooth" // Optional: Add smooth scrolling effect
   });
+
+  changePage(i);
+}
 });
 pageUI.appendChild(newPage);
 }
@@ -81,35 +86,35 @@ pageUI.appendChild(newPage);
 let next = document.createElement('li');
 next.innerHTML = ">";
 next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-if(page < count){
-  next.addEventListener("click", function() {
-    // Call the changePage function with page number 1
-    changePage(page + 1);
-  
+next.addEventListener("click", function() {
+    if(page < count){
     // Scroll to the top of the page
     window.scrollTo({
         top: 0,
         behavior: "smooth" // Optional: Add smooth scrolling effect
     });
+
+        // Call the changePage function with page number 1
+        changePage(page + 1);
+  }
   });
-}
 pageUI.appendChild(next);
 
 let goToEnd = document.createElement('li');
 goToEnd.innerHTML = ">>";
 goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-if(page != count){
 goToEnd.addEventListener("click", function() {
-  // Call the changePage function with page number 1
-  changePage(count);
-
+  if(page != count){
   // Scroll to the top of the page
   window.scrollTo({
       top: 0,
       behavior: "smooth" // Optional: Add smooth scrolling effect
   });
-});
+
+    // Call the changePage function with page number 1
+    changePage(count);
 }
+});
 pageUI.appendChild(goToEnd);
 
 // Eventlistener of categories
@@ -152,24 +157,35 @@ categories.addEventListener("change", () => {
     goToStart.innerHTML = "<<";
     goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     // Add a click event listener to the li element
-goToStart.addEventListener("click", function() {
-  // Call the changePage function with page number 1
-  changePagePerCat(1);
+    if(page != 1){
+      goToStart.addEventListener("click", function() {
+      
+        // Scroll to the top of the page
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth" // Optional: Add smooth scrolling effect
+          });
 
-  // Scroll to the top of the page
-  window.scrollTo({
-      top: 0,
-      behavior: "smooth" // Optional: Add smooth scrolling effect
-  });
-});
+        // Call the changePage function with page number 1
+        changePagePerCat(1);
+      });
+      }
     pageUI.appendChild(goToStart);
     
     let prev = document.createElement('li');
     prev.innerHTML = "<";
     prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    if(page > 1){
-      prev.setAttribute("onclick","changePagePerCat(" + (page - 1) +")");
-    }
+    prev.addEventListener("click", function() {
+        if(page > 1){
+        // Scroll to the top of the page
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth" // Optional: Add smooth scrolling effect
+        });
+                // Call the changePage function with page number 1
+                changePagePerCat(page - 1);
+              }
+      });
     pageUI.appendChild(prev);  
 
   for(let i = startPageInCat; i <= endPageInCat; i++){
@@ -179,22 +195,54 @@ goToStart.addEventListener("click", function() {
       newPage.classList.add("active");
     }
     newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    newPage.setAttribute("onclick","changePagePerCat(" + i +")");
+    newPage.addEventListener("click", function() {
+      // Call the changePage function with page number 1
+      if (!this.classList.contains('active')) {
+    
+      // Scroll to the top of the page
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+    
+      changePagePerCat(i);
+    }
+    });
     pageUI.appendChild(newPage);
   }
 
   let next = document.createElement('li');
     next.innerHTML = ">";
     next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    if(page < countPerCat){
-      next.setAttribute("onclick","changePagePerCat(" + (page + 1) +")");
+    next.addEventListener("click", function() {
+      if(page < countPerCat){
+      // Scroll to the top of the page
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+  
+          // Call the changePage function with page number 1
+          changePage(page + 1);
     }
+    });
     pageUI.appendChild(next);
   
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
     goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    goToEnd.setAttribute("onclick", "changePagePerCat(" + countPerCat +")");
+    goToEnd.addEventListener("click", function() {
+      if(page != count){
+      // Scroll to the top of the page
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+    
+        // Call the changePage function with page number 1
+        changePagePerCat(countPerCat);
+    }
+    });
     pageUI.appendChild(goToEnd);
 });
 
@@ -234,15 +282,38 @@ function changePage(i){
   let goToStart = document.createElement('li');
   goToStart.innerHTML = "<<";
   goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-  goToStart.setAttribute("onclick","changePage(1)");
+// Add a click event listener to the li element
+goToStart.addEventListener("click", function() {
+  if(page != 1){
+  
+    // Scroll to the top of the page
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+  
+      // Call the changePage function with page number 1
+      changePage(1);
+    }
+  });
   pageUI.appendChild(goToStart);
   
   let prev = document.createElement('li');
   prev.innerHTML = "<";
   prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-  if(page > 1){
-    prev.setAttribute("onclick","changePage(" + (page - 1) +")");
-  }
+  prev.addEventListener("click", function() {
+    if(page > 1){
+    
+        // Scroll to the top of the page
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth" // Optional: Add smooth scrolling effect
+        });
+    
+            // Call the changePage function with page number 1
+            changePage(page - 1);
+      }
+    });
   pageUI.appendChild(prev);
 
   for(let i =startPage; i <= endPage; i++){
@@ -252,22 +323,54 @@ function changePage(i){
       newPage.classList.add("active");
     }
     newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    newPage.setAttribute("onclick","changePage(" + i +")");
+    newPage.addEventListener("click", function() {
+      // Call the changePage function with page number 1
+      if (!this.classList.contains('active')) {
+    
+      // Scroll to the top of the page
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+    
+      changePage(i);
+    }
+    });
     pageUI.appendChild(newPage);
   }
 
   let next = document.createElement('li');
     next.innerHTML = ">";
     next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    if(page < count){
-      next.setAttribute("onclick","changePage(" + (page + 1) +")");
+    next.addEventListener("click", function() {
+      if(page < count){
+      // Scroll to the top of the page
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+  
+          // Call the changePage function with page number 1
+          changePage(page + 1);
     }
+    });
     pageUI.appendChild(next);
   
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
     goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    goToEnd.setAttribute("onclick", "changePage(" + count +")");
+    goToEnd.addEventListener("click", function() {
+      if(page != count){
+      // Scroll to the top of the page
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+    
+        // Call the changePage function with page number 1
+        changePage(count);
+    }
+    });
     pageUI.appendChild(goToEnd);
   });
 }
@@ -309,25 +412,38 @@ function changePagePerCat(i){
   let goToStart = document.createElement('li');
   goToStart.innerHTML = "<<";
   goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-  // Add a click event listener to the li element
+// Add a click event listener to the li element
 goToStart.addEventListener("click", function() {
-  // Call the changePage function with page number 1
-  changePagePerCat(1);
-
-  // Scroll to the top of the page
-  window.scrollTo({
-      top: 0,
-      behavior: "smooth" // Optional: Add smooth scrolling effect
+  if(pageInCat != 1){
+  
+    // Scroll to the top of the page
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+  
+      // Call the changePage function with page number 1
+      changePagePerCat(1);
+    }
   });
-});
   pageUI.appendChild(goToStart);
   
   let prev = document.createElement('li');
   prev.innerHTML = "<";
   prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-  if(pageInCat > 1){
-    prev.setAttribute("onclick","changePagePerCat(" + (pageInCat - 1) +")");
-  }
+  prev.addEventListener("click", function() {
+    if(pageInCat > 1){
+    
+        // Scroll to the top of the page
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth" // Optional: Add smooth scrolling effect
+        });
+    
+            // Call the changePage function with page number 1
+            changePagePerCat(pageInCat - 1);
+      }
+    });
   pageUI.appendChild(prev);
 
   for(let i = startPagePerCat2; i <= endPageInCat2; i++){
@@ -337,22 +453,54 @@ goToStart.addEventListener("click", function() {
       newPage.classList.add("active");
     }
     newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    newPage.setAttribute("onclick","changePagePerCat(" + i +")");
+    newPage.addEventListener("click", function() {
+      // Call the changePage function with page number 1
+      if (!this.classList.contains('active')) {
+    
+      // Scroll to the top of the page
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+    
+      changePagePerCat(i);
+    }
+    });
     pageUI.appendChild(newPage);
   }
 
   let next = document.createElement('li');
     next.innerHTML = ">";
     next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    if(pageInCat < endPageInCat2){
-      next.setAttribute("onclick","changePagePerCat(" + (pageInCat + 1) +")");
+    next.addEventListener("click", function() {
+      if(pageInCat < countPerCategory){
+      // Scroll to the top of the page
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+  
+          // Call the changePage function with page number 1
+          changePagePerCat(pageInCat + 1);
     }
+    });
     pageUI.appendChild(next);
   
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
     goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
-    goToEnd.setAttribute("onclick", "changePagePerCat(" + countPerCategory +")");
+    goToEnd.addEventListener("click", function() {
+      if(pageInCat != countPerCategory){
+      // Scroll to the top of the page
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth" // Optional: Add smooth scrolling effect
+      });
+    
+        // Call the changePage function with page number 1
+        changePagePerCat(countPerCategory);
+    }
+    });
     pageUI.appendChild(goToEnd);
   });
 }
