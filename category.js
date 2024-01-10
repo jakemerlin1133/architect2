@@ -6,7 +6,7 @@ const showcase = container.querySelectorAll("#showcase");
 
 // variables for page, limit and count
 let page = 1;
-let limit = 1;
+let limit = 6;
 let count = Math.ceil(showcase.length / limit);
 let start = limit * (page - 1);
 let end = limit * page - 1;
