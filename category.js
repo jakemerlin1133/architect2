@@ -407,7 +407,6 @@ function changePagePerCat(i){
   let countPerCategory = Math.ceil(totalItem / limit);
   let startPagePerCat2 = Math.max(1, pageInCat - Math.floor(visiblePages / 2));
   let endPageInCat2 = Math.min(startPagePerCat2 + visiblePages - 1, countPerCategory);
-  console.log(countPerCategory);
 
   // loop and print the different pages
   let goToStart = document.createElement('li');
