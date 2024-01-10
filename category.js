@@ -12,15 +12,7 @@ let start = limit * (page - 1);
 let end = limit * page - 1;
 
 let viewportWidth = window.innerWidth;
-let visiblePages;
-if(viewportWidth == 0 && viewportWidth <= 320){
-  visiblePages = 3;
-}else if (viewportWidth > 320 && viewportWidth <= 475){
-  visiblePages = 4;
-}else{
-  visiblePages = 5;
-}
-
+let visiblePages = 5;
 let startPage = Math.max(1, page - Math.floor(visiblePages / 2));
 let endPage = Math.min(startPage + visiblePages - 1, count);
 
@@ -34,7 +26,7 @@ showcase.forEach((item, index) =>{
 
 let goToStart = document.createElement('li');
 goToStart.innerHTML = "<<";
-goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-2.5", "max-[320px]:py-0.5", "min-[320px]:px-2.5", "min-[320px]:py-0.5", "min-[425px]:px-3", "min-[425px]:py-1", "min-[550px]:px-4", "min-[550px]:py-1.5", "min-[600px]:px-5", "min-[600px]:py-2.5", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 // Add a click event listener to the li element
 goToStart.addEventListener("click", function() {
 if(page != 1){
@@ -53,7 +45,7 @@ pageUI.appendChild(goToStart);
 
 let prev = document.createElement('li');
 prev.innerHTML = "<";
-prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 prev.addEventListener("click", function() {
 if(page > 1){
 
@@ -75,7 +67,7 @@ newPage.innerHTML = i;
 if(i === page){
   newPage.classList.add("active");
 }
-newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 newPage.addEventListener("click", function() {
   // Call the changePage function with page number 1
   if (!this.classList.contains('active')) {
@@ -94,7 +86,7 @@ pageUI.appendChild(newPage);
 
 let next = document.createElement('li');
 next.innerHTML = ">";
-next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 next.addEventListener("click", function() {
     if(page < count){
     // Scroll to the top of the page
@@ -111,7 +103,7 @@ pageUI.appendChild(next);
 
 let goToEnd = document.createElement('li');
 goToEnd.innerHTML = ">>";
-goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 goToEnd.addEventListener("click", function() {
   if(page != count){
   // Scroll to the top of the page
@@ -164,7 +156,7 @@ categories.addEventListener("change", () => {
   // loop and print the different pages
     let goToStart = document.createElement('li');
     goToStart.innerHTML = "<<";
-    goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     // Add a click event listener to the li element
     if(page != 1){
       goToStart.addEventListener("click", function() {
@@ -183,7 +175,7 @@ categories.addEventListener("change", () => {
     
     let prev = document.createElement('li');
     prev.innerHTML = "<";
-    prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     prev.addEventListener("click", function() {
         if(page > 1){
         // Scroll to the top of the page
@@ -203,7 +195,7 @@ categories.addEventListener("change", () => {
     if(i === page){
       newPage.classList.add("active");
     }
-    newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     newPage.addEventListener("click", function() {
       // Call the changePage function with page number 1
       if (!this.classList.contains('active')) {
@@ -222,7 +214,7 @@ categories.addEventListener("change", () => {
 
   let next = document.createElement('li');
     next.innerHTML = ">";
-    next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     next.addEventListener("click", function() {
       if(page < countPerCat){
       // Scroll to the top of the page
@@ -239,7 +231,7 @@ categories.addEventListener("change", () => {
   
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
-    goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     goToEnd.addEventListener("click", function() {
       if(page != count){
       // Scroll to the top of the page
@@ -290,7 +282,7 @@ function changePage(i){
   // loop and print the different pages
   let goToStart = document.createElement('li');
   goToStart.innerHTML = "<<";
-  goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+  goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 // Add a click event listener to the li element
 goToStart.addEventListener("click", function() {
   if(page != 1){
@@ -309,7 +301,7 @@ goToStart.addEventListener("click", function() {
   
   let prev = document.createElement('li');
   prev.innerHTML = "<";
-  prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+  prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
   prev.addEventListener("click", function() {
     if(page > 1){
     
@@ -331,7 +323,7 @@ goToStart.addEventListener("click", function() {
     if(i === page){
       newPage.classList.add("active");
     }
-    newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     newPage.addEventListener("click", function() {
       // Call the changePage function with page number 1
       if (!this.classList.contains('active')) {
@@ -350,7 +342,7 @@ goToStart.addEventListener("click", function() {
 
   let next = document.createElement('li');
     next.innerHTML = ">";
-    next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     next.addEventListener("click", function() {
       if(page < count){
       // Scroll to the top of the page
@@ -367,7 +359,7 @@ goToStart.addEventListener("click", function() {
   
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
-    goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     goToEnd.addEventListener("click", function() {
       if(page != count){
       // Scroll to the top of the page
@@ -420,7 +412,7 @@ function changePagePerCat(i){
   // loop and print the different pages
   let goToStart = document.createElement('li');
   goToStart.innerHTML = "<<";
-  goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+  goToStart.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
 // Add a click event listener to the li element
 goToStart.addEventListener("click", function() {
   if(pageInCat != 1){
@@ -439,7 +431,7 @@ goToStart.addEventListener("click", function() {
   
   let prev = document.createElement('li');
   prev.innerHTML = "<";
-  prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+  prev.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
   prev.addEventListener("click", function() {
     if(pageInCat > 1){
     
@@ -461,7 +453,7 @@ goToStart.addEventListener("click", function() {
     if(i === pageInCat){
       newPage.classList.add("active");
     }
-    newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    newPage.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     newPage.addEventListener("click", function() {
       // Call the changePage function with page number 1
       if (!this.classList.contains('active')) {
@@ -480,7 +472,7 @@ goToStart.addEventListener("click", function() {
 
   let next = document.createElement('li');
     next.innerHTML = ">";
-    next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    next.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     next.addEventListener("click", function() {
       if(pageInCat < countPerCategory){
       // Scroll to the top of the page
@@ -497,7 +489,7 @@ goToStart.addEventListener("click", function() {
   
     let goToEnd = document.createElement('li');
     goToEnd.innerHTML = ">>";
-    goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "px-6", "py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
+    goToEnd.classList.add("font-normal", "text-gray-400", "border-[2px]", "border-gray-300", "max-[320px]:px-1.5", "max-[320px]:py-0", "min-[320px]:px-1.5", "min-[320px]:py-0", "min-[370px]:px-2", "min-[370px]:py-0", "min-[435px]:px-3", "min-[435px]:py-1", "min-[510px]:px-4", "min-[510px]:py-1.5", "min-[580px]:px-5", "min-[580px]:py-2.5", "min-[660px]:px-6", "min-[660px]:py-4", "mx-1", "shadow-md", "hover:text-white", "hover:bg-slate-800", "cursor-pointer");
     goToEnd.addEventListener("click", function() {
       if(pageInCat != countPerCategory){
       // Scroll to the top of the page
@@ -505,7 +497,7 @@ goToStart.addEventListener("click", function() {
           top: 0,
           behavior: "smooth" // Optional: Add smooth scrolling effect
       });
-    
+    // 
         // Call the changePage function with page number 1
         changePagePerCat(countPerCategory);
     }
