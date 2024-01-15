@@ -16,11 +16,13 @@
 
     <header class="header" id="header-pc">
         <div class="grid grid-cols-2">
-            <div class="flex justify-center items-center .... max-[320px]:h-[50px] max-[320px]:w-[50px] .... min-[320px]:h-[50px] min-[320px]:w-[50px] .... min-[1024px]:ml-[1.8rem]">
-                <img class="rounded-lg max-[320px]:h-[30px] max-[320px]:w-[30px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[30px] min-[320px]:w-[30px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
-                <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
-                <i class="fa-solid fa-bars text-white ml-[10px] pb-[5px]" id="burger"></i>
-            </div>
+        <a href="index.php">
+                <div class="flex justify-center items-center .... max-[320px]:h-[50px] max-[320px]:w-[50px] .... min-[320px]:h-[50px] min-[320px]:w-[50px] .... min-[1024px]:ml-[1.8rem]">
+                    <img class="rounded-lg max-[320px]:h-[30px] max-[320px]:w-[30px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[30px] min-[320px]:w-[30px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
+                    <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
+                    <i class="fa-solid fa-bars text-white ml-[10px] pb-[5px]" id="burger"></i>
+                </div>
+            </a>
 
             <div class="text-white .... max-[1023px]:hidden">
 
@@ -91,7 +93,7 @@
                 About us
             </div>
 
-            <div class="w-[90%]">
+            <div class="w-[90%] mx-auto">
                 <div class="max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[0.75rem] .... min-[1300px]:text-[0.83rem] .... min-[1425px]:text-[0.87rem] .... min-[1440px]:text-[0.89rem] .... min-[1549px]:text-[0.92rem] .... min-[1631px]:text-[0.95rem] .... min-[1800px]:text-[0.97rem] .... min-[2000px]:text-[1.045rem]">
                     <div class="font-semibold text-gray-700">
                         <div class="text-justify mt-[4%]">

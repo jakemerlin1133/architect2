@@ -16,11 +16,13 @@
 
     <header class="header" id="header-pc">
         <div class="grid grid-cols-2">
-            <div class="flex justify-center items-center .... max-[320px]:h-[50px] max-[320px]:w-[50px] .... min-[320px]:h-[50px] min-[320px]:w-[50px] .... min-[1024px]:ml-[1.8rem]">
-                <img class="rounded-lg max-[320px]:h-[30px] max-[320px]:w-[30px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[30px] min-[320px]:w-[30px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
-                <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
-                <i class="fa-solid fa-bars text-white ml-[10px]" id="burger"></i>
-            </div>
+        <a href="index.php">
+                <div class="flex justify-center items-center .... max-[320px]:h-[50px] max-[320px]:w-[50px] .... min-[320px]:h-[50px] min-[320px]:w-[50px] .... min-[1024px]:ml-[1.8rem]">
+                    <img class="rounded-lg max-[320px]:h-[30px] max-[320px]:w-[30px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[30px] min-[320px]:w-[30px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
+                    <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
+                    <i class="fa-solid fa-bars text-white ml-[10px] pb-[5px]" id="burger"></i>
+                </div>
+            </a>
 
             <div class="text-white .... max-[1023px]:hidden">
 
@@ -101,7 +103,7 @@
     </div>
 
     <div class="grid gap-8 m-[2rem] ....max-[1023px]:grid-cols-1 .... min-[1024px]:grid-cols-2 .... min-[1500px]:grid-cols-3" id="container">
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -127,7 +129,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -153,7 +155,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -179,7 +181,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -206,7 +208,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -232,7 +234,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -258,7 +260,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -284,7 +286,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -310,7 +312,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -336,7 +338,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -362,7 +364,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -388,7 +390,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -414,7 +416,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -440,7 +442,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -467,7 +469,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -493,7 +495,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -519,7 +521,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
@@ -545,7 +547,7 @@
             </div>
         </a>
 
-        <a href="#" id="showcase">
+        <a href="project_description.php" id="showcase">
             <div class="relative h-[400px]">
                 <div id="default-carousel" class="relative w-full z-[1]" data-carousel="slide">
                     <!-- Carousel wrapper -->
