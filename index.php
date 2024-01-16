@@ -17,10 +17,13 @@
     <header class="header" id="header-pc">
         <div class="grid grid-cols-2">
             <div class="flex justify-center items-center .... max-[320px]:h-[50px] max-[320px]:w-[50px] .... min-[320px]:h-[50px] min-[320px]:w-[50px] .... min-[1024px]:ml-[1.8rem]">
-                <img class="rounded-lg max-[320px]:h-[30px] max-[320px]:w-[30px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[30px] min-[320px]:w-[30px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
-                <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
-                <i class="fa-solid fa-bars text-white ml-[10px] pb-[5px]" id="burger"></i>
-            </div>
+                        <a class="flex" href="index.php">
+                            <img class="rounded-lg max-[320px]:h-[30px] max-[320px]:w-[30px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[30px] min-[320px]:w-[30px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
+                            <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
+                        </a>
+                    <i class="fa-solid fa-bars text-white ml-[10px] pb-[5px]" id="burger"></i>
+                </div>
+
 
             <div class="text-white .... max-[1023px]:hidden">
 
@@ -102,8 +105,8 @@
                 Our Services
             </div>
 
-            <div class=" max-[1023px]:text-[1rem] .... min-[1024px]:text-[1.1rem] .... min-[1500px]:text-[1.6rem]">
-                <div class="text-justify font-semibold text-gray-700">
+            <div class=" max-[1023px]:text-[1rem] .... min-[1024px]:text-[1.1rem] .... min-[1500px]:text-[1.5rem]">
+                <div class="text-justify font-semibold text-gray-600">
                     <div>
                         We create award-winning spaces that inspire, motivate and empower the working community. Workspace design and functionality vary according to the people in them, and no projects are identical - something we have learnt over the past 25 years.
                     </div>

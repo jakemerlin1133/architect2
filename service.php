@@ -17,8 +17,10 @@
     <header class="header" id="header-pc">
         <div class="grid grid-cols-2">
             <div class="flex justify-center items-center .... max-[320px]:h-[50px] max-[320px]:w-[50px] .... min-[320px]:h-[50px] min-[320px]:w-[50px] .... min-[1024px]:ml-[1.8rem]">
-                <img class="rounded-lg max-[320px]:h-[30px] max-[320px]:w-[30px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[30px] min-[320px]:w-[30px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
-                <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
+                <a class="flex" href="index.php">
+                    <img class="rounded-lg max-[320px]:h-[30px] max-[320px]:w-[30px] max-[320px]:my-[5px] max-[320px]:ml-[7px] .... min-[320px]:h-[30px] min-[320px]:w-[30px] min-[320px]:my-[5px] min-[320px]:ml-[7px] .... max-[1023px]:hidden" src="Architect_files/images/sample-logo.png">
+                    <div id="archi-name" class="text-white my-auto .... max-[320px]:ml-[5px] max-[320px]:font-bold max-[320px]:text-[1.6em] .... min-[320px]:ml-[5px] min-[320px]:font-bold min-[320px]:text-[1.6em] .... max-[1023px]:hidden">SZD</div>
+                </a>
                 <i class="fa-solid fa-bars text-white ml-[10px] pb-[5px]" id="burger"></i>
             </div>
 
@@ -288,16 +290,16 @@
     </div>
 
 
-                <!-- ninth grid -->
-                <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
+    <!-- ninth grid -->
+    <div class="grid gap-12 px-[2rem] bg-stone-200 .... max-[1023px]:grid-cols-1 max-[1023px]:py-[2rem] .... min-[1024px]:grid-cols-2 min-[1024px]:px-[4rem] min-[1024px]:py-[4rem]">
         <div class="my-auto">
             <div class="font-extrabold text-left text-neutral-800 .... max-[320px]:text-[2.5rem] .... min-[320px]:text-[2.5rem] .... min-[425px]:text-[3.3rem] .... min-[1024px]:text-[4.1rem]">
-                Green design and sustainability 
+                Green design and sustainability
             </div>
 
             <div class="text-justify font-semibold text-gray-700 .... max-[320px]:text-[1rem] .... min-[320px]:text-[1rem] .... min-[425px]:text-[1.2rem] .... min-[768px]:text-[1.4rem] .... min-[1024px]:text-[1.2rem] .... min-[1300px]:text-[1.3rem] .... min-[1548px]:text-[1.4rem]">
-              <div>
-                 In 2008, the DB&B Group established a Green Policy containing medium to long-term environment and sustainability strategies. The objective was to attain a high level of "sustainable quality" in our services and corporate activities throughout the Group. Our delivery is a holistic, well balanced approach to space planning, design development and construction with all levels of staff committed to the practice of this green policy. We have successfully helped key clients achieve their desired sustainability certifications and continue to do so. DB&B also possesses knowledge in sustainable design that is in line with LEED and the BCA Green Mark requirements.
+                <div>
+                    In 2008, the DB&B Group established a Green Policy containing medium to long-term environment and sustainability strategies. The objective was to attain a high level of "sustainable quality" in our services and corporate activities throughout the Group. Our delivery is a holistic, well balanced approach to space planning, design development and construction with all levels of staff committed to the practice of this green policy. We have successfully helped key clients achieve their desired sustainability certifications and continue to do so. DB&B also possesses knowledge in sustainable design that is in line with LEED and the BCA Green Mark requirements.
                 </div>
             </div>
         </div>
