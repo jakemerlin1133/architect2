@@ -11,7 +11,6 @@ let count = Math.ceil(showcase.length / limit);
 let start = limit * (page - 1);
 let end = limit * page - 1;
 
-let viewportWidth = window.innerWidth;
 let visiblePages = 5;
 let startPage = Math.max(1, page - Math.floor(visiblePages / 2));
 let endPage = Math.min(startPage + visiblePages - 1, count);
