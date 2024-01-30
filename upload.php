@@ -1,6 +1,6 @@
 <!-- <?php
-include('function.php');
-?> -->
+        include('function.php');
+        ?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,35 +20,23 @@ include('function.php');
     <div class="container mx-auto text-center bg-red-300">
         <div>
             <div>
-                <h4>Image Upload</h4>
+                <h4 class="text-5xl font-bold p-8">Image Upload</h4>
                 <form class="form" id="form" name="form" action="#" method="post">
-                    <input type="file" name="image" id="image" multiple="">
-                    <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+                    <input type="file" name="image" id="image" multiple="" class="hidden" onchange="image_select()">
+                    <button onclick="document.getElementById('image').click()" type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
                         Upload Images
                     </button>
                 </form>
             </div>
 
             <div>
-                <div class="grid grid-cols-4 h-auto p-4 overflow-hidden">
-                    <div class="relative mx-4">
-                        <img class="relative h-full rounded-3xl" src="Architect_files/images/dine-in.jpg">
-                        <span class="absolute top-0 right-3 border-black text-red-600 text-3xl font-extrabold cursor-pointer">&times;</span>
-                    </div>
-
-                    <div class="relative mx-4">
-                        <img class="relative h-full rounded-3xl" src="Architect_files/images/house1.jpg">
-                        <span class="absolute top-0 right-3 border-black text-red-600 text-3xl font-extrabold cursor-pointer">&times;</span>
-                    </div>
-                
-      
+                <div id="container" class="grid grid-cols-4 h-auto p-4 overflow-hidden">
+                   
                 </div>
             </div>
 
         </div>
     </div>
-
-
 
     <script src="upload.js"></script>
 </body>
