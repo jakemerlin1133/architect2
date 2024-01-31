@@ -1,6 +1,6 @@
-<!-- <?php
-        include('function.php');
-        ?> -->
+<?php
+    include('function.php');
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,10 +21,14 @@
         <div>
             <div>
                 <h4 class="text-5xl font-bold p-8">Image Upload</h4>
-                <form class="form" id="form" name="form" action="#" method="post">
-                    <input type="file" name="image" id="image" multiple="" class="hidden" onchange="image_select()">
+                <form enctype="multipart/form-data" class="form" id="form" name="form" method="post">
+                    <input type="file" name="fileImg[]" id="image" class="hidden" onchange="image_select()" accept=".jpg, .jpeg, .png" required multiple>
                     <button onclick="document.getElementById('image').click()" type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
                         Upload Images
+                    </button>
+
+                    <button type="submit" name="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                         submit
                     </button>
                 </form>
             </div>
